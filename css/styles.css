@@ -1,0 +1,17 @@
+@font-face {
+  font-family: nasalization;
+  src: url(/fonts/nasalization-free/nasalization-rg.otf);
+}
+
+body {
+   background-color: #80c0d0;
+   color: white;
+   font-family: nasalization;
+   font-size: 40pt;
+   margin: 0px;
+   text-align: center;
+}
+
+.top {
+   background-color: #70b0c0;
+}
