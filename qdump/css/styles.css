@@ -62,6 +62,16 @@ body > .title {
    margin-top: 20px;
 }
 
+.section > .highlighted {
+   margin: 0 auto;
+   text-align: center;
+   width: 758px;
+   margin-top: 20px;
+   border: solid 1px #c0c000;
+   background-color: #ffff00;
+   padding: 20px;
+}
+
 .section > .code-wrapper {
    background-color: #404040;
    width: 800px;
