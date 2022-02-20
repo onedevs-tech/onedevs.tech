@@ -67,9 +67,11 @@ body > .title {
    text-align: center;
    width: 758px;
    margin-top: 20px;
-   border: solid 1px #c0c000;
-   background-color: #ffff00;
+   border: solid 1px #808000;
+   background-color: #a0a000;
    padding: 20px;
+   border-radius: 3px;
+   color: white;
 }
 
 .section > .code-wrapper {
