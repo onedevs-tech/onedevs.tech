@@ -109,7 +109,7 @@
                   <td><span title="ES92 0237 6057 8091 7267 1245">*</span></td>
                   <td>jonathan</td>
                   <td></td>
-                  <td><span title="ES47 1465 0100 9820 3982 7652">*</span></td>
+                  <td><span title="*">*</span></td>
                   <td class="money">75 €</td>
                   <td>Monday, 6 June 2022 09:11:32 am Europe/Madrid</td>
                   <td>Wire Transfer</td>
@@ -123,7 +123,7 @@
                   <td><span title="ES92 0237 6057 8091 7267 1245">*</span></td>
                   <td>jonathan</td>
                   <td></td>
-                  <td><span title="ES47 1465 0100 9820 3982 7652">*</span></td>
+                  <td><span title="*">*</span></td>
                   <td class="money">125 €</td>
                   <td>Monday, 6 June 2022 19:51:36 pm Europe/Madrid</td>
                   <td>Wire Transfer</td>
