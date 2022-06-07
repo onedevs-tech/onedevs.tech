@@ -1,0 +1,4 @@
+AuthName "OneDevs Tasks"
+AuthType Basic
+AuthUserFile /home/richi/projects/onedevs.tech/.htpasswd
+Require valid-user

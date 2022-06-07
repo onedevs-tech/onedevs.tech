@@ -1,0 +1,125 @@
+@font-face {
+  font-family: nasalization;
+  src: url(/fonts/nasalization-free/nasalization-rg.otf);
+}
+
+body {
+   background-color: white;
+   font-size: 35pt;
+   margin: 0px;
+   text-align: center;
+}
+
+body.money {
+   background-color: white;
+   font-size: 35pt;
+   margin: 0px;
+   text-align: center;
+}
+
+.top {
+   padding-top: 0.5em;
+   font-family: nasalization;
+   color: #808080;
+}
+
+.lema {
+   font-size: 10pt;
+   font-family: nasalization;
+   color: #808080;
+}
+
+.date {
+   font-family: nasalization;
+   color: #808080;
+   font-size: 12pt;
+   background-color: #80a080;
+   font-weight: bold;
+   color: white;
+   padding: 20px;
+   width: 500px;
+   margin: 50px auto 0 auto;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.money th.title {
+   background-color: #80a080;
+   text-transform: uppercase;
+   color: white;
+}
+
+.money table {
+   width: 100%;
+   white-space: nowrap;
+}
+
+.money table.available td {
+   text-align: center;
+}
+
+.money a {
+   color: #008080;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.money a:hover {
+   background-color: #ffff80;
+}
+
+.money table.offers {
+   margin-top: 50px;
+}
+
+.money table.available {
+   margin-top: 50px;
+   font-size: 12px;
+   white-space: nowrap;
+   font-size: 0.5em;
+}
+
+.money table.available th {
+   text-align: center;
+   background-color: #80a080;
+   color: white;
+   text-transform: uppercase;
+   border-radius: 20px;
+}
+
+.money table.offers th {
+}
+
+.money table.available td {
+   color: #008080;
+   font-weight: bold;
+}
+
+.money table.available td span.now {
+   color: #808080;
+   font-weight: normal;
+}
+
+.money th {
+   font-family: monospace;
+   color: #808080;
+   text-align: left;
+   padding: 10px;
+   background-color: #cccccc;
+}
+
+.money td {
+   font-family: monospace;
+   color: #808080;
+   padding: 10px;
+}
+
+.money .money {
+   text-align: right;
+   color: #008080;
+   font-weight: bold;
+}
+
+.money .transactions {
+   margin-top: 50px;
+}
