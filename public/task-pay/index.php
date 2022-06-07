@@ -26,7 +26,7 @@
             </thead>
             <tbody>
                <tr>
-                  <td>3,906.89 €</td>
+                  <td>4,046.51 €</td>
                </tr>
             </tbody>
          </table>
