@@ -123,3 +123,7 @@ body.money {
 .money .transactions {
    margin-top: 50px;
 }
+
+.completed {
+   text-align: center;
+}

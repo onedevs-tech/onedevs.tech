@@ -49,32 +49,14 @@
                <tr>
                   <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
                   <td>richi</td>
-                  <td class="money">150 €</td>
-                  <td>rediseñar y maquetar la página <a href="http://onedevs.tech/money/" target="_blank">http://onedevs.tech/money/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay</td>
+                  <td class="money">200 €</td>
+                  <td>rediseñar y maquetar la página <a href="http://onedevs.tech/money/" target="_blank">http://onedevs.tech/money/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay. las filas se deben poder ordenar haciendo click en el nombre de la columna</td>
                </tr>
                <tr>
                   <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
                   <td>richi</td>
-                  <td class="money">100 €</td>
+                  <td class="money">175 €</td>
                   <td>logotipo para la marca OneDevs, página principal de futura empresa</td>
-               </tr>
-               <tr>
-                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
-                  <td>richi</td>
-                  <td class="money">70 euros [ negociar ]</td>
-                  <td>ocupar el hueco negro de arriba con algo chulo, por ejemplo un tribal blanco horizontal</td>
-               </tr>
-               <tr>
-                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
-                  <td>richi</td>
-                  <td class="money">30 €</td>
-                  <td>dejar las banderas de los países todas con el mismo alto y ancho (12 pixeles de altura)</td>
-               </tr>
-               <tr>
-                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
-                  <td>richi</td>
-                  <td class="money">20 €</td>
-                  <td>favicon para la web onedevs.tech</td>
                </tr>
             </tbody>
          </table>
@@ -98,7 +80,7 @@
                   <th>Transaction Date</th>
                   <th>Transaction Method</th>
                   <th>Task / Transaction Description</th>
-                  <th></th>
+                  <th>Completed</th>
                </tr>
             </thead>
             <tbody>
@@ -114,7 +96,7 @@
                   <td>Monday, 6 June 2022 09:11:32 am Europe/Madrid</td>
                   <td>Wire Transfer</td>
                   <td>IMAGENES EGIPCIAS</td>
-                  <td>🤟</td>
+                  <td class="completed">🤟</td>
                </tr>
                <tr>
                   <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
@@ -128,7 +110,35 @@
                   <td>Monday, 6 June 2022 19:51:36 pm Europe/Madrid</td>
                   <td>Wire Transfer</td>
                   <td>MENU RESPONSIVE WWW.TATTOORUBIO.COM</td>
-                  <td>🤟</td>
+                  <td class="completed">🤟</td>
+               </tr>
+               <tr>
+                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
+                  <td>richi</td>
+                  <td>Cajasur Kutxabank</td>
+                  <td><span title="ES92 0237 6057 8091 7267 1245">*</span></td>
+                  <td>jonathan</td>
+                  <td></td>
+                  <td><span title="*">*</span></td>
+                  <td class="money">70 €</td>
+                  <td>Tuesday, 7 June 2022 11:05:21 am Europe/Madrid</td>
+                  <td>Wire Transfer</td>
+                  <td>TRIBAL WWW.TATTOORUBIO.COM</td>
+                  <td class="completed">🤟</td>
+               </tr>
+               <tr>
+                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
+                  <td>richi</td>
+                  <td>Cajasur Kutxabank</td>
+                  <td><span title="ES92 0237 6057 8091 7267 1245">*</span></td>
+                  <td>jonathan</td>
+                  <td></td>
+                  <td><span title="*">*</span></td>
+                  <td class="money">50 €</td>
+                  <td>Tuesday, 7 June 2022 12:21:55 pm Europe/Madrid</td>
+                  <td>Wire Transfer</td>
+                  <td>WWW.TATTORUBIO.COM BANDERAS Y FAVICON</td>
+                  <td class="completed">🤟</td>
                </tr>
             </tbody>
          </table>
