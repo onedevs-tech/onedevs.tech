@@ -7,8 +7,9 @@
 
    <body class="money">
 
-      <div class="top">__onedevs__</div>
-      <div class="lema">Developing the Future</div>
+      <center>
+         <img src="../images/logo.png" alt="logo">
+      </center>
 
       <!-- DATE TIME -->
 
@@ -57,6 +58,12 @@
                   <td class="money">75 €</td>
                   <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
                   <td>Cambiar el tribal de arriba, por uno que sea uno más fino, el que hay actualmente es un poco sobrecargado (debe seguir siendo blanco).</td>
+               </tr>
+               <tr>
+                  <td>Ricardo Ruiz</td>
+                  <td class="money">25 €</td>
+                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
+                  <td>El logo de OneDevs tiene la f de "future" en minúsculas. Me gustaría que fuese con mayúsculas, así: "Developing The Future".</td>
                </tr>
             </tbody>
          </table>
