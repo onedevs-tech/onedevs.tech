@@ -127,3 +127,8 @@ body.money {
 .completed {
    text-align: center;
 }
+
+.nasalized {
+   font-family: nasalization;
+   color: #1d97d4;
+}
