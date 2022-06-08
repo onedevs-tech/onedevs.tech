@@ -26,7 +26,7 @@
             </thead>
             <tbody>
                <tr>
-                  <td>3.753,52 €</td>
+                  <td>3.650,52 €</td>
                </tr>
             </tbody>
          </table>
@@ -39,24 +39,24 @@
                   <th colspan="4" class="title">Work Offers</th>
                </tr>
                <tr>
-                  <th>Project</th>
                   <th>From</th>
                   <th>Offer</th>
+                  <th>Project</th>
                   <th>Description</th>
                </tr>
             </thead>
             <tbody>
                <tr>
-                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
                   <td>Ricardo Ruiz</td>
                   <td class="money">175 €</td>
-                  <td>rediseñar y maquetar la página <a href="http://onedevs.tech/taskpay/" target="_blank">http://onedevs.tech/taskpay/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay.<br />las filas se deben poder ordenar haciendo click en el nombre de la columna</td>
+                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
+                  <td>Rediseñar y maquetar la página <a href="http://onedevs.tech/taskpay/" target="_blank">http://onedevs.tech/taskpay/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay.<br />Las filas se deben poder ordenar haciendo click en el nombre de la columna.</td>
                </tr>
                <tr>
-                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
                   <td>Ricardo Ruiz</td>
                   <td class="money">75 €</td>
-                  <td>cambiar el tribal de arriba, por uno que sea uno más fino, el que hay actualmente es un poco sobrecargado (debe seguir siendo blanco)</td>
+                  <td><a href="https://www.tattoorubio.com" target="_blank">www.tattoorubio.com</a></td>
+                  <td>Cambiar el tribal de arriba, por uno que sea uno más fino, el que hay actualmente es un poco sobrecargado (debe seguir siendo blanco).</td>
                </tr>
             </tbody>
          </table>
