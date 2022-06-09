@@ -84,7 +84,7 @@
          <table class="transactions" align="center">
             <thead>
                <tr>
-                  <th colspan="14" class="title">Payments</th>
+                  <th colspan="8" class="title">Payments</th>
                </tr>
                <tr>
                   <th>From</th>
@@ -93,7 +93,7 @@
                   <th>Payment Date</th>
                   <th>Project</th>
                   <th>Task / Payment Description</th>
-                  <th>Completed</th>
+                  <th>Paid</th>
                </tr>
             </thead>
             <tbody>
