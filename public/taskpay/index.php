@@ -55,6 +55,12 @@
                   <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
                   <td>Rediseñar y maquetar la página <a href="http://onedevs.tech/taskpay/" target="_blank">http://onedevs.tech/taskpay/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay.<br />Las filas se deben poder ordenar haciendo click en el nombre de la columna.</td>
                </tr>
+               <tr>
+                  <td>Ricardo Ruiz Martínez</td>
+                  <td class="money">25 €</td>
+                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
+                  <td>Favicon para <a href="https://onedevs.tech">https://onedevs.tech</a></td>
+               </tr>
             </tbody>
          </table>
 
