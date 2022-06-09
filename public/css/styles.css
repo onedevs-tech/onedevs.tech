@@ -15,7 +15,7 @@
  }
  
  body.money {
-    background-color: #535681;
+    background-color: #acddf5;
     font-size: 35pt;
     margin: 0px;
     text-align: center;
@@ -37,7 +37,7 @@
  }
  
  .date {
-    font-family: nasalization;
+    font-family: sans-serif;
     color: #808080;
     font-size: 12pt;
     background-color: var(--main-color);
@@ -57,7 +57,7 @@
     text-align: center;
     font-size: 16px;
     letter-spacing: 1px;
-    font-family: nasalization;
+    font-family: sans-serif;
  }
  
  .money table {
@@ -91,7 +91,7 @@
  
  .money table.available th {
     text-align: center;
-    font-family: nasalization;
+    font-family: sans-serif;
     background-color: var(--main-color);
     color: white;
     text-transform: uppercase;
@@ -116,7 +116,7 @@
  }
  
  .money th {
-    font-family: nasalization;
+    font-family: sans-serif;
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -125,7 +125,7 @@
  }
  
  .money td {
-    font-family: nasalization;
+    font-family: sans-serif;
     color: black;
     padding: 20px 15px;
     border-radius: 8px;
