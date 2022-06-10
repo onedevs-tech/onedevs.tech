@@ -21,7 +21,6 @@
    </head>
 
    <body class="money">
-      <img class="logobg" src="../images/logo-solo-circulo.svg" alt="">
       <center>
          <img src="../images/logo-solo-circulo.svg" width="200" alt="logo">
          <div class="nasalized" style="font-size: 1.2em;">__ OneDevs __</div>
