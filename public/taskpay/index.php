@@ -65,9 +65,15 @@
             <tbody>
                <tr>
                   <td>Ricardo Ruiz Martínez</td>
+                  <td>215 €</td>
+                  <td>ANY</td>
+                  <td>Código Javascript para poner música (de un vídeo de YouTube) de fondo a cualquier página (que se oiga la música al entrar a la página, pero que no aparezca el vídeo de YouTube)</td>
+               </tr>
+               <tr>
+                  <td>Ricardo Ruiz Martínez</td>
                   <td>35 €</td>
                   <td><a href="https://onedevs.tech">onedevs.tech</a></td>
-                  <td>Arreglar el menú de la home, ahora mismo cuando pasas por encima las letras no se ven, porque está todo blanco.</td>
+                  <td>Arreglar el menú de la home, ahora mismo cuando pasas por encima las letras no se ven, porque está todo blanco</td>
                </tr>
             </tbody>
          </table>
