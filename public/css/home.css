@@ -43,3 +43,17 @@
    margin-top: 20px;
    line-height: 0.8em;
 }
+
+.section {
+   text-decoration: none;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: #808080;
+}
+
+.title {
+   margin-bottom: 53px;
+}

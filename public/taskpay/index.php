@@ -43,7 +43,7 @@
             </thead>
             <tbody>
                <tr>
-                  <td>3.936,54 €</td>
+                  <td>5.493,85 €</td>
                </tr>
             </tbody>
          </table>
@@ -64,16 +64,10 @@
             </thead>
             <tbody>
                <tr>
-                  <td>Ricardo Ruiz Martínez</td>
-                  <td class="money">175 €</td>
-                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
-                  <td>Rediseñar y maquetar la página <a href="http://onedevs.tech/taskpay/" target="_blank">http://onedevs.tech/taskpay/</a> Ahora mismo está muy simplona, tiene que ser más llamativa y guay.<br />Las filas se deben poder ordenar haciendo click en el nombre de la columna.</td>
-               </tr>
-               <tr>
-                  <td>Ricardo Ruiz Martínez</td>
-                  <td class="money">25 €</td>
-                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
-                  <td>Favicon para <a href="https://onedevs.tech">https://onedevs.tech</a></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                </tr>
             </tbody>
          </table>
@@ -166,6 +160,15 @@
                   <td>Wednesday, 8 June 2022 17:57:35 pm Europe/Madrid</td>
                   <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
                   <td>ONEDEVS.TECH ONEDEVS.TECH LOGO CON F MAYUSCULA</td>
+                  <td class="completed">🤟</td>
+               </tr>
+               <tr>
+                  <td>Ricardo Ruiz Martínez</td>
+                  <td>Jonathan Martínez</td>
+                  <td class="money">200 €</td>
+                  <td>Friday, 10 June 2022 10:45:15 am Europe/Madrid</td>
+                  <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
+                  <td>ONEDEVS.TECH REMAQUETAR TASKPAY Y FAVICON</td>
                   <td class="completed">🤟</td>
                </tr>
             </tbody>
