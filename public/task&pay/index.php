@@ -1,4 +1,12 @@
-<html>
+<?php
+
+   include '/php/init.php';
+   include '/php/get_random_numeric_token.php';
+   include '/php/widgets/logo-onedevs.php';
+*/
+?>
+
+<html lang="es">
 
    <head>
       <title>Task & Pay 🤘</title>
@@ -17,15 +25,18 @@
       <link rel="icon" type="image/png" sizes="192x192"  href="../favicons/android-icon-192x192.png">
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="theme-color" content="#ffffff">
-      <link rel="stylesheet" href="../css/styles.css?v=1.0">
+      <link rel="stylesheet" href="../css/fonts.css?v=<?= get_random_numeric_token() ?>">
+      <link rel="stylesheet" href="../css/generic.css?v=<?= get_random_numeric_token() ?>">
+      <link rel="stylesheet" href="../css/task&pay.css?v=<?= get_random_numeric_token() ?>">
    </head>
 
    <body class="money">
-      <center>
-         <img src="../images/logo-solo-circulo.svg" width="200" alt="logo">
-         <div class="nasalized" style="font-size: 1.2em;">__ OneDevs __</div>
-         <div class="nasalized" style="font-size: 0.5em;">Developing The Future</div>
-      </center>
+
+      <?= logo_onedevs() ?>
+
+      <div class="app">
+         Task & Pay
+      </div>
 
       <!-- DATE TIME -->
 
@@ -63,6 +74,12 @@
                </tr>
             </thead>
             <tbody>
+               <tr>
+                  <td>Ricardo Ruiz Martínez</td>
+                  <td>765 €</td>
+                  <td>Task & Pay</td>
+                  <td>Ahora mismo "Task & Pay" es un simple HTML que se actualiza a mano. La info debe estar en base de datos (MySQL) y ha de haber un pequeño panel de control</td>
+               </tr>
                <tr>
                   <td>Ricardo Ruiz Martínez</td>
                   <td>215 €</td>

@@ -1,0 +1,179 @@
+@font-face {
+   font-family: nasalization;
+   src: url(/fonts/nasalization-free/nasalization-rg.otf);
+}
+
+body {
+   background-color: white;
+   font-size: 35pt;
+   margin: 0px;
+   text-align: center;
+   padding-top: 50px;
+}
+ 
+body.money {
+   background-color: white;
+   font-size: 35pt;
+   margin: 0px;
+   text-align: center;
+   padding: 0 50px;
+   padding-bottom: 100px;
+   padding-top: 30px;
+}
+ 
+.top {
+   padding-top: 0.5em;
+   font-family: nasalization;
+   color: #808080;
+}
+
+.lema {
+   font-size: 10pt;
+   font-family: nasalization;
+   color: #808080;
+}
+
+.date {
+   font-family: nasalization;
+   color: #808080;
+   font-size: 12pt;
+   background-color: var(--main-color);
+   color: white;
+   padding: 20px;
+   width: 500px;
+   margin: 50px auto 0 auto;
+   text-align: center;
+   border-radius: 8px;
+}
+
+.money th.title {
+   background-color: var(--main-color);
+   text-transform: uppercase;
+   color: white;
+   border-radius: 8px;
+   text-align: center;
+   font-size: 16px;
+   letter-spacing: 1px;
+   font-family: nasalization;
+}
+
+.money table {
+   width: 100%;
+}
+
+.money table.available td {
+   text-align: center;
+}
+
+.money a {
+   color: var(--main-color);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.money a:hover {
+   text-decoration: underline;
+}
+
+.money table.offers {
+   margin-top: 50px;
+}
+
+.money table.available {
+   margin-top: 50px;
+   font-size: 12px;
+   white-space: nowrap;
+   font-size: 0.5em;
+}
+
+.money table.available th {
+   text-align: center;
+   font-family: nasalization;
+   background-color: var(--main-color);
+   color: white;
+   text-transform: uppercase;
+   border-radius: 20px;
+   letter-spacing: 2px;
+   font-size: 24pt;
+}
+
+.money table.offers th {
+}
+
+.money table.available td {
+   color: var(--main-color);
+   font-weight: bold;
+   font-size: 29pt;
+   font-family: nasalization;
+}
+
+.money table.available td span.now {
+   color: #808080;
+   font-weight: normal;
+}
+
+.money th {
+   font-family: nasalization;
+   color: #ffffff;
+   text-align: center;
+   padding: 10px;
+   background-color: #747df6;
+   border-radius: 8px;
+}
+
+.money td {
+   font-family: nasalization;
+   color: black;
+   padding: 20px 15px;
+   border-radius: 8px;
+}
+
+.money .money {
+   text-align: right;
+   color: var(--main-color);
+   font-weight: bold;
+   font-size: 17px;
+   text-align: center;
+}
+
+.money .transactions {
+   margin-top: 50px;
+}
+
+.completed {
+   text-align: center;
+}
+
+.nasalized {
+   font-family: nasalization;
+   color: var(--main-color);
+}
+
+table thead {
+   font-family: nasalization;
+}
+
+tbody tr{
+   border-radius: 8px;
+}
+
+tr:nth-child(even) {
+   background: #90c7e2;
+}
+
+tr:nth-child(odd) {
+   background: #b8d6e5;
+}
+
+table.available tr:nth-child(odd) {
+   background: transparent;
+}
+
+img.logobg {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   opacity: 0.1;
+}
