@@ -1,0 +1,45 @@
+@font-face {
+  font-family: cronus-round;
+  src: url(/fonts/cronus-round/cronus.round.otf);
+}
+
+.main-menu-home {
+}
+
+.main-menu-home {
+   margin-top: 50px;
+   background-color: #1d97d4;
+}
+
+.main-menu-home-item {
+   padding: 20px;
+   font-family: nasalization;
+   color: white;
+   font-size: 20pt;
+}
+
+.main-menu-home-item:hover {
+   cursor: pointer;
+   background-color: white;
+   color: #1d97d4;
+}
+
+.home-section {
+   margin-top: 100px;
+}
+
+.home-section .title {
+   background-color: white;
+   color: #1d97d4;
+   font-family: nasalization;
+}
+
+.home-section .content {
+   font-family: cronus-round;
+   font-size: 20pt;
+   color: #808080;
+   margin: 0 150px 0 150px;
+   text-align: center;
+   margin-top: 20px;
+   line-height: 0.8em;
+}
