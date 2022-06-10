@@ -64,10 +64,10 @@
             </thead>
             <tbody>
                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>Ricardo Ruiz Martínez</td>
+                  <td>35 €</td>
+                  <td><a href="https://onedevs.tech">onedevs.tech</a></td>
+                  <td>Arreglar el menú de la home, ahora mismo cuando pasas por encima las letras no se ven, porque está todo blanco.</td>
                </tr>
             </tbody>
          </table>
