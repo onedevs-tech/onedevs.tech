@@ -1,4 +1,95 @@
 .app {
-   background-color: yellow;
+   background-color: var(--main-color);
+   border-radius: 175px;
+   color: white;
+   font-family: nasalization;
+   height: 350px;
+   line-height: 270px;
    margin-top: 50px;
+   width: 350px;
+}
+
+.app .datetime {
+   font-size: 20px;
+   line-height: 23px;
+   margin-top: -80px;
+}
+
+.taskpay .table {
+   margin-top: 77px;
+}
+
+.taskpay table {
+   background-color: var(--main-color);
+   border-radius: 20px;
+   color: white;
+   font-family: b20-sans;
+   font-size: 24pt;
+   letter-spacing: 2px;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   border-spacing: 10px;
+   border-collapse: separate;
+}
+
+.taskpay table thead th {
+   background-color: var(--main-color);
+   color: white;
+   font-family: b20-sans;
+   font-size: 20pt;
+   border-radius: 8px;
+   padding: 11px;
+}
+
+.taskpay table thead th.title {
+   background-color: var(--main-color);
+   color: white;
+   font-family: b20-sans;
+   font-size: 40pt;
+   border-radius: 8px;
+   padding: 11px;
+}
+
+.taskpay table td {
+   color: var(--main-color);
+   font-family: b20-sans;
+   font-size: 29pt;
+   font-weight: bold;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   border-radius: 8px;
+}
+
+.taskpay .table tbody tr:nth-child(even) {
+   background-color: #a0dfff;
+}
+
+.taskpay .table tbody tr:nth-child(odd) {
+   background-color: white;
+}
+
+.taskpay table tbody td.banking-concept {
+   background-color: green;
+   border: solid 2px white;
+   color: white;
+}
+
+.money {
+   background-color: green;
+   border: solid 3px white;
+   color: white !important;
+}
+
+.taskpay table tbody td.payment {
+   cursor: hand;
+   cursor: pointer;
+}
+
+.taskpay table tbody td a {
+   color: green;
+   text-decoration: none;
+}
+
+.taskpay table tbody td a:hover {
+   text-decoration: none;
 }
