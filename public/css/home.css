@@ -1,0 +1,84 @@
+html {
+   scroll-behavior: smooth;
+ }
+.home-main-menu {
+   margin-top: 50px;
+   background-color: #1d97d4;
+}
+
+.home-main-menu-item {
+   padding: 20px;
+   font-family: futuristic-armour;
+   color: white;
+   font-size: 15pt;
+}
+
+.home-main-menu-item:hover {
+   cursor: pointer;
+   background-color: white;
+   color: #1d97d4;
+}
+
+.home-main-menu-item:hover a {
+   cursor: pointer;
+   background-color: white;
+   color: #1d97d4;
+   font-weight: bold;
+}
+
+.home-section {
+   margin-top: 100px;
+}
+
+.home-section .title {
+   background-color: white;
+   color: #1d97d4;
+   font-family: nasalization;
+}
+
+.home-section .content {
+   font-family: cronus-round;
+   font-size: 20pt;
+   color: #808080;
+   margin: 0 30px;
+   text-align: center;
+   margin-top: 20px;
+   line-height: 1.2;
+}
+
+.section {
+   text-decoration: none;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: #808080;
+}
+
+.title {
+   margin-bottom: 53px;
+}
+.imgr{
+   display: block;
+   margin: 50px auto;
+   width: 100%;
+   max-width: 800px;
+}
+.imgrs{
+   display: block;
+   margin: 50px auto;
+   width: 100%;
+   max-width: 400px;
+}
+#contacta-con-nosotros{
+   padding-bottom: 100px;
+}
+@media screen and (max-width: 768px){
+   .imglogo{
+      width: 150px;
+   }
+   h2{
+      font-size: 22pt;
+   }
+}
