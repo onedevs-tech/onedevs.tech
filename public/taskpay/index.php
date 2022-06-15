@@ -41,13 +41,19 @@
                   <th colspan="4" class="title">task</th>
                </tr>
                <tr>
-                  <th>bidder</th>
-                  <th>🤑 reward</th>
-                  <th>project</th>
-                  <th>task description</th>
+                  <th class="nowrap">bidder</th>
+                  <th class="nowrap">🤑 i.n.o. (*)</th>
+                  <th class="nowrap">project</th>
+                  <th class="nowrap">task description</th>
                </tr>
             </thead>
             <tbody>
+               <tr>
+                  <td>richi</td>
+                  <td class="reward money nowrap align-right">125,00 €</td>
+                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">onedevs.tech/taskpay</a></td>
+                  <td>task & pay: design task & pay logo</td>
+               </tr>
                <tr>
                   <td>richi</td>
                   <td class="reward money nowrap align-right">75,00 €</td>
@@ -58,7 +64,10 @@
                   <td>richi</td>
                   <td class="reward money nowrap align-right">35,00 €</td>
                   <td class="nowrap"><a href="https://onedevs.tech">onedevs.tech</a></td>
-                  <td>home: align WhatsApp logo with phone number</td>
+                  <td>home: vertical-align WhatsApp logo with phone number</td>
+               </tr>
+               <tr>
+                  <td colspan="4">(*) i.n.o = initial negotiable offer</td>
                </tr>
             </tbody>
          </table>
