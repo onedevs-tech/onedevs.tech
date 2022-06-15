@@ -89,3 +89,10 @@ body {
 .taskpay table tbody td a:hover {
    text-decoration: none;
 }
+
+.environments a {
+   padding: 20px;
+   font-family: nasalization;
+   color: var(--main-color);
+   font-size: 0.5em;
+}

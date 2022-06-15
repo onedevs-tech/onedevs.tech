@@ -31,6 +31,11 @@
          </div>
       </center>
 
+      <div class="environments">
+         <a href="http://onedevs.local/taskpay">dev</a>
+         <a href="https://onedevs.tech/taskpay">pro</a>
+      </div>
+
       <div class="taskpay">
 
          <!-- TASK -->
@@ -42,7 +47,7 @@
                </tr>
                <tr>
                   <th class="nowrap">bidder</th>
-                  <th class="nowrap">🤑 i.n.o. (*)</th>
+                  <th class="nowrap"><span title="initial negotiable offer">🤑 i.n.o.</span></th>
                   <th class="nowrap">project</th>
                   <th class="nowrap">task description</th>
                </tr>
@@ -65,9 +70,6 @@
                   <td class="reward money nowrap align-right">35,00 €</td>
                   <td class="nowrap"><a href="https://onedevs.tech">onedevs.tech</a></td>
                   <td>home: vertical-align WhatsApp logo with phone number</td>
-               </tr>
-               <tr>
-                  <td colspan="4">(*) i.n.o = initial negotiable offer</td>
                </tr>
             </tbody>
          </table>
