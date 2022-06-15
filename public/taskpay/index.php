@@ -47,7 +47,7 @@
                </tr>
                <tr>
                   <th class="nowrap">bidder</th>
-                  <th class="nowrap"><span title="initial negotiable offer">🤑 i.n.o.</span></th>
+                  <th class="nowrap"><span title="initial negotiable offer">🤑 ino</span></th>
                   <th class="nowrap">project</th>
                   <th class="nowrap">task description</th>
                </tr>
@@ -87,7 +87,7 @@
                   <th>project</th>
                   <th>banking note</th>
                   <th>payment</th>
-                  <th></th>
+                  <th><span title="validated and paid">v & p</span></th>
                </tr>
             </thead>
             <tbody>
