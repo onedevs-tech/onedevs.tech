@@ -1,12 +1,12 @@
 <?php
 
-   $php_dir = __DIR__ . '/../php/';
+   $src_dir = __DIR__ . '/../src/';
 
-   include $php_dir . 'init.php';
-   include $php_dir . 'functions/random_numeric_token.php';
-   include $php_dir . 'widgets/onedevs_favicons.php';
-   include $php_dir . 'widgets/onedevs_title.php';
-   include $php_dir . 'widgets/onedevs_logo.php';
+   include $src_dir . 'init.php';
+   include $src_dir . 'functions/random_numeric_token.php';
+   include $src_dir . 'widgets/onedevs_favicons.php';
+   include $src_dir . 'widgets/onedevs_title.php';
+   include $src_dir . 'widgets/onedevs_logo.php';
 
 ?>
 
@@ -16,7 +16,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title><?= onedevs_title() ?></title>
+      <title><?= onedevs_title('onedevs') ?></title>
       <?= onedevs_favicons() ?>
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="theme-color" content="#ffffff">
