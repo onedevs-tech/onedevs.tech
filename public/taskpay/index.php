@@ -50,9 +50,15 @@
             <tbody>
                <tr>
                   <td>richi</td>
+                  <td class="reward money nowrap align-right">75,00 €</td>
+                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">onedevs.tech/taskpay</a></td>
+                  <td>task & pay: make responsive, mobile, tables: align center</td>
+               </tr>
+               <tr>
+                  <td>richi</td>
                   <td class="reward money nowrap align-right">35,00 €</td>
                   <td class="nowrap"><a href="https://onedevs.tech">onedevs.tech</a></td>
-                  <td>align WhatsApp logo with phone number, in home</td>
+                  <td>home: align WhatsApp logo with phone number</td>
                </tr>
             </tbody>
          </table>
