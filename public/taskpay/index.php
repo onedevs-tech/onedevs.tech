@@ -13,7 +13,7 @@
 <html lang="es">
 
    <head>
-      <title>🤑 Task & Pay</title>
+      <title>🤑 task & pay</title>
       <?= onedevs_favicons('security') ?>
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="theme-color" content="#ffffff">
@@ -27,7 +27,7 @@
 
       <center>
          <div class="app">
-            Task & Pay
+            task & pay
          </div>
       </center>
 
@@ -38,13 +38,13 @@
          <table class="table tasks" align="center">
             <thead>
                <tr>
-                  <th colspan="4" class="title">Task</th>
+                  <th colspan="4" class="title">task</th>
                </tr>
                <tr>
-                  <th>Bidder</th>
-                  <th>🤑</th>
-                  <th>Project</th>
-                  <th>Task Description</th>
+                  <th>bidder</th>
+                  <th>🤑 reward</th>
+                  <th>project</th>
+                  <th>task description</th>
                </tr>
             </thead>
             <tbody>
@@ -52,7 +52,7 @@
                   <td>richi</td>
                   <td class="reward money nowrap align-right">35,00 €</td>
                   <td class="nowrap"><a href="https://onedevs.tech">onedevs.tech</a></td>
-                  <td>Align WhatsApp logo with phone number, in home</td>
+                  <td>align WhatsApp logo with phone number, in home</td>
                </tr>
             </tbody>
          </table>
@@ -62,14 +62,14 @@
          <table class="table payments" align="center">
             <thead>
                <tr>
-                  <th colspan="8" class="title">Pay</th>
+                  <th colspan="8" class="title">pay</th>
                </tr>
                <tr>
-                  <th>Payer</th>
-                  <th>Receiver</th>
-                  <th>Project</th>
-                  <th>Banking Concept</th>
-                  <th>Payment</th>
+                  <th>payer</th>
+                  <th>receiver</th>
+                  <th>project</th>
+                  <th>banking note</th>
+                  <th>payment</th>
                   <th></th>
                </tr>
             </thead>
@@ -188,7 +188,7 @@
             <thead>
                <tr>
                   <th colspan="4" class="title">
-                     Available Now
+                     available now
                      <div class="datetime">
                         ...
                         <?= $now_date ?>
@@ -199,8 +199,8 @@
                   </th>
                </tr>
                <tr>
-                  <th>Country</th>
-                  <th>Bank</th>
+                  <th>country</th>
+                  <th>bank</th>
                   <th>IBAN</th>
                   <th>🤑</th>
                </tr>
@@ -220,19 +220,22 @@
          <table class="table top" align="center">
             <thead>
                <tr>
-                  <th colspan="2" class="title">Top</th>
+                  <th colspan="3" class="title">top</th>
                </tr>
                <tr>
-                  <th>Top</th>
+                  <th>#</th>
+                  <th>who</th>
                   <th>🤑</th>
                </tr>
             </thead>
             <tbody>
                <tr>
+                  <td>1</td>
                   <td>jonathan</td>
                   <td class="money align-right">1.795,00 €</td>
                </tr>
                <tr>
+                  <td>2</td>
                   <td>sergio v.s.</td>
                   <td class="money align-right">100,00 €</td>
                </tr>
