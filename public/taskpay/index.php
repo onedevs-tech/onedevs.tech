@@ -56,13 +56,13 @@
                <tr>
                   <td>richi</td>
                   <td class="reward money nowrap align-right">125,00 €</td>
-                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">onedevs.tech/taskpay</a></td>
+                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">taskpay</a></td>
                   <td>task & pay: design task & pay logo</td>
                </tr>
                <tr>
                   <td>richi</td>
                   <td class="reward money nowrap align-right">75,00 €</td>
-                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">onedevs.tech/taskpay</a></td>
+                  <td class="nowrap"><a href="https://onedevs.tech/taskpay">taskpay</a></td>
                   <td>task & pay: make responsive, mobile, tables: align center</td>
                </tr>
                <tr>
@@ -134,7 +134,7 @@
                <tr>
                   <td class="nowrap">richi</td>
                   <td class="nowrap">sergio v.s.</td>
-                  <td>Enterprise</td>
+                  <td>Constitución Empresa</td>
                   <td class="banking-concept">GESTIONES CREACION EMPRESA</td>
                   <td class="payment money nowrap align-right" title="Wednesday, 8 June 2022 10:02:12 am Europe/Madrid">100,00 €</td>
                   <td>👍</td>
@@ -187,6 +187,14 @@
                   <td class="payment money nowrap align-right" title="Tuesday, 14 June 2022 11:21:30 am Europe/Madrid">215,00 €</td>
                   <td>👍</td>
                </tr>
+               <tr>
+                  <td class="nowrap">richi</td>
+                  <td class="nowrap">sergio v.s.</td>
+                  <td>Constitución Empresa</td>
+                  <td class="banking-concept">GESTIONES ABOGACIA</td>
+                  <td class="payment money nowrap align-right" title="Wednesday, 15 June 2022 20:38:40 pm Europe/Madrid">140,00 €</td>
+                  <td>👍</td>
+               </tr>
             </tbody>
          </table>
 
@@ -227,7 +235,7 @@
                   <td>Spain</td>
                   <td>Cajasur Kutxabank</td>
                   <td>ES92 0237 6057 8091 7267 1245</td>
-                  <td class="money">1.825,66 €</td>
+                  <td class="money">1.682,66 €</td>
                </tr>
             </tbody>
          </table>
@@ -254,7 +262,7 @@
                <tr>
                   <td>2</td>
                   <td>sergio v.s.</td>
-                  <td class="money align-right">100,00 €</td>
+                  <td class="money align-right">240,00 €</td>
                </tr>
             </tbody>
          </table>

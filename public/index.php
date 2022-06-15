@@ -41,7 +41,6 @@
          <div class="home-main-menu-item"><a class="section" href="#que-hacemos">Que hacemos</a></div>
          <div class="home-main-menu-item"><a class="section" href="#stack-tecnologico">Stack Tecnologico</a></div>
          <div class="home-main-menu-item"><a class="section" href="#donde-estamos">Donde estamos</a></div>
-         <div class="home-main-menu-item"><a class="section" href="#a-quien-damos-servicio">A quien damos Servicio</a></div>
          <div class="home-main-menu-item"><a class="section" href="#nuestro-portfolio">Nuestro portfolio</a></div>
          <div class="home-main-menu-item"><a class="section" href="#contacta-con-nosotros">Contacta con nosotros</a></div>
       </div>
@@ -49,50 +48,66 @@
       <!--
         -- QUIÉNES SOMOS
         -->
+
       <div class="home-section" id="quienes-somos">
-         <h2 class="title">Quiénes somos</h2>
+         <h2 class="title">quiénes somos</h2>
          <p class="content">
-            <u>OneDevs Digital Services</u> nace para dar <u>Servicio Digital</u>
+            <b>OneDevs Digital Services</b> nace para dar <b>Servicio Digital</b>
             a pequeñas empresas y comercios, PYMES y grandes marcas
          </p>
          <p class="content">
-            Somos un grupo de desarrolladores apasionados de la Tecnología, del
-            Desarrollo de Software y del Hardware
+            Somos un grupo de desarrolladores apasionados de la Tecnología,
+            concretamente del Desarrollo de Software
          </p>
          <p class="content">
             Si tu empresa u organización tiene alguna necesidad tecnológica,
-            contacta con nosotros. <b>Te ayudaremos</b>
-         </p>  
-            <img src="images/developers.jpg" class="imgr"/>
+            contacta con nosotros, <b>te ayudaremos</b>
+         </p>
+         <table class="onedevs-members" cellpadding="20" align="center">
+            <tbody>
+               <tr>
+                  <td><img class="onedevs-member" src="images/onedevs-members/richi.jpg" width="200" /></td>
+                  <td class="member-description">
+                     <b>Ricardo Ruiz Martínez</b><br />
+                     CEO<br />
+                     Sales Manager<br />
+                     Backend Developer<br />
+                     richiruizmartinez@gmail.com
+                  </td>
+               </tr>
+            </tbody>
+         </table>
       </div>
 
       <!--
         -- QUÉ HACEMOS
         -->
+
       <div class="home-section" id="que-hacemos">
-         <h2 class="title">Qué hacemos</h2>
+         <h2 class="title">qué hacemos</h2>
          <p class="content">
-            Nos dedicamos a la <u>construcción de sites en Internet</u>
+            Nos dedicamos a la <b>construcción de web o sites en Internet</b>
          </p> 
          <p class="content">
-            Priorizamos al pequeño comercio, antes que a las grandes marcas
-         </p> 
-         <p class="content">
-            También realizamos trabajos de <u>publicidad</u>: SEO,
-            Marketing On-Line y presencia en Redes Sociales
+            Trabajamos con el pequeño comercio, PYMES, la Administración Pública
+            y grandes marcas u organizaciones
          </p> 
       </div>
 
       <!--
         -- STACK TECNOLÓGICO
         -->
+
       <div class="home-section" id="stack-tecnologico">
-         <h2 class="title">Stack Tecnológico</h2>
+         <h2 class="title">stack tecnológico</h2>
          <p class="content">
-            Usamos PHP 7 y 8, y MySQL, en nuestros desarrollos
+            Usamos PHP 7 y 8, y MySQL
          </p>
          <p class="content">
-            Construimos sites enteros usando PHP plano, pero también manejamos WordPress y Drupal
+            Construimos sites usando PHP plano.
+         </p>
+         <p class="content">
+            También controlamos de WordPress y Drupal
          </p>
          <p class="content">
             También trabajamos con Javascript, JQuery y React
@@ -105,23 +120,39 @@
       <!--
         -- DÓNDE ESTAMOS
         -->
+
       <div class="home-section" id="donde-estamos">
-         <h2 class="title">Dónde estamos</h2>
+         <h2 class="title">dónde estamos</h2>
          <p class="content">
-            No disponemos de oficinas físicas, todo ocurre On-Line! 😉
+            No disponemos de oficinas físicas,<br />
+            todo ocurre On-Line! 😉
+         </p>
+      </div>
+
+      <!--
+        -- NUESTRO PORTFOLIO
+        -->
+
+      <div class="home-section" id="nuestro-portfolio">
+         <h2 class="title">nuestro portfolio</h2>
+         <p class="content">
+            Estamos empezando ...<br />
+            <br />
+            <a href="https://www.tattoorubio.com">Tattoo Rubio</a>
          </p>
       </div>
 
       <!--
         -- CONTACTA CON NOSOTROS
         -->
+
       <div class="home-section" id="contacta-con-nosotros">
-         <h2 class="title">Contacta con nosotros</h2>
+         <h2 class="title">contacta con nosotros</h2>
          <p class="content">
-            <a href="tel:+34744653072"><img src="images/whatsapp-icon.png" width="50" align="absmiddle" alt="WhatsApp" /> &nbsp; ( +34 ) 744 653 072</a>
+            <a href="tel:+34744653072"><img src="images/whatsapp-icon.png" width="50" align="absmiddle" alt="WhatsApp" /> &nbsp; +34 &nbsp; 744 &nbsp; 653 &nbsp; 072</a>
          </p>
          <p class="content">
-            <a href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a>
+            <a href="mailto:onedevs.digital.services@gmail.com">onedevs.digital.services@gmail.com</a>
          </p>
       </div>
 

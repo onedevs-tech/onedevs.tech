@@ -2,5 +2,5 @@
 
    function onedevs_title ()
    {
-      return 'OneDevs DS and more...';
+      return 'OneDevs - Developing The Future';
    }

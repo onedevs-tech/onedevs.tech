@@ -1,6 +1,7 @@
 html {
    scroll-behavior: smooth;
- }
+}
+
 .home-main-menu {
    margin-top: 50px;
    background-color: #1d97d4;
@@ -11,6 +12,7 @@ html {
    font-family: futuristic-armour;
    color: white;
    font-size: 15pt;
+   font-weight: bold;
 }
 
 .home-main-menu-item:hover {
@@ -53,32 +55,57 @@ html {
 
 a {
    text-decoration: none;
-   color: #808080;
+   color: var(--main-color);
 }
 
 .title {
    margin-bottom: 53px;
 }
-.imgr{
+
+.imgr {
    display: block;
    margin: 50px auto;
    width: 100%;
    max-width: 800px;
 }
-.imgrs{
+
+.imgrs {
    display: block;
    margin: 50px auto;
    width: 100%;
    max-width: 400px;
 }
-#contacta-con-nosotros{
+
+#contacta-con-nosotros {
    padding-bottom: 100px;
 }
-@media screen and (max-width: 768px){
-   .imglogo{
+
+.home-section h2.title {
+   font-size: 33pt;
+} 
+
+@media screen and (max-width: 768px) {
+
+   .imglogo {
       width: 150px;
    }
-   h2{
+
+   .home-section h2.title {
       font-size: 22pt;
    }
+
+}
+
+table.onedevs-members {
+   margin-top: 33px;
+}
+
+img.onedevs-member {
+   border-radius: 100px;
+}
+
+.member-description {
+   font-family: cronus-round;
+   color: #808080;
+   font-size: 20pt;
 }
