@@ -151,7 +151,7 @@
                   <td class="nowrap">richi</td>
                   <td class="nowrap">jonathan</td>
                   <td><a href="https://onedevs.tech" target="_blank">onedevs.tech</a></td>
-                  <td class="banking-concept">ONEDEVS.TECH ONEDEVS.TECH LOGO CON F MAYUSCULA</td>
+                  <td class="banking-concept">ONEDEVS.TECH LOGO CON F MAYUSCULA</td>
                   <td class="payment money nowrap align-right" title="Wednesday, 8 June 2022 17:57:35 pm Europe/Madrid">25,00 €</td>
                   <td>👍</td>
                </tr>
