@@ -49,89 +49,80 @@
       <!--
         -- QUIÉNES SOMOS
         -->
-      <div class="home-section">
-         <a name="quienes-somos"></a>
-         <br />
-         <div class="title">Quiénes somos</div>
-         <div class="content">
+      <div class="home-section" id="quienes-somos">
+         <h2 class="title">Quiénes somos</h2>
+         <p class="content">
             <u>OneDevs Digital Services</u> nace para dar <u>Servicio Digital</u>
-            a pequeñas empresas y comercios, PYMES y grandes marcas<br />
-            <br />
+            a pequeñas empresas y comercios, PYMES y grandes marcas
+         </p>
+         <p class="content">
             Somos un grupo de desarrolladores apasionados de la Tecnología, del
-            Desarrollo de Software y del Hardware<br />
-            <br />
+            Desarrollo de Software y del Hardware
+         </p>
+         <p class="content">
             Si tu empresa u organización tiene alguna necesidad tecnológica,
-            contacta con nosotros. <b>Te ayudaremos</b><br />
-            <br />
-            <br />
-            <img src="images/developers.jpg" width="800" /><br />
-            <br />
-         </div>
+            contacta con nosotros. <b>Te ayudaremos</b>
+         </p>  
+            <img src="images/developers.jpg" class="imgr"/>
       </div>
 
       <!--
         -- QUÉ HACEMOS
         -->
-      <div class="home-section">
-         <a name="que-hacemos"></a>
-         <br />
-         <div class="title">Qué hacemos</div>
-         <div class="content">
-            Nos dedicamos a la <u>construcción de sites en Internet</u><br />
-            <br />
-            Priorizamos al pequeño comercio, antes que a las grandes marcas<br />
-            <br />
+      <div class="home-section" id="que-hacemos">
+         <h2 class="title">Qué hacemos</h2>
+         <p class="content">
+            Nos dedicamos a la <u>construcción de sites en Internet</u>
+         </p> 
+         <p class="content">
+            Priorizamos al pequeño comercio, antes que a las grandes marcas
+         </p> 
+         <p class="content">
             También realizamos trabajos de <u>publicidad</u>: SEO,
-            Marketing On-Line y presencia en Redes Sociales<br />
-            <br />
-         </div>
+            Marketing On-Line y presencia en Redes Sociales
+         </p> 
       </div>
 
       <!--
         -- STACK TECNOLÓGICO
         -->
-      <div class="home-section">
-         <a name="stack-tecnologico"></a>
-         <br />
-         <div class="title">Stack Tecnológico</div>
-         <div class="content">
-            Usamos PHP 7 y 8, y MySQL, en nuestros desarrollos<br />
-            <br />
-            Construimos sites enteros usando PHP plano, pero también manejamos WordPress y Drupal<br />
-            <br />
-            También trabajamos con Javascript, JQuery y React<br />
-            <br />
-            <img src="images/technologies/stack-tecnologico.png" alt="Stack Tecnológico" />
-            </div>
+      <div class="home-section" id="stack-tecnologico">
+         <h2 class="title">Stack Tecnológico</h2>
+         <p class="content">
+            Usamos PHP 7 y 8, y MySQL, en nuestros desarrollos
+         </p>
+         <p class="content">
+            Construimos sites enteros usando PHP plano, pero también manejamos WordPress y Drupal
+         </p>
+         <p class="content">
+            También trabajamos con Javascript, JQuery y React
+         </p>  
+         <img src="images/technologies/stack-tecnologico.png" alt="Stack Tecnológico"  class="imgrs" />
+            
          </div>
       </div>
 
       <!--
         -- DÓNDE ESTAMOS
         -->
-      <div class="home-section">
-         <a name="donde-estamos"></a>
-         <br />
-         <div class="title">Dónde estamos</div>
-         <div class="content">
+      <div class="home-section" id="donde-estamos">
+         <h2 class="title">Dónde estamos</h2>
+         <p class="content">
             No disponemos de oficinas físicas, todo ocurre On-Line! 😉
-         </div>
+         </p>
       </div>
 
       <!--
         -- CONTACTA CON NOSOTROS
         -->
-      <div class="home-section">
-         <a name="contacta-con-nosotros"></a>
-         <br />
-         <div class="title">Contacta con nosotros</div>
-         <div class="content">
-            <a href="tel:+34744653072"><img src="images/whatsapp-icon.png" width="50" align="absmiddle" alt="WhatsApp" /> &nbsp; ( +34 ) 744 653 072</a><br />
-            <br />
-            <a href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
-            <br />
-            <br />
-         </div>
+      <div class="home-section" id="contacta-con-nosotros">
+         <h2 class="title">Contacta con nosotros</h2>
+         <p class="content">
+            <a href="tel:+34744653072"><img src="images/whatsapp-icon.png" width="50" align="absmiddle" alt="WhatsApp" /> &nbsp; ( +34 ) 744 653 072</a>
+         </p>
+         <p class="content">
+            <a href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a>
+         </p>
       </div>
 
    </body>
