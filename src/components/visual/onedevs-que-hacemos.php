@@ -27,10 +27,19 @@
 
          <p class="content image">
             <div class="mobile">
-               <img class="image" src="/images/php-8.jpg" alt="Site Building" width="450" />
+               <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" width="450" />
             </div>
             <div class="desktop">
-               <img class="image" src="/images/php-8.jpg" alt="Site Building" />
+               <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" />
+            </div>
+         </p>{$vertical_separator}
+
+         <p class="content image">
+            <div class="mobile">
+               <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" width="450" />
+            </div>
+            <div class="desktop">
+               <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" />
             </div>
          </p>{$vertical_separator}
 
@@ -46,7 +55,7 @@
          </div>{$vertical_separator}
 
          <p class="content">
-            👍 Ofrecemos <b>Servicios de Publicidad On-Line</b> (publicidad en <b>Redes Sociales</b> y <b>Email Marketing</b>)
+            👍 Ofrecemos <b>Servicios de Publicidad On-Line</b> (publicidad en <b>Redes Sociales (Facebook, Instagran, LinkedInm Tik Tok)</b> y <b>Email Marketing</b>)
          </p>
 
          <div class="mobile">

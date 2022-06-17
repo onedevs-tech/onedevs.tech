@@ -1,0 +1,9 @@
+.home-section table.projects {
+  color: var(--onedevs-color-gray);
+}
+
+.home-section table.projects thead tr th {
+  color: white;
+  background-color: var(--onedevs-color-blue);
+}
+

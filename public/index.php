@@ -46,6 +46,7 @@
       <link rel="stylesheet" href="/css/onedevs-main-menu.css?version=<?= bignumber() ?>" />
       <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= bignumber() ?>" />
       <link rel="stylesheet" href="/css/onedevs-que-hacemos.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= bignumber() ?>" />
 
    </head>
 

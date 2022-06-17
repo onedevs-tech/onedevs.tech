@@ -17,11 +17,11 @@
          </p>
 
          <p class="content">
-            Somos un grupo de <b>Desarrolladores de Software</b> apasionados por la Tecnología
+            Somos un Grupo de <b>Desarrolladores de Software</b> apasionados por la Tecnología
          </p>
 
          <p class="content">
-            Si tu <b>Empresa u Organización</b>, sea grande o pequeña, tiene necesidades tecnológicas, acude a nosotros, <b>Te Ayudaremos</b>
+            Si tu <b>Empresa u Organización</b>, sea grande o pequeña, tiene Necesidades Tecnológicas, acude a Nosotros, <b>Te Ayudaremos</b>
          </p>
 
          <div class="member mobile">
@@ -32,7 +32,7 @@
 
             <div class="description">
                <big><b>Concepción Martínez Fernández</b></big><br />
-               Sales Agent ❤️<br />
+               Comercial ❤️<br />
                <br />
                <div class="quote">
                   "Me encanta ayudar a mi hijo en su nueva empresa <b>OneDevs</b>."
@@ -54,12 +54,12 @@
 
             <div class="description">
                <big><b>Ricardo Ruiz Martínez</b></big><br />
-               CEO - Chief Executive Officer 👍<br />
-               Sales Manager<br />
-               Full Stack Developer<br />
+               Desarrollador Web Full Stack ❤️<br />
+               Comercial 👍<br />
+               Director General de OneDevs 👍<br />
                <br />
                <div class="quote">
-                  "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). Damos servicio a cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
+                  "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                </div>
                <br />
                <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
@@ -76,7 +76,7 @@
                      <td><img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" /></td>
                      <td class="member">
                         <big><b>Concepción Martínez Fernández</b></big><br />
-                        Sales Agent ❤️<br />
+                        Comercial ❤️<br />
                         <br />
                         <div class="quote">
                            "Me encanta ayudar a mi hijo en su nueva empresa <b>OneDevs</b>."
@@ -90,12 +90,12 @@
                      <td><img class="member" src="/images/onedevs-members/richi-200x200.png" width="200" /></td>
                      <td class="member">
                         <big><b>Ricardo Ruiz Martínez</b></big><br />
-                        CEO - Chief Executive Officer 👍<br />
-                        Sales Manager<br />
-                        Full Stack Developer<br />
+                        Desarrollador Web Full Stack ❤️<br />
+                        Comercial 👍<br />
+                        Director General de OneDevs 👍<br />
                         <br />
                         <div class="quote">
-                           "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). Damos servicio a cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
+                           "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                         </div>
                         <br />
                         <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />

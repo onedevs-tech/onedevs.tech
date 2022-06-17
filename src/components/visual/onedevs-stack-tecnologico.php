@@ -11,11 +11,15 @@
          <h2 class="title">de qué controlamos</h2>
 
          <p class="content">
+            Principalmente somos Desarrolladores / Programadores, pero también controlamos de CiberSeguridad y Marketing On-Line
+         </p>
+
+         <p class="content">
             Usamos <b>PHP 7 y 8, y MySQL</b>
          </p>
 
          <p class="content">
-            Construimos sites usando <b>PHP puro</b>.
+            Construimos sites usando <b>PHP puro</b>
          </p>
 
          <p class="content">

@@ -11,7 +11,7 @@
          <h2 class="title">contáctanos</h2>
 
          <p class="content">
-            Si tú o Tu Empresa u Organización tiene alguna <b>necesidad tecnológica</b>, acude a nosotros. Contáctanos a cualquiera de las siguientes direcciones:
+            Si Tú o Tu Empresa u Organización tiene alguna <b>Necesidad Tecnológica</b>, acude a Nosotros. Contáctanos a cualquiera de las siguientes direcciones:
          </p>
 
          <p class="content">

@@ -5,7 +5,7 @@
       $html = <<<HTML
 <!-- TITLE -->
 
-      <title>OneDevs - Developing The Future</title>
+      <title>OneDevs - Construyendo El Futuro</title>
 HTML;
 
       return $html;
