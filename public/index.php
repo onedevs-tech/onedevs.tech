@@ -13,6 +13,7 @@
    include $src_dir . 'components/visual/onedevs-portfolio.php';
    include $src_dir . 'components/visual/onedevs-que-hacemos.php';
    include $src_dir . 'components/visual/onedevs-quienes-somos.php';
+   include $src_dir . 'components/visual/onedevs-random-author.php';
    include $src_dir . 'components/visual/onedevs-stack-tecnologico.php';
    include $src_dir . 'components/visual/onedevs-title.php';
    include $src_dir . 'components/visual/onedevs-web-brand.php';

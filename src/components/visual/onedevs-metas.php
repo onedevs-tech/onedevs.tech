@@ -2,13 +2,15 @@
 
    function onedevs_metas()
    {
+      $random_author = onedevs_random_author();
+
       $metas = <<<HTML
 
 
       <!-- METAS -->
 
       <meta charset="utf-8">
-      <meta name="author" content="señor gominolo">
+      <meta name="author" content="{$random_author}">
       <meta name="description" content="OneDevs">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="msapplication-TileColor" content="#ffffff">
