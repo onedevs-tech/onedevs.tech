@@ -10,28 +10,33 @@
 
          <h2 class="title">confían en OneDevs</h2>
 
-         <table class="projects" align="center" cellpadding="20">
-            <thead>
-               <tr>
-                  <th>Empresa / Organización</th>
-                  <th>País</th>
-                  <th>Proyecto</th>
-                  <th>Descripción</th>
-               </tr>
-            </thead>
-            <tbody>
-               <tr>
-                  <td>Tattoo Rubio</td>
-                  <td>España</td>
-                  <td><a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
-                  <td>Construcción desde cero y publicación del site <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
-               </tr>
-            </tbody>
-         </table>
+         <div class="desktop">
+            <table class="projects" align="center" cellpadding="20">
+               <thead>
+                  <tr>
+                     <th>Empresa / Organización</th>
+                     <th>País</th>
+                     <th>Proyecto</th>
+                     <th>Descripción</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Tattoo Rubio</td>
+                     <td>España</td>
+                     <td><a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
+                     <td>Construcción desde cero y publicación del site <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
 
-         <p class="content">
-            
-         </p>
+         <div class="mobile">
+            <div class="client">
+               Tattoo Rubio<br />
+               <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a>
+            </div>
+         </div>
 
       </div>
 HTML;
