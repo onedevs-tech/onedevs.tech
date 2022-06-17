@@ -13,7 +13,7 @@
          <h2 class="title">qué hacemos</h2>
 
          <p class="content services">
-            <span class="site-building">Desarrollo e Implantación de Web Sites</span><br />
+            <span class="site-building">Desarrollo de Web Sites</span><br />
             <span class="site-maintenance">Mantenimiento de Web Sites</span><br />
             <span class="devops">DevOps</span><br />
             <span class="cybersecurity">CyberSeguridad & Hacking Ético</span><br />
