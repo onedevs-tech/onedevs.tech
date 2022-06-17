@@ -7,6 +7,7 @@
    include $src_dir . 'components/visual/onedevs-favicons.php';
    include $src_dir . 'components/visual/onedevs-manifest.php';
    include $src_dir . 'components/visual/onedevs-metas.php';
+   include $src_dir . 'components/visual/onedevs-random-author.php';
    include $src_dir . 'components/visual/onedevs-title-string.php';
    include $src_dir . 'components/visual/vertical-separator.php';
 
