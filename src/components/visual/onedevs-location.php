@@ -24,7 +24,7 @@
 
          <p class="content image">
             <div class="mobile">
-               <a class="link" target="_blank" href="https://www.google.es/maps/place/OneDevs+Digital+Services/@37.8796319,-4.7662912,17z/data=!3m1!4b1!4m5!3m4!1s0xd6d21585e1081a9:0xd2ab458934f9329f!8m2!3d37.8796277!4d-4.7641025?hl=es"><img class="image" src="/images/conquistador-ordono-alvarez-6-1.png" alt="OneDevs Location" width="450" /></a>
+               <a class="link" target="_blank" href="https://www.google.es/maps/place/OneDevs+Digital+Services/@37.8796319,-4.7662912,17z/data=!3m1!4b1!4m5!3m4!1s0xd6d21585e1081a9:0xd2ab458934f9329f!8m2!3d37.8796277!4d-4.7641025?hl=es"><img class="image" src="/images/conquistador-ordono-alvarez-6-1.png" alt="OneDevs Location" width="320" /></a>
             </div>
             <div class="desktop">
                <a class="link" target="_blank" href="https://www.google.es/maps/place/OneDevs+Digital+Services/@37.8796319,-4.7662912,17z/data=!3m1!4b1!4m5!3m4!1s0xd6d21585e1081a9:0xd2ab458934f9329f!8m2!3d37.8796277!4d-4.7641025?hl=es"><img class="image" src="/images/conquistador-ordono-alvarez-6-1.png" alt="OneDevs Location" /></a>
