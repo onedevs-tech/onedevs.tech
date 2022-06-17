@@ -56,10 +56,10 @@
                <big><b>Ricardo Ruiz Martínez</b></big><br />
                Desarrollador Web Full Stack ❤️<br />
                Comercial 👍<br />
-               Director General de OneDevs 👍<br />
+               Director General 👍<br />
                <br />
                <div class="quote">
-                  "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
+                  "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Pero también damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                </div>
                <br />
                <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
@@ -92,10 +92,10 @@
                         <big><b>Ricardo Ruiz Martínez</b></big><br />
                         Desarrollador Web Full Stack ❤️<br />
                         Comercial 👍<br />
-                        Director General de OneDevs 👍<br />
+                        Director General 👍<br />
                         <br />
                         <div class="quote">
-                           "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
+                           "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). Pero también damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                         </div>
                         <br />
                         <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />

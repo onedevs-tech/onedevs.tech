@@ -11,7 +11,7 @@
    include $src_dir . 'components/visual/onedevs-manifest.php';
    include $src_dir . 'components/visual/onedevs-metas.php';
    include $src_dir . 'components/visual/onedevs-portfolio.php';
-   include $src_dir . 'components/visual/onedevs-que-hacemos.php';
+   include $src_dir . 'components/visual/onedevs-que-ofrecemos.php';
    include $src_dir . 'components/visual/onedevs-quienes-somos.php';
    include $src_dir . 'components/visual/onedevs-random-author.php';
    include $src_dir . 'components/visual/onedevs-stack-tecnologico.php';
@@ -45,7 +45,7 @@
       <link rel="stylesheet" href="/css/onedevs-web-brand.css?version=<?= bignumber() ?>" />
       <link rel="stylesheet" href="/css/onedevs-main-menu.css?version=<?= bignumber() ?>" />
       <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-que-hacemos.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-que-ofrecemos.css?version=<?= bignumber() ?>" />
       <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= bignumber() ?>" />
 
    </head>
@@ -61,7 +61,7 @@
       <?= onedevs_quienes_somos() ?>
       <?= vertical_separator() ?>
 
-      <?= onedevs_que_hacemos() ?>
+      <?= onedevs_que_ofrecemos() ?>
       <?= vertical_separator() ?>
 
       <?= onedevs_stack_tecnologico() ?>

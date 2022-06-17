@@ -1,16 +1,16 @@
 <?php
 
-   function onedevs_que_hacemos()
+   function onedevs_que_ofrecemos()
    {
       $vertical_separator = vertical_separator(10, 9);
 
       $que_hacemos = <<<HTML
 
-      <!-- QUÉ HACEMOS -->
+      <!-- QUÉ OFRECEMOS -->
 
-      <div class="home-section" id="que-hacemos">
+      <div class="home-section" id="que-ofrecemos">
 
-         <h2 class="title">qué hacemos</h2>
+         <h2 class="title">qué ofrecemos</h2>
 
          <p class="content services">
             <span class="site-building">Desarrollo de Web Sites</span><br />
