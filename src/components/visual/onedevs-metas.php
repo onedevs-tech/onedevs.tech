@@ -18,7 +18,7 @@
       <meta property="og:type" content="website">
       <meta property="og:description" content="OneDevs">
       <meta property="og:url" content="https://onedevs.tech">
-      <meta property="og:image" content="favicons/android-icon-192x192.png">
+      <meta property="og:image" content="/favicons/android-icon-192x192.png">
 HTML;
 
       return $metas;

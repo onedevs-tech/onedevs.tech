@@ -5,7 +5,6 @@
    include $src_dir . 'init.php';
 
    include $src_dir . 'components/visual/onedevs-contactanos.php';
-   include $src_dir . 'components/visual/onedevs-css.php';
    include $src_dir . 'components/visual/onedevs-favicons.php';
    include $src_dir . 'components/visual/onedevs-location.php';
    include $src_dir . 'components/visual/onedevs-main-menu.php';
@@ -39,41 +38,41 @@
 
       <!-- CSS -->
 
-      <link rel="stylesheet" href="css/vars.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/fonts.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/home.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/onedevs-web-brand.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/onedevs-main-menu.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/onedevs-quienes-somos.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="css/onedevs-que-hacemos.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/vars.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/fonts.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/home.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-web-brand.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-main-menu.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-que-hacemos.css?version=<?= bignumber() ?>" />
 
    </head>
 
    <body>
 
-      <?= onedevs_web_brand()  ?>
-      <?= vertical_separator()  ?>
+      <?= onedevs_web_brand() ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_main_menu() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_quienes_somos() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_que_hacemos() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_stack_tecnologico() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_portfolio() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_location() ?>
-      <?= vertical_separator()  ?>
+      <?= vertical_separator() ?>
 
       <?= onedevs_contactanos() ?>
-      <?= vertical_separator(635)  ?>
+      <?= vertical_separator(635) ?>
 
    </body>
 

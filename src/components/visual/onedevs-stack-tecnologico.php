@@ -27,7 +27,7 @@
          </p>  
 
          <div class="image">
-            <img src="images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" />
+            <img src="/images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" />
          </div>
 
       </div>

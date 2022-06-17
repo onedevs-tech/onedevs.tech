@@ -27,10 +27,10 @@
 
          <p class="content image">
             <div class="mobile">
-               <img class="image" src="images/php-8.jpg" alt="Site Building" width="450" />
+               <img class="image" src="/images/php-8.jpg" alt="Site Building" width="450" />
             </div>
             <div class="desktop">
-               <img class="image" src="images/php-8.jpg" alt="Site Building" />
+               <img class="image" src="/images/php-8.jpg" alt="Site Building" />
             </div>
          </p>{$vertical_separator}
 
@@ -39,10 +39,10 @@
          </p>
 
          <div class="mobile">
-            <img class="image" src="images/cybersecurity.jpg" alt="CyberSecurity" width="450" />
+            <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" width="450" />
          </div>
          <div class="desktop">
-            <img class="image" src="images/cybersecurity.jpg" alt="CyberSecurity" />
+            <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" />
          </div>{$vertical_separator}
 
          <p class="content">
@@ -50,10 +50,10 @@
          </p>
 
          <div class="mobile">
-            <img class="image" src="images/email-marketing.jpg" alt="Email Marketing" width="450" />
+            <img class="image" src="/images/email-marketing.jpg" alt="Email Marketing" width="450" />
          </div>
          <div class="desktop">
-            <img class="image" src="images/email-marketing.jpg" alt="Email Marketing" />
+            <img class="image" src="/images/email-marketing.jpg" alt="Email Marketing" />
          </div>
 
       </div>

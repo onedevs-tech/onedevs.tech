@@ -27,7 +27,7 @@
          <div class="member mobile">
 
             <div class="image">
-               <img class="member" src="images/onedevs-members/conchi-200x200.png" width="200" />
+               <img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" />
             </div>
 
             <div class="description">
@@ -49,7 +49,7 @@
             {$vertical_separator}
 
             <div class="image">
-               <img class="member" src="images/onedevs-members/richi-200x200.png" width="200" />
+               <img class="member" src="/images/onedevs-members/richi-200x200.png" width="200" />
             </div>
 
             <div class="description">
@@ -73,7 +73,7 @@
             <table align="center" cellpadding="20">
                <tbody>
                   <tr>
-                     <td><img class="member" src="images/onedevs-members/conchi-200x200.png" width="200" /></td>
+                     <td><img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" /></td>
                      <td class="member">
                         <big><b>Concepción Martínez Fernández</b></big><br />
                         Sales Agent ❤️<br />
@@ -87,7 +87,7 @@
                      </td>
                   </tr>
                   <tr>
-                     <td><img class="member" src="images/onedevs-members/richi-200x200.png" width="200" /></td>
+                     <td><img class="member" src="/images/onedevs-members/richi-200x200.png" width="200" /></td>
                      <td class="member">
                         <big><b>Ricardo Ruiz Martínez</b></big><br />
                         CEO - Chief Executive Officer 👍<br />
