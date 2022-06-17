@@ -1,111 +1,52 @@
-html {
-   scroll-behavior: smooth;
-}
-
-.home-main-menu {
-   margin-top: 50px;
-   background-color: #1d97d4;
-}
-
-.home-main-menu-item {
-   padding: 20px;
-   font-family: futuristic-armour;
-   color: white;
-   font-size: 15pt;
-   font-weight: bold;
-}
-
-.home-main-menu-item:hover {
-   cursor: pointer;
-   background-color: white;
-   color: #1d97d4;
-}
-
-.home-main-menu-item:hover a {
-   cursor: pointer;
-   background-color: white;
-   color: #1d97d4;
-   font-weight: bold;
-}
-
 .home-section {
-   margin-top: 100px;
+   font-family: jmh-typewriter-dry;
+   text-align: center;
 }
 
 .home-section .title {
-   background-color: white;
-   color: #1d97d4;
-   font-family: nasalization;
+   color: var(--onedevs-color-blue);
+   border: solid 3px var(--onedevs-color-blue);
+   border-bottom: 0;
+   padding: 23px;
+   font-size: 25pt;
 }
 
 .home-section .content {
-   font-family: cronus-round;
-   font-size: 20pt;
-   color: #808080;
-   margin: 0 30px;
-   text-align: center;
-   margin-top: 20px;
-   line-height: 1.2;
+   color: var(--onedevs-color-gray);
+   max-width: 500px;
+   margin: 33px auto 33px auto;
+   line-height: 1.7em;
 }
 
-.section {
+a.link {
    text-decoration: none;
-   color: white;
+   color: var(--onedevs-color-blue);
 }
 
-a {
-   text-decoration: none;
-   color: var(--main-color);
+a.link:hover {
+   background-color: yellow;
 }
 
-.title {
-   margin-bottom: 53px;
-}
-
-.imgr {
-   display: block;
-   margin: 50px auto;
-   width: 100%;
-   max-width: 800px;
-}
-
-.imgrs {
-   display: block;
-   margin: 50px auto;
-   width: 100%;
-   max-width: 400px;
-}
-
-#contacta-con-nosotros {
-   padding-bottom: 100px;
-}
-
-.home-section h2.title {
-   font-size: 33pt;
-} 
+/* mobile  */
 
 @media screen and (max-width: 768px) {
 
-   .imglogo {
-      width: 150px;
-   }
-
-   .home-section h2.title {
-      font-size: 22pt;
+   .home-section .desktop {
+      display: none;
    }
 
 }
 
-table.onedevs-members {
-   margin-top: 33px;
+/* desktop  */
+
+@media screen and (min-width: 769px) {
+
+   .home-section .mobile {
+      display: none;
+   }
+
 }
 
-img.onedevs-member {
-   border-radius: 100px;
-}
-
-.member-description {
-   font-family: cronus-round;
-   color: #808080;
-   font-size: 20pt;
+.home-section .mobile .image, .home-section .desktop .image {
+  border-radius: 7px;
 }

@@ -1,0 +1,74 @@
+#quienes-somos {
+}
+
+.onedevs-main-menu {
+  text-align: center;
+  font-family: nasalization;
+  font-size: 22pt;
+}
+
+.onedevs-main-menu a {
+  text-decoration: none;
+  line-height: 33pt;
+  color: var(--onedevs-color-blue);
+  display: block;
+}
+
+.onedevs-main-menu .item:hover {
+  background-color: var(--onedevs-color-blue);
+}
+
+.onedevs-main-menu .item:hover a {
+  color: white;
+}
+
+/* mobile  */
+
+@media screen and (max-width: 768px) {
+
+   .home-section .member.desktop {
+      display: none;
+   }
+
+   .home-section .member.mobile .description {
+      margin-top: 25px;
+   }
+
+   .home-section .member.mobile img.member {
+      border-radius: 100px;
+   }
+
+   .home-section .member.mobile .quote {
+      font-style: italic;
+      color: var(--onedevs-color-gray);
+      max-width: 250px;
+      text-align: center;
+      margin: 0 auto 0 auto;
+   }
+
+}
+
+/* desktop */
+
+@media screen and (min-width: 769px) {
+
+   .home-section .member.mobile {
+      display: none;
+   }
+
+   .home-section .member.desktop img.member {
+      border-radius: 100px;
+   }
+
+   .home-section .member.desktop td.member {
+      text-align: left;
+   }
+
+   .home-section .member.desktop .quote {
+      text-align: left;
+      font-style: italic;
+      color: var(--onedevs-color-gray);
+      max-width: 550px;
+   }
+
+}

@@ -1,0 +1,40 @@
+#que-hacemos {
+}
+
+.home-section .services span {
+   display: block;
+   width: 377px;
+   line-height: 50px;
+   margin: 0 auto 0 auto;
+   border-radius: 25px;
+}
+
+.home-section .services .site-building {
+   background-color: var(--onedevs-color-blue);
+   color: white;
+}
+
+.home-section .services .site-maintenance {
+   background-color: #ff80ff;
+   color: white;
+}
+
+.home-section .services .devops {
+   background-color: #008000;
+   color: white;
+}
+
+.home-section .services .marketing-on-line {
+   background-color: #ffff80;
+   color: black;
+}
+
+.home-section .services .cybersecurity {
+   background-color: black;
+   color: white;
+}
+
+.home-section .services .contribution {
+   background-color: pink;
+   color: black;
+}

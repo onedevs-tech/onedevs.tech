@@ -1,0 +1,14 @@
+.onedevs-web-brand {
+  text-align: center;
+}
+
+.onedevs-web-brand span {
+  display: block;
+  font-family: nasalization;
+  font-size: 33pt;
+  color: var(--onedevs-color-blue);
+}
+
+.onedevs-web-brand .motto {
+  font-size: 12pt;
+}

@@ -1,29 +1,34 @@
 @font-face {
   font-family: b20-sans;
-  src: url(/fonts/b20-sans/B20Sans.ttf);
+  src: url("/fonts/b20-sans/B20Sans.ttf");
 }
 
 @font-face {
   font-family: bawa-kipas;
-  src: url(/fonts/bawa-kipas/bBawaKipas.ttf);
+  src: url("/fonts/bawa-kipas/bBawaKipas.ttf");
 }
 
 @font-face {
   font-family: cronus-round;
-  src: url(/fonts/cronus-round/cronus.round.otf);
+  src: url("/fonts/cronus-round/cronus.round.otf");
 }
 
 @font-face {
   font-family: futuristic-armour;
-  src: url(/fonts/futuristic_armour/Futuristic-Armour.otf);
+  src: url("/fonts/futuristic_armour/Futuristic-Armour.otf");
 }
 
 @font-face {
   font-family: hey-comic;
-  src: url(/fonts/hey_comic/Hey-Comic.otf);
+  src: url("/fonts/hey_comic/Hey-Comic.otf");
+}
+
+@font-face {
+  font-family: jmh-typewriter-dry;
+  src: url("/fonts/jmh_typewriter_dry/JMH Typewriter dry.otf");
 }
 
 @font-face {
    font-family: nasalization;
-   src: url(/fonts/nasalization-free/nasalization-rg.otf);
+   src: url("/fonts/nasalization-free/nasalization-rg.otf");
 }
