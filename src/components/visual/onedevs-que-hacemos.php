@@ -27,7 +27,7 @@
 
          <p class="content image">
             <div class="mobile">
-               <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" width="300" />
+               <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" width="320" />
             </div>
             <div class="desktop">
                <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" />
@@ -36,7 +36,7 @@
 
          <p class="content image">
             <div class="mobile">
-               <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" width="300" />
+               <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" width="320" />
             </div>
             <div class="desktop">
                <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" />
@@ -48,7 +48,7 @@
          </p>
 
          <div class="mobile">
-            <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" width="300" />
+            <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" width="320" />
          </div>
          <div class="desktop">
             <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" />
@@ -59,7 +59,7 @@
          </p>
 
          <div class="mobile">
-            <img class="image" src="/images/email-marketing.jpg" alt="Email Marketing" width="300" />
+            <img class="image" src="/images/email-marketing.jpg" alt="Email Marketing" width="320" />
          </div>
          <div class="desktop">
             <img class="image" src="/images/email-marketing.jpg" alt="Email Marketing" />

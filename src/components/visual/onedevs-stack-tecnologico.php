@@ -30,8 +30,11 @@
             Trabajamos con <b>Javascript, JQuery y React</b>
          </p>  
 
-         <div class="image">
-            <img src="/images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" />
+         <div class="mobile">
+            <img class="image" src="/images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" width="320" />
+         </div>
+         <div class="desktop">
+            <img class="image" src="/images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" />
          </div>
 
       </div>
