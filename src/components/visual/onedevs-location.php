@@ -14,11 +14,13 @@
 
          <p class="content">
             Nuestra <b>Sede Central</b> está actualmente<br />
-            en un piso particular en la dirección:<br />
+            en un Piso Particular en Córdoba Capital,<br />
+            en la Dirección:<br />
+            <br />
             <a class="link" target="_blank" href="https://www.google.es/maps/place/OneDevs+Digital+Services/@37.8796319,-4.7662912,17z/data=!3m1!4b1!4m5!3m4!1s0xd6d21585e1081a9:0xd2ab458934f9329f!8m2!3d37.8796277!4d-4.7641025?hl=es">
                Calle Conquistador Ordoño Álvarez,<br />
-               número 6, portal 1, planta 1, puerta 2<br />
-               código postal 14010, Córdoba, España
+               Número 6, Portal 1, Planta 1, Puerta 2<br />
+               Código Postal 14010, Córdoba, España
             </a>
          </p>
 

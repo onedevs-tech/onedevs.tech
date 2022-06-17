@@ -73,7 +73,7 @@
       <?= vertical_separator()  ?>
 
       <?= onedevs_contactanos() ?>
-      <?= vertical_separator(777)  ?>
+      <?= vertical_separator(635)  ?>
 
    </body>
 

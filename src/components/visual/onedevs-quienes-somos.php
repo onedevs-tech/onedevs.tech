@@ -13,7 +13,7 @@
          <h2 class="title">quiénes somos</h2>
 
          <p class="content">
-            <b>OneDevs Digital Services</b>, o simplemente <b>OneDevs</b>, nace para dar <b>Servicio Digital</b> a Pequeñas Empresas y Comercios, PYMES y Grandes Marcas
+            <b>OneDevs Digital Services</b>, o, simplemente, <b>OneDevs</b>, nace para dar <b>Servicio Digital</b> a Pequeñas Empresas y Comercios, PYMES y Grandes Marcas
          </p>
 
          <p class="content">
@@ -59,7 +59,7 @@
                Full Stack Developer<br />
                <br />
                <div class="quote">
-                  "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). También damos servicio a cualquier Empresa u Organización en cualquier parte de España y en el extranjero."
+                  "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). Damos servicio a cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                </div>
                <br />
                <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
@@ -95,8 +95,7 @@
                         Full Stack Developer<br />
                         <br />
                         <div class="quote">
-                           "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). También damos servicio a cualquier Empresa u Organización en cualquier parte de España y
-                            en el extranjero."
+                           "<b>OneDevs Digital Services</b> nace para dar impulso al pequeño comercio del Barrio de la Fuensanta y otros barrios y alrededores de Córdoba (España). Damos servicio a cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España y del Mundo."
                         </div>
                         <br />
                         <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
