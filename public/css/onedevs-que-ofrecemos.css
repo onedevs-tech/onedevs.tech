@@ -1,6 +1,3 @@
-#que-hacemos {
-}
-
 .home-section .services span {
    display: block;
    width: 300px;
@@ -8,6 +5,7 @@
    margin: 0 auto 0 auto;
    border-radius: 25px;
    border: solid 2px white;
+   text-shadow: none;
 }
 
 .home-section .services .site-building {
@@ -32,6 +30,11 @@
 
 .home-section .services .contribution {
    background-color: pink;
+   color: black;
+}
+
+.home-section .services .marketing-on-line {
+   background-color: yellow;
    color: black;
 }
 

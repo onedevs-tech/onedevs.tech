@@ -10,7 +10,7 @@
 
       <div class="home-section" id="que-ofrecemos">
 
-         <h2 class="title">__ Qué Servicios Ofrecemos __</h2>
+         <h2 class="title">__ Qué Ofrecemos __</h2>
 
          <p class="content services">
             <span class="site-building">Desarrollo de Web Sites</span><br />

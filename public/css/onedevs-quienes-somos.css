@@ -13,6 +13,7 @@
    .home-section .member.mobile .description {
       margin-top: 25px;
       text-shadow: 1px 1px 4px white;
+      line-height: 17pt;
    }
 
    .home-section .member.mobile img.member {
@@ -47,6 +48,7 @@
    .home-section .member.desktop td.description {
       text-align: left;
       text-shadow: 1px 1px 4px white;
+      line-height: 17pt;
    }
 
    .home-section .member.desktop .quote {
