@@ -7,6 +7,7 @@
    line-height: 50px;
    margin: 0 auto 0 auto;
    border-radius: 25px;
+   border: solid 2px white;
 }
 
 .home-section .services .site-building {
@@ -15,7 +16,7 @@
 }
 
 .home-section .services .site-maintenance {
-   background-color: #ff80ff;
+   background-color: #804080;
    color: white;
 }
 
@@ -37,4 +38,9 @@
 .home-section .services .contribution {
    background-color: pink;
    color: black;
+}
+
+.home-section .content.marketing {
+   background-color: rgba(128, 128, 128, 0.8);
+   border-radius: 7px;
 }

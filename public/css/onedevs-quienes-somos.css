@@ -40,15 +40,17 @@
       border-radius: 100px;
    }
 
-   .home-section .member.desktop td.member {
+   .home-section .member.desktop td.description {
       text-align: left;
+      text-shadow: 1px 1px 4px white;
    }
 
    .home-section .member.desktop .quote {
       text-align: left;
       font-style: italic;
-      color: var(--onedevs-color-gray);
+      color: white;
       max-width: 550px;
+      text-shadow: 1px 1px 4px black;
    }
 
 }

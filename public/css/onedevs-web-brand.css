@@ -2,11 +2,16 @@
   text-align: center;
 }
 
+.onedevs-web-brand .logo {
+  filter: drop-shadow(1px 1px 1px var(--onedevs-color-darkblue));
+}
+
 .onedevs-web-brand span {
   display: block;
   font-family: nasalization;
   font-size: 33pt;
-  color: var(--onedevs-color-blue);
+  color: white;
+  text-shadow: 1px 1px 4px black;
 }
 
 .onedevs-web-brand .motto {

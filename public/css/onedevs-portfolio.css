@@ -1,5 +1,6 @@
 .home-section table.projects {
-  color: var(--onedevs-color-gray);
+  color: white;
+  text-shadow: 1px 1px 4px black;
 }
 
 .home-section table.projects thead tr th {

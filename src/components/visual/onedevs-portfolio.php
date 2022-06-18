@@ -8,13 +8,14 @@
 
       <div class="home-section" id="portfolio">
 
-         <h2 class="title">confían en OneDevs</h2>
+         <h2 class="title">Confían en OneDevs</h2>
 
          <div class="desktop">
             <table class="projects" align="center" cellpadding="20">
                <thead>
                   <tr>
                      <th>Empresa / Organización</th>
+                     <th>Número de Empleados</th>
                      <th>País</th>
                      <th>Proyecto</th>
                      <th>Descripción</th>
@@ -23,6 +24,7 @@
                <tbody>
                   <tr>
                      <td>Tattoo Rubio</td>
+                     <td>1</td>
                      <td>España</td>
                      <td><a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
                      <td>Construcción desde cero y publicación del site <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>

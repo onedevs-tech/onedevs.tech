@@ -2,27 +2,28 @@
   font-family: nasalization;
   font-size: 17pt;
   margin: 0 auto 0 auto;
-  width: 300px;
+  width: 400px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
 }
 
 .onedevs-main-menu .item {
+  background-color: rgba(29, 151, 212, 0.444);
   text-align: center;
 }
 
 .onedevs-main-menu .item .left-llave {
   float: left;
-  color: var(--onedevs-color-blue);
 }
 
 .onedevs-main-menu .item .right-llave {
   float: right;
-  color: var(--onedevs-color-blue);
 }
 
 .onedevs-main-menu .item a {
   text-decoration: none;
   line-height: 22pt;
-  color: var(--onedevs-color-blue);
+  color: white;
 }
 
 .onedevs-main-menu .item:hover {

@@ -47,6 +47,7 @@
       <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= random_big_number() ?>" />
       <link rel="stylesheet" href="/css/onedevs-que-ofrecemos.css?version=<?= random_big_number() ?>" />
       <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-contactanos.css?version=<?= random_big_number() ?>" />
 
    </head>
 

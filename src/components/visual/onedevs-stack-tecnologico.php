@@ -8,7 +8,7 @@
 
       <div class="home-section" id="stack-tecnologico">
 
-         <h2 class="title">de qué controlamos</h2>
+         <h2 class="title">En Qué Somos Expertos</h2>
 
          <p class="content">
             Principalmente somos Desarrolladores / Programadores, pero también controlamos de CiberSeguridad y Marketing On-Line

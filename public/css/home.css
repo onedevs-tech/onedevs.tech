@@ -1,18 +1,30 @@
+body {
+   background-image: url(/images/cities/cities.jpg);
+   background-repeat: no-repeat;
+}
+
 .home-section {
    font-family: jmh-typewriter-dry;
    text-align: center;
 }
 
 .home-section .title {
-   color: var(--onedevs-color-blue);
-   border: solid 3px var(--onedevs-color-blue);
+   color: white;
+   text-shadow: 1px 1px 4px black;
+   border: solid 3px white;
    border-bottom: 0;
-   padding: 23px;
-   font-size: 25pt;
+   box-shadow: 1px -2px 1px 1px black;
+   padding: 50px;
+   font-size: 35pt;
+   border-radius: 10px;
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   background: linear-gradient(rgba(29, 151, 212, 0.444), rgba(0, 0, 0, 0));
 }
 
 .home-section .content {
-   color: var(--onedevs-color-gray);
+   color: white;
+   text-shadow: 1px 1px 4px black;
    max-width: 500px;
    margin: 33px auto 33px auto;
    line-height: 1.7em;
@@ -21,6 +33,10 @@
 a.link {
    text-decoration: none;
    color: var(--onedevs-color-blue);
+   background-color: var(--onedevs-color-lightblue);
+   border-radius: 10px;
+   padding: 10px;
+   text-shadow: 1px 1px white;
 }
 
 a.link:hover {

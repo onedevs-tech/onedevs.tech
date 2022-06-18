@@ -1,6 +1,6 @@
 <?php
 
-   function vertical_separator($pixels = 50, $spaces = 6)
+   function vertical_separator($pixels = 100, $spaces = 6)
    {
 
       $spaces = \str_repeat(' ', $spaces);

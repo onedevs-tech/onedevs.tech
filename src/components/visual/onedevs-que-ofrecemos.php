@@ -10,13 +10,13 @@
 
       <div class="home-section" id="que-ofrecemos">
 
-         <h2 class="title">qué ofrecemos</h2>
+         <h2 class="title">Qué Servicios Ofrecemos</h2>
 
          <p class="content services">
             <span class="site-building">Desarrollo de Web Sites</span><br />
             <span class="site-maintenance">Mantenimiento de Web Sites</span><br />
             <span class="devops">DevOps</span><br />
-            <span class="cybersecurity">CyberSeguridad & Hacking Ético</span><br />
+            <span class="cybersecurity">CyberSeguridad + Hacking Ético</span><br />
             <span class="contribution">Contribución de Contenido</span><br />
             <span class="marketing-on-line">Marketing On-Line</span><br />
          </p>
@@ -54,8 +54,8 @@
             <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" />
          </div>{$vertical_separator}
 
-         <p class="content">
-            👍 Ofrecemos <b>Servicios de Publicidad On-Line</b> (publicidad en <b>Redes Sociales (Facebook, Instagran, LinkedInm Tik Tok)</b> y <b>Email Marketing</b>)
+         <p class="content marketing">
+            👍 Ofrecemos <b>Servicios de Publicidad On-Line</b> (publicidad en <b>Redes Sociales (Facebook, Instagran, LinkedIn y Tik Tok)</b> y <b>Email Marketing</b>)
          </p>
 
          <div class="mobile">
