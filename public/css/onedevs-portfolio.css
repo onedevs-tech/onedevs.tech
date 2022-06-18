@@ -8,3 +8,7 @@
   background-color: var(--onedevs-color-blue);
 }
 
+.home-section .mobile .client {
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}

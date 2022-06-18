@@ -36,6 +36,8 @@
          <div class="mobile">
             <div class="client">
                Tattoo Rubio<br />
+               <br />
+               <br />
                <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a>
             </div>
          </div>

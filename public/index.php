@@ -14,6 +14,7 @@
    include $src_dir . 'components/visual/onedevs-que-ofrecemos.php';
    include $src_dir . 'components/visual/onedevs-quienes-somos.php';
    include $src_dir . 'components/visual/onedevs-random-author.php';
+   include $src_dir . 'components/visual/onedevs-random-emoji.php';
    include $src_dir . 'components/visual/onedevs-stack-tecnologico.php';
    include $src_dir . 'components/visual/onedevs-title.php';
    include $src_dir . 'components/visual/onedevs-web-brand.php';
@@ -75,9 +76,9 @@
       <?= vertical_separator() ?>
 
       <?= onedevs_contactanos() ?>
-      <?= vertical_separator(635) ?>
+      <?= vertical_separator(666) ?>
 
-      <div style="font-size: 50pt; text-align: center;">😼</span>
+      <div style="font-size: 50pt; text-align: center;"><?= onedevs_random_emoji() ?></span>
 
    </body>
 
