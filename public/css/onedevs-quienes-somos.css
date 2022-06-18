@@ -12,6 +12,7 @@
 
    .home-section .member.mobile .description {
       margin-top: 25px;
+      text-shadow: 1px 1px 4px white;
    }
 
    .home-section .member.mobile img.member {
@@ -20,10 +21,11 @@
 
    .home-section .member.mobile .quote {
       font-style: italic;
-      color: var(--onedevs-color-gray);
+      color: white;
       max-width: 250px;
       text-align: center;
       margin: 0 auto 0 auto;
+      text-shadow: 1px 1px 4px black;
    }
 
 }

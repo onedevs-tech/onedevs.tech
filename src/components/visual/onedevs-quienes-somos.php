@@ -39,6 +39,8 @@
                </div>
                <br />
                <a class="link" href="mailto:concepcion.mf.22f@gmail.com">concepcion.mf.22f@gmail.com</a><br />
+               <br />
+               <br />
                <a class="link" href="tel:+34622134851">+34 622 13 48 51</a>
             </div>
 
@@ -63,6 +65,8 @@
                </div>
                <br />
                <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
+               <br />
+               <br />
                <a class="link" href="tel:+34744653072">+34 744 653 072</a>
             </div>
 
