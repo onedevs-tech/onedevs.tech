@@ -33,7 +33,7 @@
             </p>
 
             <p class="content">
-               Trabajamos podemos hacer cositas con <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
+               También podemos hacer cositas con <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
             </p>
 
          </div>
