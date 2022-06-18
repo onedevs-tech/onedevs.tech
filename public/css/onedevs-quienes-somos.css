@@ -17,6 +17,7 @@
 
    .home-section .member.mobile img.member {
       border-radius: 100px;
+      border: solid 3px var(--onedevs-color-blue);
    }
 
    .home-section .member.mobile .quote {
@@ -40,6 +41,7 @@
 
    .home-section .member.desktop img.member {
       border-radius: 100px;
+      border: solid 3px var(--onedevs-color-blue);
    }
 
    .home-section .member.desktop td.description {

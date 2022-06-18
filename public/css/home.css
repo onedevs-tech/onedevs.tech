@@ -44,6 +44,13 @@ body {
    }
 }
 
+.home-section .wrapper {
+   background-color: rgba(29, 151, 212, 0.777);
+   padding: 20px;
+   border-radius: 7px;
+   margin-bottom: 33px;
+}
+
 .home-section .content {
    color: white;
    text-shadow: 1px 1px 4px black;
@@ -57,8 +64,9 @@ a.link {
    color: var(--onedevs-color-blue);
    background-color: var(--onedevs-color-lightblue);
    border-radius: 10px;
-   padding: 10px;
+   padding: 4px 10px 4px 10px;
    text-shadow: 1px 1px white;
+   border: solid 3px white;
 }
 
 a.link:hover {

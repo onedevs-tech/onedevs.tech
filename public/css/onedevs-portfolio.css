@@ -5,7 +5,15 @@
 
 .home-section table.projects thead tr th {
   color: white;
-  background-color: var(--onedevs-color-blue);
+  background-color: rgb(29, 151, 212, 0.5);
+  border-radius: 3px;
+}
+
+.home-section table.projects tbody tr td {
+  color: rgb(29, 151, 212);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  text-shadow: none;
 }
 
 .home-section .mobile .client {

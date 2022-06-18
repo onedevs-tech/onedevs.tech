@@ -76,7 +76,7 @@
       <?= vertical_separator() ?>
 
       <?= onedevs_contactanos() ?>
-      <?= vertical_separator(666) ?>
+      <?= vertical_separator(377) ?>
 
       <div style="font-size: 50pt; text-align: center;"><?= onedevs_random_emoji() ?></span>
 

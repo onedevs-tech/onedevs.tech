@@ -3,7 +3,7 @@
 }
 
 .onedevs-web-brand .logo {
-  filter: drop-shadow(1px 1px 1px var(--onedevs-color-darkblue));
+  /* filter: drop-shadow(1px 1px 1px var(--onedevs-color-darkblue)); */
 }
 
 .onedevs-web-brand span {

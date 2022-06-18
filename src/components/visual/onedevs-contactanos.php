@@ -8,11 +8,13 @@
 
       <div class="home-section" id="contactanos">
 
-         <h2 class="title">contáctanos</h2>
+         <h2 class="title">__ Contáctanos __</h2>
 
-         <p class="content contact">
-            Si Tú o Tu Empresa u Organización tiene alguna <b>Necesidad Tecnológica o Digital</b>, acude a Nosotros. Contáctanos a cualquiera de las siguientes direcciones:
-         </p>
+         <div class="wrapper">
+            <p class="content">
+               Si Tú o Tu Empresa u Organización tiene alguna <b>Necesidad Tecnológica o Digital</b>, acude a Nosotros. Contáctanos a cualquiera de las siguientes direcciones:
+            </p>
+         </div>
 
          <p class="content">
 

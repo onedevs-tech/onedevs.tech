@@ -8,7 +8,7 @@
 
       <div class="home-section" id="portfolio">
 
-         <h2 class="title">Confían en OneDevs</h2>
+         <h2 class="title">__ Confían en OneDevs __</h2>
 
          <div class="desktop">
             <table class="projects" align="center" cellpadding="20">

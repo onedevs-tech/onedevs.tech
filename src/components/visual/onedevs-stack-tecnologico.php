@@ -8,27 +8,35 @@
 
       <div class="home-section" id="stack-tecnologico">
 
-         <h2 class="title">En Qué Somos Expertos</h2>
+         <h2 class="title">__ En Qué Somos Expertos __</h2>
 
-         <p class="content">
-            Principalmente somos Desarrolladores / Programadores, pero también controlamos de CiberSeguridad y Marketing On-Line
-         </p>
+         <div class="wrapper">
 
-         <p class="content">
-            Usamos <b>PHP 7 y 8, y MySQL</b>
-         </p>
+            <p class="content">
+               Somos Desarrolladores / Programadores, pero también controlamos de CiberSeguridad y Marketing On-Line
+            </p>
 
-         <p class="content">
-            Construimos sites usando <b>PHP puro</b>
-         </p>
+            <p class="content">
+               Usamos <b>PHP 7 y 8, y MySQL</b>
+            </p>
 
-         <p class="content">
-            También controlamos de <b>WordPress y Drupal</b>
-         </p>
+            <p class="content">
+               Construimos sites usando <b>PHP puro</b>
+            </p>
 
-         <p class="content">
-            Trabajamos con <b>Javascript, JQuery y React</b>
-         </p>  
+            <p class="content">
+               También controlamos de <b>WordPress y Drupal</b>
+            </p>
+
+            <p class="content">
+               Trabajamos con <b>Javascript, JQuery y React</b>
+            </p>
+
+            <p class="content">
+               Trabajamos podemos hacer cositas con <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
+            </p>
+
+         </div>
 
          <div class="mobile">
             <img class="image" src="/images/stack-tecnologico/stack-tecnologico.png" alt="Stack Tecnológico" width="320" />
