@@ -37,6 +37,7 @@
             <div class="description">
                <div class="wrapper">
                   <big><b>Concepción Martínez Fernández</b></big><br />
+                  <br />
                   Sales Manager<br />
                   <br />
                   <div class="quote">
@@ -63,6 +64,7 @@
             <div class="description">
                <div class="wrapper">
                   <big><b>Ricardo Ruiz Martínez</b></big><br />
+                  <br />
                   CEO<br />
                   Sales Agent<br />
                   Full Stack Developer (PHP + MySQL + jQuery)<br />
@@ -89,6 +91,7 @@
                      <td class="description">
                         <div class="wrapper">
                            <big><b>Concepción Martínez Fernández</b></big><br />
+                           <br />
                            Sales Manager<br />
                            <br />
                            <div class="quote">
@@ -105,6 +108,7 @@
                      <td class="description">
                         <div class="wrapper">
                            <big><b>Ricardo Ruiz Martínez</b></big><br />
+                           <br />
                            CEO<br />
                            Sales Agent<br />
                            Full Stack Developer (PHP + MySQL + jQuery)<br />

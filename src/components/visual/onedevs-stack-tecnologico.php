@@ -8,7 +8,7 @@
 
       <div class="home-section" id="stack-tecnologico">
 
-         <h2 class="title">__ En Qué Somos Expertos __</h2>
+         <h2 class="title">__ Somos Expertos En __</h2>
 
          <div class="wrapper">
 
