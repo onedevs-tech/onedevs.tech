@@ -11,7 +11,7 @@
    include $src_dir . 'components/visual/onedevs-title-string.php';
    include $src_dir . 'components/visual/vertical-separator.php';
 
-   include $src_dir . 'functions/bignumber.php';
+   include $src_dir . 'functions/random_big_number.php';
 
 ?>
 
@@ -30,9 +30,9 @@
 
       <!-- CSS -->
 
-      <link rel="stylesheet" href="/css/vars.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/fonts.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/404.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/vars.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/fonts.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/404.css?version=<?= random_big_number() ?>" />
 
    </head>
 

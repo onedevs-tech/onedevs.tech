@@ -1,28 +1,41 @@
+Agente Smith
 Al El Grande
 Arcturus
 Black Hole
 Black Star
+Boba Fett
 Bolo
 Boquerona
 Boquiabierto
 Cachito
 Campeón Industrial
+Casiopeo
 Catalino Pescuzí
 Clamodia
 Clastofón
 Clopediopía
 Cochinillo Feliz
-Coleador
 Conchi
 Cristina Fantasía
 Crystal House
+Culeador
 Customizador Gris
+Darth Maul
+Darth Sidious
+Django
+DM The Apprentice
 Eliot
+Eru
 Felipillo El De Los Recaos
+fihed
 Gandalf
 Gluper
+Goleador
+Golondrino
 Gominolo A Secas
+Gondor
 Gordillo
+Gorrión
 Great Wolf
 Green Beret
 Green Lantern
@@ -30,6 +43,7 @@ Gú Gú
 Hack The Hacker
 Hack This Page If You Can >:P
 House Brothers
+Ilúvatar
 Judío Boston Man
 King of Love
 Lucy Death
@@ -38,12 +52,19 @@ Macarroni
 Mamá
 Marilena
 Marta
+Melkor
 Mister Perca
 Mithrandir
+Morfeo
+Morgoth
 Mysterious People
 Negrillo
+Neo
+Oberón
+Obi-Wan Kenobi
 Paquito Ruedas
 Pegasus Boy
+Puck
 Rembrandt alias Piscasso
 Renuaro
 Ricardo
@@ -56,5 +77,7 @@ Señor Gominolo
 Spina
 Tentempié
 The Prodigy
+Trinity
 Vespertinín Andalusí
 White Hole
+Yoda

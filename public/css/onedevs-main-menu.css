@@ -1,18 +1,33 @@
 .onedevs-main-menu {
-  text-align: center;
   font-family: nasalization;
-  font-size: 22pt;
+  font-size: 17pt;
+  margin: 0 auto 0 auto;
+  width: 300px;
 }
 
-.onedevs-main-menu a {
-  text-decoration: none;
-  line-height: 33pt;
+.onedevs-main-menu .item {
+  text-align: center;
+}
+
+.onedevs-main-menu .item .left-llave {
+  float: left;
   color: var(--onedevs-color-blue);
-  display: block;
+}
+
+.onedevs-main-menu .item .right-llave {
+  float: right;
+  color: var(--onedevs-color-blue);
+}
+
+.onedevs-main-menu .item a {
+  text-decoration: none;
+  line-height: 22pt;
+  color: var(--onedevs-color-blue);
 }
 
 .onedevs-main-menu .item:hover {
   background-color: var(--onedevs-color-blue);
+  border-radius: 5px;
 }
 
 .onedevs-main-menu .item:hover a {

@@ -19,7 +19,7 @@
    include $src_dir . 'components/visual/onedevs-web-brand.php';
    include $src_dir . 'components/visual/vertical-separator.php';
 
-   include $src_dir . 'functions/bignumber.php';
+   include $src_dir . 'functions/random_big_number.php';
 
 ?>
 
@@ -39,14 +39,14 @@
 
       <!-- CSS -->
 
-      <link rel="stylesheet" href="/css/vars.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/fonts.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/home.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-web-brand.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-main-menu.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-que-ofrecemos.css?version=<?= bignumber() ?>" />
-      <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= bignumber() ?>" />
+      <link rel="stylesheet" href="/css/vars.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/fonts.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/home.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-web-brand.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-main-menu.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-quienes-somos.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-que-ofrecemos.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= random_big_number() ?>" />
 
    </head>
 
@@ -75,6 +75,8 @@
 
       <?= onedevs_contactanos() ?>
       <?= vertical_separator(635) ?>
+
+      <div style="font-size: 50pt; text-align: center;">😼</span>
 
    </body>
 

@@ -2,7 +2,7 @@
 
    function onedevs_title_string()
    {
-      $title = 'OneDevs - Construyendo El Futuro';
+      $title = 'OneDevs - Developing The Future';
 
       return $title;
    }
