@@ -21,12 +21,7 @@
                      <tr>
                         <td>
                            <div class="address">
-                              Calle Conquistador<br />
-                              Ordoño Álvarez,<br />
-                              Número 6, Portal 1,<br />
-                              Planta 1, Puerta 2,<br />
-                              Código Postal 14010,<br />
-                              Córdoba, España
+                              Calle Conquistador Ordoño Álvarez, Número 6, Portal 1, Planta 1, Puerta 2, Código Postal 14010, Córdoba, España
                            </div>
                         </td>
                         <td>
