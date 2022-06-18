@@ -2,7 +2,7 @@
 
    function onedevs_quienes_somos()
    {
-      $vertical_separator = vertical_separator();
+      $vertical_separator = vertical_separator(100, 12);
 
       $quienes_somos = <<<HTML
 
@@ -19,7 +19,7 @@
             </p>
 
             <p class="content">
-               Somos un Grupo de <b>Desarrolladores de Software</b> apasionados por la Tecnología
+               Somos un Grupo de <b>Desarrolladores de Software</b> (en realidad, actualmente, sólo somos Uno) apasionados por la Tecnología
             </p>
 
             <p class="content">
@@ -28,9 +28,32 @@
 
          </div>
 
-         <div class="member mobile">
+         <div class="member mobile">{$vertical_separator}
 
-            {$vertical_separator}
+            <div class="image">
+               <img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" />
+            </div>
+
+            <div class="description">
+               <div class="wrapper">
+                  <big><b>Concepción Martínez Fernández</b></big><br />
+                  <br />
+                  Sales Agent<br />
+                  <br />
+                  <div class="quote">
+                     "Ayudo a mi hijo con su nueva empresa <b>OneDevs</b>."
+                  </div>
+                  <br />
+                  <a class="link" href="mailto:concepcion.mf.22f@gmail.com">concepcion.mf.22f@gmail.com</a><br />
+                  <br />
+                  <br />
+                  <a class="link" href="tel:+34622134851">+34 622 13 48 51</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="member mobile">{$vertical_separator}
 
             <div class="image">
                <img class="member" src="/images/onedevs-members/richi-200x200.png" width="200" />
@@ -57,37 +80,27 @@
 
          </div>
 
-         <div class="member mobile">
-
-            {$vertical_separator}
-
-            <div class="image">
-               <img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" />
-            </div>
-
-            <div class="description">
-               <div class="wrapper">
-                  <big><b>Concepción Martínez Fernández</b></big><br />
-                  <br />
-                  Sales Agent<br />
-                  <br />
-                  <div class="quote">
-                     "Me encanta ayudar a mi hijo en su nueva empresa <b>OneDevs</b>."
-                  </div>
-                  <br />
-                  <a class="link" href="mailto:concepcion.mf.22f@gmail.com">concepcion.mf.22f@gmail.com</a><br />
-                  <br />
-                  <br />
-                  <a class="link" href="tel:+34622134851">+34 622 13 48 51</a>
-               </div>
-            </div>
-
-         </div>
-
          <div class="member desktop">
 
             <table align="center" cellpadding="20">
                <tbody>
+                  <tr>
+                     <td><img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" /></td>
+                     <td class="description">
+                        <div class="wrapper">
+                           <big><b>Concepción Martínez Fernández</b></big><br />
+                           <br />
+                           Sales Agent<br />
+                           <br />
+                           <div class="quote">
+                              "Ayudo a mi hijo con su nueva empresa <b>OneDevs</b>."
+                           </div>
+                           <br />
+                           <a class="link" href="mailto:concepcion.mf.22f@gmail.com">concepcion.mf.22f@gmail.com</a>
+                           <a class="link" href="tel:+34622134851">Tel: +34 622 13 48 51</a>
+                        </div>
+                     </td>
+                  </tr>
                   <tr>
                      <td><img class="member" src="/images/onedevs-members/richi-200x200.png" width="200" /></td>
                      <td class="description">
@@ -104,23 +117,6 @@
                            <br />
                            <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a>
                            <a class="link" href="tel:+34744653072">Tel: +34 744 653 072</a>
-                        </div>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td><img class="member" src="/images/onedevs-members/conchi-200x200.png" width="200" /></td>
-                     <td class="description">
-                        <div class="wrapper">
-                           <big><b>Concepción Martínez Fernández</b></big><br />
-                           <br />
-                           Sales Agent<br />
-                           <br />
-                           <div class="quote">
-                              "Me encanta ayudar a mi hijo en su nueva empresa <b>OneDevs</b>."
-                           </div>
-                           <br />
-                           <a class="link" href="mailto:concepcion.mf.22f@gmail.com">concepcion.mf.22f@gmail.com</a>
-                           <a class="link" href="tel:+34622134851">Tel: +34 622 13 48 51</a>
                         </div>
                      </td>
                   </tr>
