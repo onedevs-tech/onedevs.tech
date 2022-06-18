@@ -96,3 +96,16 @@ a.link:hover {
 .home-section .mobile .image, .home-section .desktop .image {
    border-radius: 7px;
 }
+
+.home-section .address {
+   font-size: 12pt;
+   display: block;
+   color: var(--onedevs-color-blue);
+   background-color: var(--onedevs-color-lightblue);
+   border-radius: 10px;
+   width: 350px;
+   text-shadow: 1px 1px white;
+   border: solid 3px white;
+   padding: 10px;
+   margin: 0 auto 0 auto;
+}
