@@ -70,7 +70,7 @@
                   Full Stack Developer (PHP + MySQL + jQuery)<br />
                   <br />
                   <div class="quote">
-                     "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España o del Mundo."
+                     "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de Córdoba, Andalucía, España o del Mundo."
                   </div>
                   <br />
                   <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a><br />
@@ -114,7 +114,7 @@
                            Full Stack Developer (PHP + MySQL + jQuery)<br />
                            <br />
                            <div class="quote">
-                              "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de España o del Mundo."
+                              "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de Córdoba, Andalucía, España o del Mundo."
                            </div>
                            <br />
                            <a class="link" href="mailto:richiruizmartinez@gmail.com">richiruizmartinez@gmail.com</a>

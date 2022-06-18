@@ -36,6 +36,8 @@
             </div>
          </p>{$vertical_separator}
 
+         <div class="plus">+</div>
+
          <p class="content image">
             <div class="mobile">
                <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" width="320" />
