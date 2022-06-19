@@ -2,6 +2,11 @@
   color: white;
 }
 
+.collaborator {
+   color: #a0ffff;
+   text-shadow: 1px 1px black;
+}
+
 /* mobile  */
 
 @media screen and (max-width: 768px) {

@@ -55,7 +55,7 @@
    <body>
 
       <?= onedevs_web_brand() ?>
-      <?= vertical_separator() ?>
+      <?= vertical_separator(50) ?>
 
       <?= onedevs_main_menu() ?>
       <?= vertical_separator() ?>

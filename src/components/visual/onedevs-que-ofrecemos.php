@@ -4,7 +4,7 @@
    {
       $vertical_separator = vertical_separator(10, 9);
 
-      $que_hacemos = <<<HTML
+      $que_hacemos = <<<HTML_
 
       <!-- QUÉ OFRECEMOS -->
 
@@ -13,17 +13,29 @@
          <h2 class="title">__ Qué Ofrecemos __</h2>
 
          <p class="content services">
-            <span class="site-building">Desarrollo de Web Sites</span><br />
-            <span class="site-maintenance">Mantenimiento de Web Sites</span><br />
-            <span class="devops">DevOps</span><br />
-            <span class="cybersecurity">CyberSeguridad + Hacking Ético</span><br />
-            <span class="contribution">Contribución de Contenido</span><br />
-            <span class="marketing-on-line">Marketing On-Line</span><br />
+            <span class="site-building">Desarrollo<br />de Web Sites 🛠</span><br />
+            <span class="site-maintenance">Mantenimiento<br />de Web Sites 🔨</span><br />
+            <span class="devops">DevOps 🪛</span><br />
+            <span class="cybersecurity">CyberSeguridad<br />+<br />Hacking Ético 😼</span><br />
+            <span class="marketing-on-line">Marketing On-Line 📨</span><br />
+            <span class="contribution">Contribución<br />de Contenido 📰</span><br />
          </p>
 
          <div class="wrapper">
             <p class="content">
-               👍 Nos dedicamos a la <b>Construcción y Mantenimiento de Sites usando MySQL, HTML 5, CSS 3 y PHP versiones 7 y 8</b>
+               👍 <b>Construimos Web Sites desde zero<br />
+               <br />
+               Ofrecemos Servicio de Mantenimiento:<br />
+               <br />
+               ¿Tu Site está anticuado? ¿No lo actualizas desde hace tiempo?
+               ¿Quieres vender por Internet?
+               Nos hacemos cargo de tu Site actual y lo mantenemos, modificamos, evolucionamos,
+               con independencia de quién lo haya hecho o la Tecnología con la que esté construido<br />
+               <br />
+               Trabajamos con PHP<br />
+               (8, 7 y versiones anteriores),<br />
+               MySQL, MariaDB,<br />
+               HTML 5, CSS 3, jQuery y Javascript</b>
             </p>
          </div>
 
@@ -62,7 +74,12 @@
 
          <div class="wrapper">
             <p class="content">
-               👍 Ofrecemos <b>Servicios de Publicidad On-Line</b> (publicidad en <b>Redes Sociales (Facebook, Instagran, LinkedIn y Tik Tok)</b> y <b>Email Marketing</b>)
+               👍 Ofrecemos <b>Servicios de Publicidad On-Line</b><br />
+               <br />
+               Publicidad en <b>Redes Sociales:</b><br />
+               Facebook, Instagram, LinkedIn, TikTok, Twitter<br />
+               <br />
+               <b>Email Marketing</b>
             </p>
          </div>
 
@@ -83,7 +100,7 @@
          </div>
 
       </div>
-HTML;
+HTML_;
 
       return $que_hacemos;
    }

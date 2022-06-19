@@ -8,24 +8,25 @@
 
       <div class="home-section" id="stack-tecnologico">
 
-         <h2 class="title">__ Somos Expertos En __</h2>
+         <h2 class="title">__ Controlamos de... __</h2>
 
          <div class="wrapper">
 
             <p class="content">
-               Somos Desarrolladores / Programadores, pero también controlamos de CiberSeguridad y Marketing On-Line
+               Somos <b>Desarrolladores PHP</b> y MySQL, también trabajamos la CiberSeguridad y el Marketing On-Line
             </p>
 
             <p class="content">
-               Usamos <b>PHP 7 y 8, y MySQL</b>
+               Trabajamos <b>PHP 8, 7 y versiones anteriores,<br />
+               y MySQL / MariaDB</b>
             </p>
 
             <p class="content">
-               Construimos sites usando <b>PHP puro</b>
+               Construimos sites desde cero usando <b>PHP puro</b>
             </p>
 
             <p class="content">
-               También controlamos de <b>WordPress y Drupal</b>
+               Trabajamos también con <b>WordPress y Drupal</b>
             </p>
 
             <p class="content">
@@ -33,7 +34,8 @@
             </p>
 
             <p class="content">
-               También podemos hacer cositas con <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
+               También podemos hacer "cosas" con<br />
+               <b>Python</b>, <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
             </p>
 
          </div>

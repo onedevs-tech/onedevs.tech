@@ -1,10 +1,15 @@
 .home-section .services span {
    display: block;
    width: 300px;
-   line-height: 50px;
+   line-height: 33px;
    margin: 0 auto 0 auto;
+   padding: 10px;
    border-radius: 25px;
    border: solid 2px white;
+   font-weight: bold;
+}
+
+.home-section .services .marketing-on-line, .home-section .services .cybersecurity, .home-section .services .contribution {
    text-shadow: none;
 }
 

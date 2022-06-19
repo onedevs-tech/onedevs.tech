@@ -14,11 +14,11 @@
             <table class="projects" align="center" cellpadding="20">
                <thead>
                   <tr>
-                     <th>Empresa / Organización</th>
-                     <th>Número de Empleados</th>
+                     <th>Organización</th>
+                     <th>Empleados</th>
                      <th>País</th>
                      <th>Proyecto</th>
-                     <th>Descripción</th>
+                     <th>Qué</th>
                   </tr>
                </thead>
                <tbody>
@@ -27,7 +27,7 @@
                      <td>1</td>
                      <td>España</td>
                      <td><a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
-                     <td>Construcción desde cero y publicación del site <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
+                     <td>Construcción del site desde cero y publicación en Internet <a class="link" target="_blank" href="https://www.tattoorubio.com">https://www.tattoorubio.com</a></td>
                   </tr>
                </tbody>
             </table>
