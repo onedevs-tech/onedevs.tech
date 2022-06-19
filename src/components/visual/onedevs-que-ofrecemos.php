@@ -12,14 +12,13 @@
 
          <h2 class="title">__ Qué Ofrecemos __</h2>
 
-         <p class="content services">
-            <span class="site-building">Desarrollo<br />de Web Sites 🛠</span><br />
-            <span class="site-maintenance">Mantenimiento<br />de Web Sites 🔨</span><br />
-            <span class="devops">DevOps 🪛</span><br />
-            <span class="cybersecurity">CyberSeguridad<br />+<br />Hacking Ético 😼</span><br />
-            <span class="marketing-on-line">Marketing On-Line 📨</span><br />
-            <span class="contribution">Contribución<br />de Contenido 📰</span><br />
-         </p>
+         <div class="desktop">
+            <img src="/images/que-ofrecemos/que-ofrecemos.png" />
+         </div>
+
+         <div class="mobile">
+            <img src="/images/que-ofrecemos/que-ofrecemos-small.png" />
+         </div>
 
          <div class="wrapper">
             <p class="content">
@@ -30,7 +29,7 @@
                ¿Tu Site está anticuado? ¿No lo actualizas desde hace tiempo?
                ¿Quieres vender por Internet?
                Nos hacemos cargo de tu Site actual y lo mantenemos, modificamos, evolucionamos,
-               con independencia de quién lo haya hecho o la Tecnología con la que esté construido<br />
+               con independencia de quién lo haya hecho o de la Tecnología con la que esté construido<br />
                <br />
                Trabajamos con PHP<br />
                (8, 7 y versiones anteriores),<br />
