@@ -13,11 +13,11 @@
          <h2 class="title">__ Qué Ofrecemos __</h2>
 
          <div class="desktop">
-            <img src="/images/que-ofrecemos/que-ofrecemos.png" />
+            <img src="/images/que-ofrecemos/que-ofrecemos.png" alt="Qué Ofrecemos" />
          </div>
 
          <div class="mobile">
-            <img src="/images/que-ofrecemos/que-ofrecemos-small.png" />
+            <img src="/images/que-ofrecemos/que-ofrecemos-small.png" alt="Qué Ofrecemos" />
          </div>
 
          <div class="wrapper">
