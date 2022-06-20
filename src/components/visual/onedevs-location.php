@@ -16,7 +16,7 @@
             <p class="content">
                Nuestra <b>Sede Principal</b> está actualmente en:<br />
                <br />
-               <a class="link" href="https://es.wikipedia.org/wiki/C%C3%B3rdoba_(Espa%C3%B1a)" target="_blank">Córdoba Capital</a><br />
+               <a class="link" href="https://www.google.com/maps/place/OneDevs+Digital+Services/@37.8796277,-4.7641025,15z/data=!4m5!3m4!1s0x0:0xd2ab458934f9329f!8m2!3d37.8796277!4d-4.7641025" target="_blank">Córdoba Ciudad</a><br />
                <br />
             </p>
          </div>
