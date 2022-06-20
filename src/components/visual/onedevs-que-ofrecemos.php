@@ -3,6 +3,7 @@
    function onedevs_que_ofrecemos()
    {
       $vertical_separator_10 = vertical_separator(10, 9);
+      $vertical_separator_25 = vertical_separator(25, 9);
       $vertical_separator_50 = vertical_separator(50, 9);
 
       $que_hacemos = <<<HTML_
@@ -46,7 +47,7 @@
             <div class="desktop">
                <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" />
             </div>
-         </p>{$vertical_separator_10}
+         </p>{$vertical_separator_50}
 
          <div class="plus">+</div>
 
@@ -88,7 +89,7 @@
          </div>
          <div class="desktop">
             <img class="image" src="/images/stack-tecnologico/social-networks.jpg" alt="Social Networks" />
-         </div>
+         </div>{$vertical_separator_25}
 
          <div class="plus">+</div>
 
