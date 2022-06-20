@@ -12,7 +12,7 @@
 
          <div class="wrapper">
             <p class="content">
-               Si Tú o Tu Empresa u Organización tiene alguna <b>Necesidad Digital o Tecnológica</b>, acude a Nosotros.<br />
+               Si Tú o Tu Empresa u Organización tenéis alguna <b>Necesidad Digital o Tecnológica</b>, acude a Nosotros.<br />
                <br />
                Contáctanos:
             </p>
