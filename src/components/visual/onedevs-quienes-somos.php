@@ -72,8 +72,7 @@
                <div class="wrapper">
                   <big><b><span class="collaborator">Ricardo Ruiz Martínez<br />( richi )</span></b></big><br />
                   <br />
-                  <span class="collaborator">CEO</span><br />
-                  <span class="collaborator">Sales Manager</span><br />
+                  <span class="collaborator">Manager</span><br />
                   <span class="collaborator">Full Stack Developer</span><br />
                   <span class="collaborator">(PHP + MySQL + jQuery)</span><br />
                   <br />
@@ -116,8 +115,7 @@
                         <div class="wrapper">
                            <big><b><span class="collaborator">Ricardo Ruiz Martínez &nbsp; ( richi )</span></b></big><br />
                            <br />
-                           <span class="collaborator">CEO</span><br />
-                           <span class="collaborator">Sales Manager</span><br />
+                           <span class="collaborator">Manager</span><br />
                            <span class="collaborator">Full Stack Developer</span><br />
                            <span class="collaborator">(PHP + MySQL + jQuery)</span><br />
                            <br />
