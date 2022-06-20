@@ -1,6 +1,7 @@
 body {
    background-image: url(/images/cities/cities-90.jpg);
    background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .home-section {
@@ -40,12 +41,12 @@ body {
       border-radius: 10px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
-      background: linear-gradient(rgba(29, 151, 212, 0.444), rgba(0, 0, 0, 0));
+      background: linear-gradient(rgba(29, 151, 212, 0.667), rgba(0, 0, 0, 0));
    }
 }
 
 .home-section .wrapper {
-   background-color: rgba(29, 151, 212, 0.667);
+   background-color: rgba(80, 150, 200, 0.667);
    padding: 20px;
    border-radius: 7px;
    margin-bottom: 33px;

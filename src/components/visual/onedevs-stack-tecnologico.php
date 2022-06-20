@@ -13,28 +13,28 @@
          <div class="wrapper">
 
             <p class="content">
-               Somos <b>Desarrolladores PHP</b> y MySQL, también trabajamos la CiberSeguridad y el Marketing On-Line
+               👍 Somos <b>Desarrolladores PHP</b> y MySQL, también trabajamos la <b>CiberSeguridad</b> y el <b>Marketing On-Line</b>
             </p>
 
             <p class="content">
-               Trabajamos <b>PHP 8, 7 y versiones anteriores,<br />
+               👍 Trabajamos <b>PHP 8, 7 y versiones anteriores,<br />
                y MySQL / MariaDB</b>
             </p>
 
             <p class="content">
-               Construimos sites desde cero usando <b>PHP puro</b>
+               👍 Construimos sites desde cero usando <b>PHP puro</b> y evolucionamos tu site.
             </p>
 
             <p class="content">
-               Trabajamos también con <b>WordPress y Drupal</b>
+               👍 Trabajamos con <b>PHP plano, WordPress y Drupal</b>
             </p>
 
             <p class="content">
-               Trabajamos con <b>Javascript, JQuery y React</b>
+               👍 Trabajamos con <b>Javascript, JQuery y React</b>
             </p>
 
             <p class="content">
-               También podemos hacer "cosas" con<br />
+               👍 También trabajamos con<br />
                <b>Python</b>, <b>C</b>, <b>C++</b> y <b>Ensamblador 80x86</b>
             </p>
 

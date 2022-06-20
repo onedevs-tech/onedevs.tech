@@ -23,8 +23,10 @@
             </p>
 
             <p class="content">
-               Si tu <b>Empresa u Organización</b>, sea de cualquier tamaño, tiene Necesidades Tecnológicas, acude a Nosotros,<br />
-               <br />
+               Si tu <b>Empresa u Organización</b>, sea de cualquier tamaño, tiene Necesidades Tecnológicas, acude a Nosotros
+            </p>
+
+            <p class="content">
                <b>Te Ayudaremos</b>
             </p>
 
