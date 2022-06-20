@@ -72,9 +72,9 @@
                <div class="wrapper">
                   <big><b><span class="collaborator">Ricardo Ruiz Martínez<br />( richi )</span></b></big><br />
                   <br />
+                  <span class="collaborator">Backend Developer</span><br />
+                  <span class="collaborator">Sales Agent</span><br />
                   <span class="collaborator">Manager</span><br />
-                  <span class="collaborator">Full Stack Developer</span><br />
-                  <span class="collaborator">(PHP + MySQL + jQuery)</span><br />
                   <br />
                   <div class="quote">
                      "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de Córdoba, Andalucía, España y el Mundo."
@@ -115,9 +115,9 @@
                         <div class="wrapper">
                            <big><b><span class="collaborator">Ricardo Ruiz Martínez &nbsp; ( richi )</span></b></big><br />
                            <br />
+                           <span class="collaborator">Backend Developer</span><br />
+                           <span class="collaborator">Sales Agent</span><br />
                            <span class="collaborator">Manager</span><br />
-                           <span class="collaborator">Full Stack Developer</span><br />
-                           <span class="collaborator">(PHP + MySQL + jQuery)</span><br />
                            <br />
                            <div class="quote">
                               "<b>OneDevs Digital Services</b> nace para Dar Impulso al Pequeño Comercio del Barrio de la Fuensanta y otros Barrios y Alrededores de Córdoba (España). También damos Servicio a Cualquier Empresa u Organización de cualquier tamaño en cualquier parte de Córdoba, Andalucía, España y el Mundo."
