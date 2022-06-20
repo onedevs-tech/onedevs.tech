@@ -22,16 +22,16 @@
 
          <div class="wrapper">
             <p class="content">
-               👍 <b>Construimos Web Sites desde zero<br />
+               👍 <b>Construimos Web Sites desde cero<br />
                <br />
-               Ofrecemos Servicio de Mantenimiento:<br />
+               👍 Servicio de Mantenimiento de sites antiguos:<br />
                <br />
                ¿Tu Site está anticuado? ¿No lo actualizas desde hace tiempo?
                ¿Quieres vender por Internet?
                Nos hacemos cargo de tu Site actual y lo mantenemos, modificamos, evolucionamos,
-               con independencia de quién lo haya hecho o de la Tecnología con la que esté construido<br />
+               con independencia de la Tecnología con la que esté construido<br />
                <br />
-               Trabajamos con PHP<br />
+               👍 Trabajamos con PHP<br />
                (8, 7 y versiones anteriores),<br />
                MySQL, MariaDB,<br />
                HTML 5, CSS 3, jQuery y Javascript</b>
@@ -60,7 +60,7 @@
 
          <div class="wrapper">
             <p class="content">
-               👍 Ofrecemos <b>Servicios de CiberSeguridad</b>
+               👍 Ofrecemos <b>Servicios de CiberSeguridad</b> y <b>DevOps</b>
             </p>
          </div>
 
@@ -78,7 +78,7 @@
                Publicidad en <b>Redes Sociales:</b><br />
                Facebook, Instagram, LinkedIn, TikTok, Twitter<br />
                <br />
-               <b>Email Marketing</b>
+               👍 <b>Email Marketing</b>
             </p>
          </div>
 
