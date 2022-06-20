@@ -2,7 +2,8 @@
 
    function onedevs_que_ofrecemos()
    {
-      $vertical_separator = vertical_separator(10, 9);
+      $vertical_separator_10 = vertical_separator(10, 9);
+      $vertical_separator_50 = vertical_separator(50, 9);
 
       $que_hacemos = <<<HTML_
 
@@ -18,7 +19,7 @@
 
          <div class="mobile">
             <img src="/images/que-ofrecemos/que-ofrecemos-small.png" alt="Qué Ofrecemos" />
-         </div>
+         </div>{$vertical_separator_50}
 
          <div class="wrapper">
             <p class="content">
@@ -45,7 +46,7 @@
             <div class="desktop">
                <img class="image" src="/images/stack-tecnologico/php-8.jpg" alt="PHP 8" />
             </div>
-         </p>{$vertical_separator}
+         </p>{$vertical_separator_10}
 
          <div class="plus">+</div>
 
@@ -56,7 +57,7 @@
             <div class="desktop">
                <img class="image" src="/images/stack-tecnologico/mysql.png" alt="MySQL" />
             </div>
-         </p>{$vertical_separator}
+         </p>{$vertical_separator_10}
 
          <div class="wrapper">
             <p class="content">
@@ -69,7 +70,7 @@
          </div>
          <div class="desktop">
             <img class="image" src="/images/cybersecurity.jpg" alt="CyberSecurity" />
-         </div>{$vertical_separator}
+         </div>{$vertical_separator_10}
 
          <div class="wrapper">
             <p class="content">
