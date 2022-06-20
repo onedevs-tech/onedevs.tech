@@ -2,7 +2,7 @@
 
    function onedevs_title_string()
    {
-      $title = 'OneDevs - Developing The Future';
+      $title = 'OneDevs - ' . onedevs_random_motto();
 
       return $title;
    }
