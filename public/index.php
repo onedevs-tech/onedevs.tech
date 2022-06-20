@@ -14,6 +14,8 @@
    include $src_dir . 'components/visual/onedevs-que-ofrecemos.php';
    include $src_dir . 'components/visual/onedevs-quienes-somos.php';
    include $src_dir . 'components/visual/onedevs-random-author.php';
+   include $src_dir . 'components/visual/onedevs-random-emoji.php';
+   include $src_dir . 'components/visual/onedevs-random-motto.php';
    include $src_dir . 'components/visual/onedevs-stack-tecnologico.php';
    include $src_dir . 'components/visual/onedevs-title.php';
    include $src_dir . 'components/visual/onedevs-web-brand.php';
@@ -48,6 +50,7 @@
       <link rel="stylesheet" href="/css/onedevs-que-ofrecemos.css?version=<?= random_big_number() ?>" />
       <link rel="stylesheet" href="/css/onedevs-portfolio.css?version=<?= random_big_number() ?>" />
       <link rel="stylesheet" href="/css/onedevs-contactanos.css?version=<?= random_big_number() ?>" />
+      <link rel="stylesheet" href="/css/onedevs-random-emoji.css?version=<?= random_big_number() ?>" />
 
    </head>
 
@@ -75,7 +78,12 @@
       <?= vertical_separator() ?>
 
       <?= onedevs_contactanos() ?>
-      <?= vertical_separator(144) ?>
+      <?= vertical_separator(77) ?>
+
+      <div class="random-emoji">
+         <?= onedevs_random_emoji() ?>
+      </div>
+      <?= vertical_separator(77) ?>
 
    </body>
 
