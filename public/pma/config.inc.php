@@ -25,11 +25,9 @@ $i = 0;
  */
 $i++;
 /* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['auth_type'] = 'http';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = '127.0.0.1';
-$cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = 'myissg00done';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
