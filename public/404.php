@@ -10,6 +10,10 @@
    include_once $src_dir . 'functions/get_random_number.php';
    include_once $src_dir . 'functions/html/get_separator.php';
 
+   include_once $src_dir . 'mysql/onedevs_404/insert_register.php';
+
+   onedevs_404_insert_register();
+
 ?>
 <!-- ONEDEVS 404 PAGE -->
 
@@ -19,7 +23,7 @@
 
    <head>
 
-      <title>OneDevs - 404</title>
+      <title>OneDevs | 404</title>
       <?php include_once $src_dir . 'html/metas.phtml'; ?>
       <?php include_once $src_dir . 'html/manifest.phtml'; ?>
       <?php include_once $src_dir . 'html/favicons.phtml'; ?>
