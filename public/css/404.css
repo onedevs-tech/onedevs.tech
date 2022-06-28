@@ -1,6 +1,26 @@
 body {
+   color: var(--onedevs-color-blue);
    font-family: nasalization;
-   text-align: center;
-   color: #e0e0e0;
    font-size: 37pt;
+   text-align: center;
+}
+
+/* desktop */
+
+@media screen and (min-width: 769px) {
+
+   ._404 {
+      margin: 150px auto 0 auto;
+   }
+
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+
+   ._404 {
+      margin: 50px auto 0 auto;
+   }
+
 }

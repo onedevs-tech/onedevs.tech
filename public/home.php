@@ -23,18 +23,17 @@
       <?php include_once $src_dir . 'html/metas.phtml'; ?>
       <?php include_once $src_dir . 'html/manifest.phtml'; ?>
       <?php include_once $src_dir . 'html/favicons.phtml'; ?>
-      <?php include_once $src_dir . 'html/css.phtml'; ?>
+      <?php include_once $src_dir . 'html/css/home.phtml'; ?>
 
    </head>
 
    <body>
-
       <?= get_separator(50) ?>
       <?php include_once $src_dir . 'html/brand.phtml'; ?>
       <?= get_separator(50) ?>
 
       <?php include_once $src_dir . 'html/introduction.phtml'; ?>
-      <?php include_once $src_dir . 'html/pymes.phtml'; ?>
+      <?php include_once $src_dir . 'html/service-to.phtml'; ?>
       <?php include_once $src_dir . 'html/what-do-we-do.phtml'; ?>
       <?php include_once $src_dir . 'html/collaborators.phtml'; ?>
       <?php include_once $src_dir . 'html/tech-stack.phtml'; ?>

@@ -18,7 +18,7 @@
 
    .desktop table.collaborator {
       margin: 0 auto 0 auto;
-      max-width: 800px;
+      max-width: 1000px;
    }
 
    .desktop table.collaborator .image {
@@ -38,6 +38,11 @@
 
    .desktop {
       display: none;
+   }
+
+   .mobile .collaborator {
+      max-width: 400px;
+      margin: 0 auto 0 auto;
    }
 
    .mobile .collaborator .image {

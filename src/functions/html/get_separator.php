@@ -5,7 +5,6 @@
       $spaces = \str_repeat(' ', $spaces);
       $separator = <<<HTML
 
-
 {$spaces}<!-- SEPARATOR --> <div style="margin-top: {$pixels}px;"></div>
 
 

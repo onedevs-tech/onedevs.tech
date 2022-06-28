@@ -2,19 +2,15 @@
 
    $src_dir = __DIR__ . '/../src/';
 
-   include $src_dir . 'init.php';
+   include_once $src_dir . 'init/set_env.php';
+   include_once $src_dir . 'init/set_error.php';
+   include_once $src_dir . 'init/set_default_timezone.php';
 
-   include $src_dir . 'components/visual/onedevs-favicons.php';
-   include $src_dir . 'components/visual/onedevs-manifest.php';
-   include $src_dir . 'components/visual/onedevs-metas.php';
-   include $src_dir . 'components/visual/onedevs-random-author.php';
-   include $src_dir . 'components/visual/onedevs-title-string.php';
-   include $src_dir . 'components/visual/vertical-separator.php';
-
-   include $src_dir . 'functions/random_big_number.php';
+   include_once $src_dir . 'functions/get_motto.php';
+   include_once $src_dir . 'functions/get_random_number.php';
+   include_once $src_dir . 'functions/html/get_separator.php';
 
 ?>
-
 <!-- ONEDEVS 404 PAGE -->
 
 <!DOCTYPE html>
@@ -23,24 +19,23 @@
 
    <head>
 
-      <title>404 - <?= onedevs_title_string() ?></title>
-      <?= onedevs_metas() ?>
-      <?= onedevs_manifest() ?>
-      <?= onedevs_favicons() ?>
-
-      <!-- CSS -->
-
-      <link rel="stylesheet" href="/css/vars.css?version=<?= random_big_number() ?>" />
-      <link rel="stylesheet" href="/css/fonts.css?version=<?= random_big_number() ?>" />
-      <link rel="stylesheet" href="/css/404.css?version=<?= random_big_number() ?>" />
+      <title>OneDevs - 404</title>
+      <?php include_once $src_dir . 'html/metas.phtml'; ?>
+      <?php include_once $src_dir . 'html/manifest.phtml'; ?>
+      <?php include_once $src_dir . 'html/favicons.phtml'; ?>
+      <?php include_once $src_dir . 'html/css/404.phtml'; ?>
 
    </head>
 
    <body>
 
-      <?= vertical_separator() ?>
+      <?= get_separator(50) ?>
+      <?php include_once $src_dir . 'html/brand.phtml'; ?>
+      <?= get_separator(50) ?>
 
-      404
+      <div class="_404">
+         404... 🤔
+      </div>
 
    </body>
 
