@@ -1,0 +1,17 @@
+<!-- CSS -->
+
+<?php if ($GLOBALS['env']['ENVIRONMENT'] === 'development') : ?>
+      <link rel="stylesheet" href="/css/vars.css?version=<?= get_random_number() ?>" />
+      <link rel="stylesheet" href="/css/fonts.css?version=<?= get_random_number() ?>" />
+      <link rel="stylesheet" href="/css/home.css?version=<?= get_random_number() ?>" />
+      <link rel="stylesheet" href="/css/brand.css?version=<?= get_random_number() ?>" />
+      <link rel="stylesheet" href="/css/collaborators.css?version=<?= get_random_number() ?>" />
+      <link rel="stylesheet" href="/css/address.css?version=<?= get_random_number() ?>" />
+<?php else : ?>
+      <link rel="stylesheet" href="/css/vars.css" />
+      <link rel="stylesheet" href="/css/fonts.css" />
+      <link rel="stylesheet" href="/css/home.css" />
+      <link rel="stylesheet" href="/css/brand.css" />
+      <link rel="stylesheet" href="/css/collaborators.css" />
+      <link rel="stylesheet" href="/css/address.css" />
+<?php endif ?>

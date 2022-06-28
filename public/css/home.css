@@ -1,113 +1,60 @@
 body {
-   background-image: url(/images/cities/cities-90.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+   color: var(--onedevs-color-blue);
+   font-family: roboto-condensed;
+   margin: 0;
 }
 
-.home-section {
-   font-family: roboto;
+table {
+   font-family: roboto-condensed;
+}
+
+a {
+   color: var(--onedevs-background-color-blue);
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.paragraphs p {
+   font-family: roboto-condensed;
    text-align: center;
 }
 
-/* mobile  */
-
-@media screen and (max-width: 768px) {
-   .home-section .title {
-      color: white;
-      text-shadow: 1px 1px 4px black;
-      border: solid 2px white;
-      border-bottom: 0;
-      box-shadow: 1px -2px 1px 1px black;
-      padding: 25px;
-      font-size: 15pt;
-      border-radius: 7px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      background: linear-gradient(rgba(29, 151, 212, 0.444), rgba(0, 0, 0, 0));
-   }
+.paragraphs ul {
+   font-family: roboto-condensed;
+   list-style-type: none;
+   text-align: center;
 }
 
-/* desktop  */
 
-@media screen and (min-width: 768px) {
-   .home-section .title {
-      color: white;
-      text-shadow: 1px 1px 4px black;
-      border: solid 3px white;
-      border-bottom: 0;
-      box-shadow: 1px -2px 1px 1px black;
-      padding: 50px;
-      font-size: 35pt;
-      border-radius: 10px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      background: linear-gradient(rgba(29, 151, 212, 0.667), rgba(0, 0, 0, 0));
-   }
-}
-
-.home-section .wrapper {
-   background-color: rgba(80, 150, 200, 0.667);
-   padding: 20px;
-   border-radius: 7px;
-   margin-bottom: 33px;
-}
-
-.home-section .content {
-   color: white;
-   font-size: 15pt;
-   text-shadow: 1px 1px 4px black;
-   max-width: 500px;
-   margin: 33px auto 33px auto;
-   line-height: 1.7em;
-}
-
-a.link {
-   text-decoration: none;
-   color: var(--onedevs-color-blue);
-   background-color: var(--onedevs-color-lightblue);
-   border-radius: 10px;
-   padding: 4px 10px 4px 10px;
-   text-shadow: 1px 1px white;
-   border: solid 3px white;
-}
-
-a.link:hover {
-   background-color: yellow;
-}
-
-/* mobile  */
-
-@media screen and (max-width: 768px) {
-
-   .home-section .desktop {
-      display: none;
-   }
-
-}
-
-/* desktop  */
+/* desktop */
 
 @media screen and (min-width: 769px) {
-
-   .home-section .mobile {
-      display: none;
+   .paragraphs {
+      border-left: solid 10px var(--onedevs-background-color-lightblue);
+      border-right: solid 10px var(--onedevs-background-color-lightblue);
+      border-top: solid 1px var(--onedevs-background-color-lightblue);
+      margin: 0 50px 0 50px;
    }
-
+   .paragraphs p, .paragraphs ul {
+      font-size: 33pt;
+      padding: 100px;
+   }
 }
 
-.home-section .mobile .image, .home-section .desktop .image {
-   border-radius: 7px;
-}
+/* mobile */
 
-.home-section .address {
-   font-size: 12pt;
-   display: block;
-   color: var(--onedevs-color-blue);
-   background-color: var(--onedevs-color-lightblue);
-   border-radius: 10px;
-   max-width: 250px;
-   text-shadow: 1px 1px white;
-   border: solid 3px white;
-   padding: 10px;
-   margin: 0 auto 0 auto;
+@media screen and (max-width: 768px) {
+   .paragraphs {
+      border-left: solid 4px var(--onedevs-background-color-lightblue);
+      border-right: solid 4px var(--onedevs-background-color-lightblue);
+      border-top: solid 1px var(--onedevs-background-color-lightblue);
+      margin: 0 10px 0 10px;
+   }
+   .paragraphs p, .paragraphs ul {
+      font-size: 15pt;
+      padding: 23px;
+   }
 }

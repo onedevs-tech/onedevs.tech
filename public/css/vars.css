@@ -1,6 +1,8 @@
 :root {
-   --onedevs-color-blue: #1d97d4; /* rgb(29, 151, 212) */
-   --onedevs-color-darkblue: #8db0cf;
-   --onedevs-color-lightblue: #cdf0ff;
+   --onedevs-background-color-gray: #f0f0f0;
+   --onedevs-background-color-lightblue: #cdf0ff;
+   --onedevs-color-blue: #1d97d4;
+   --onedevs-color-darkblue: #115a7f;
    --onedevs-color-gray: #808080;
+   --onedevs-color-lightblue: #cdf0ff;
 }

@@ -1,0 +1,13 @@
+.brand {
+  text-align: center;
+  font-family: nasalization;
+  color: var(--onedevs-color-blue);
+}
+
+.brand .company-name {
+  font-size: 33pt;
+}
+
+.brand .company-motto {
+  font-size: 12pt;
+}
