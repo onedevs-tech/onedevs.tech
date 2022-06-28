@@ -1,2 +1,1 @@
-DirectoryIndex home.php index.php
 ErrorDocument 404 /404.php
