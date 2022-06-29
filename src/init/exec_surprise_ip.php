@@ -6,11 +6,6 @@
       $links = [
 
          //
-         // SACRED
-         //
-         'Cruz y Atardecer' => 'https://wp.es.aleteia.org/wp-content/uploads/sites/7/2017/04/web3-cross-easter-sunrise-dark-shutterstock_381056461-shutterstock.jpg',
-
-         //
          // IMAGES
          //
          'Blue Snake' => 'https://www.caracteristicas.co/wp-content/uploads/2017/03/serpiente-azul-1-e1564541782147.jpg',
@@ -31,6 +26,7 @@
          'Boris Brejcha Style @ Art of Minimal Techno Cartoon Tripping - Mystery Disney by RTTWLR' => 'https://www.youtube.com/watch?v=lgjY-lVtJZA',
          'Cypress Hill - Insane In The Brain (Official Video)' => 'https://www.youtube.com/watch?v=RijB8wnJCN0',
          'Delinquent Habits - Tres Delinquentes (Official Video)' => 'https://www.youtube.com/watch?v=w3qqN1BMnhk',
+         'Diesel Power' => 'https://www.youtube.com/watch?v=GLSr0BAlndM',
          'Faithless- Insomnia (Forever Faithless)' => 'https://www.youtube.com/watch?v=6QZhC8DUD_o',
          'Fatboy Slim - Rockafeller Skank [Official Video]' => 'https://www.youtube.com/watch?v=FMrIy9zm7QY',
          'Lady Gaga - Alejandro (Official Music Video)' => 'https://www.youtube.com/watch?v=niqrrmev4mA',
