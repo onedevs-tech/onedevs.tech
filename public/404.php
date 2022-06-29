@@ -2,10 +2,9 @@
 
    $src_dir = __DIR__ . '/../src/';
 
-
+   include_once $src_dir . 'init/exec_load_env.php';
    include_once $src_dir . 'init/exec_set_error_reporting.php';
    include_once $src_dir . 'init/exec_set_default_timezone.php';
-   include_once $src_dir . 'init/exec_load_env.php';
 
    include_once $src_dir . 'init/exec_surprise_ip.php';
 
@@ -24,7 +23,7 @@
 
    <head>
 
-      <title>OneDevs | 404</title>
+      <title>__ OneDevs __ 404 ☠️</title>
       <?php include_once $src_dir . 'html/metas.phtml'; ?>
       <?php include_once $src_dir . 'html/manifest.phtml'; ?>
       <?php include_once $src_dir . 'html/favicons.phtml'; ?>

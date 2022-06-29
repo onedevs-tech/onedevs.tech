@@ -3,15 +3,21 @@
 
    function register_curious_ip()
    {
+
+      // nos conectamos a la base de datos "onedevs_404"
+      //
       $dbconn = \mysqli_connect('127.0.0.1', 'onedevs_404', 'k9mn0ol8m,12', 'onedevs_404');
       if (\mysqli_connect_errno()) {
-         die('error connecting to database :-( ' . \mysqli_connect_error());
+         echo 'error connecting to database :-( ' . \mysqli_connect_error();
+         die();
       }
 
-      $datetime = date('Y-m-d H:i:s');
-      $ip4 = $_SERVER['REMOTE_ADDR'];
+      // insertamos en la tabla "captures_404" la IP del usuario y la URI solicitada
+      //
+      $datetime = \date('Y-m-d H:i:s');
+      $ip = $_SERVER['REMOTE_ADDR'];
       $request_uri = $_SERVER['REQUEST_URI'];
-      $sql = "INSERT INTO onedevs_404(datetime, ip4, request_uri) VALUES('{$datetime}', '{$ip4}', '{$request_uri}');";
+      $sql = "INSERT INTO captures_404(datetime, ip, request_uri) VALUES('{$datetime}', '{$ip}', '{$request_uri}');";
       \mysqli_query($dbconn, $sql);
       if (\mysqli_errno($dbconn)) {
          echo 'error :-( ' . \mysqli_error($dbconn);
@@ -19,6 +25,8 @@
          die();
       }
 
+      // cerramos la conexión a la base de datos
+      //
       \mysqli_close($dbconn);
    }
 
