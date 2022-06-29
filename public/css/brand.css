@@ -1,7 +1,9 @@
 .brand {
-  text-align: center;
+  background-color: var(--onedevs-background-color-darkblue);
+  color: var(--onedevs-color-white);
   font-family: nasalization;
-  color: var(--onedevs-color-blue);
+  padding: 53px 0 53px 0;
+  text-align: center;
 }
 
 .brand .company-name {

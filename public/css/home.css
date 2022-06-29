@@ -9,7 +9,7 @@ table {
 }
 
 a {
-   color: var(--onedevs-background-color-blue);
+   color: var(--onedevs-color-purple);
    text-decoration: none;
 }
 
@@ -28,8 +28,13 @@ a:hover {
    text-align: center;
 }
 
+.paragraphs ul ul li {
+   font-size: 0.7em;
+}
 
-/* desktop */
+/*
+ * desktop
+ */
 
 @media screen and (min-width: 769px) {
 
@@ -60,7 +65,9 @@ a:hover {
 
 }
 
-/* mobile */
+/*
+ * mobile
+ */
 
 @media screen and (max-width: 768px) {
 

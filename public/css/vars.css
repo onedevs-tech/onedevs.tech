@@ -1,9 +1,22 @@
 :root {
-   --onedevs-background-color-gray: #f0f0f0;
+   --onedevs-background-color-black: #000;
+   --onedevs-background-color-blue: #1d97d4;
+   --onedevs-background-color-darkblue: #115a7f;
+   --onedevs-background-color-gray: #808080;
+   --onedevs-background-color-green: #478a00;
    --onedevs-background-color-lightblue: #cdf0ff;
    --onedevs-background-color-lightlightblue: #e9f9ff;
+   --onedevs-background-color-purple: #8c1376;
+   --onedevs-background-color-red: #a70724;
+   --onedevs-background-color-white: #fff;
+   --onedevs-color-black: #000;
    --onedevs-color-blue: #1d97d4;
    --onedevs-color-darkblue: #115a7f;
    --onedevs-color-gray: #808080;
+   --onedevs-color-green: #478a00;
    --onedevs-color-lightblue: #cdf0ff;
+   --onedevs-color-lightlightblue: #e9f9ff;
+   --onedevs-color-purple: #8c1376;
+   --onedevs-color-red: #a70724;
+   --onedevs-color-white: #fff;
 }

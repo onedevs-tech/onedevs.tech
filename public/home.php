@@ -28,14 +28,14 @@
    </head>
 
    <body>
-      <?= get_separator(50) ?>
+
       <?php include_once $src_dir . 'html/brand.phtml'; ?>
       <?= get_separator(50) ?>
 
       <?php include_once $src_dir . 'html/introduction.phtml'; ?>
       <?php include_once $src_dir . 'html/service-to.phtml'; ?>
       <?php include_once $src_dir . 'html/what-do-we-do.phtml'; ?>
-      <?php include_once $src_dir . 'html/collaborators.phtml'; ?>
+      <?php include_once $src_dir . 'html/people.phtml'; ?>
       <?php include_once $src_dir . 'html/tech-stack.phtml'; ?>
       <?php include_once $src_dir . 'html/contact.phtml'; ?>
       <?php include_once $src_dir . 'html/address.phtml'; ?>
