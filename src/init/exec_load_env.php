@@ -1,6 +1,7 @@
 <?php
 
-   function set_env() {
+
+   function load_env() {
       $env_filepath = __DIR__ . '/../../.env';
       $env_lines = \explode("\n", \file_get_contents($env_filepath));
       $env = [];
@@ -15,4 +16,5 @@
       $GLOBALS['env'] = $env;
    }
 
-   set_env();
+
+   \load_env();

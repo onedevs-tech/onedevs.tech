@@ -1,5 +1,6 @@
 <?php
 
+
    function register_curious_ip()
    {
       $dbconn = \mysqli_connect('127.0.0.1', 'onedevs_404', 'k9mn0ol8m,12', 'onedevs_404');
@@ -21,4 +22,9 @@
       \mysqli_close($dbconn);
    }
 
-   \register_curious_ip();
+
+   if ($GLOBALS['env'] === 'production') {
+
+      \register_curious_ip();
+
+   }
