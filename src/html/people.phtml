@@ -1,5 +1,11 @@
 <!-- PEOPLE -->
 
+      <?php
+
+         $richi_index = \rand(0, 3);
+
+      ?>
+
       <div class="desktop">
          <div class="paragraphs">
             <div class="title">
@@ -10,7 +16,7 @@
                   <tbody>
                      <tr>
                         <td class="image">
-                           <img src="/images/people/richi.png" width="200" height="200" alt="Richi" />
+                           <img src="/images/people/richi-<?= $richi_index ?>.png" width="200" height="200" alt="Richi" />
                         </td>
                         <td class="content">
                            <span class="name-and-position">Ricardo Ruiz Martínez - CEO & Desarrollador Backend PHP</span><br />
@@ -46,7 +52,7 @@
             <div class="collaborators">
                <div class="collaborator">
                   <div class="image">
-                     <img src="/images/people/richi.png" width="200" height="200" alt="Richi" />
+                     <img src="/images/people/richi-<?= $richi_index ?>.png" width="200" height="200" alt="Richi" />
                   </div>
                   <div class="content">
                      <span class="name-and-position">Ricardo Ruiz Martínez - CEO & Desarrollador Backend PHP</span><br />

@@ -2,10 +2,13 @@ body {
    color: var(--onedevs-color-blue);
    font-family: nasalization;
    font-size: 37pt;
+   margin: 0;
    text-align: center;
 }
 
-/* desktop */
+/*
+ * desktop
+ */
 
 @media screen and (min-width: 769px) {
 
@@ -15,7 +18,9 @@ body {
 
 }
 
-/* mobile */
+/*
+ * mobile
+ */
 
 @media screen and (max-width: 768px) {
 

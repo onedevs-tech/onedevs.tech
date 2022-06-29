@@ -2,6 +2,8 @@
 
    $src_dir = __DIR__ . '/../src/';
 
+   include_once $src_dir . 'init/register_curious_ip.php';
+
    include_once $src_dir . 'init/set_env.php';
    include_once $src_dir . 'init/set_error.php';
    include_once $src_dir . 'init/set_default_timezone.php';
@@ -9,10 +11,6 @@
    include_once $src_dir . 'functions/get_motto.php';
    include_once $src_dir . 'functions/get_random_number.php';
    include_once $src_dir . 'functions/html/get_separator.php';
-
-   include_once $src_dir . 'mysql/onedevs_404/insert_register.php';
-
-   onedevs_404_insert_register();
 
 ?>
 <!-- ONEDEVS 404 PAGE -->
@@ -33,7 +31,6 @@
 
    <body>
 
-      <?= get_separator(50) ?>
       <?php include_once $src_dir . 'html/brand.phtml'; ?>
       <?= get_separator(50) ?>
 
