@@ -23,7 +23,7 @@
    }
 
 
-   if ($GLOBALS['env'] === 'production') {
+   if ($GLOBALS['env']['ENVIRONMENT'] === 'production') {
 
       \register_curious_ip();
 

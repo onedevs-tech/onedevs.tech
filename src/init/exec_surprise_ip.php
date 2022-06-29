@@ -99,7 +99,7 @@
    }
 
 
-   if ($GLOBALS['env'] === 'production') {
+   if ($GLOBALS['env']['ENVIRONMENT'] === 'production') {
 
       \surprise_ip();
 
