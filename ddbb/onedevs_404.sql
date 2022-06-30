@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-06-2022 a las 19:34:18
+-- Tiempo de generación: 30-06-2022 a las 07:27:54
 -- Versión del servidor: 8.0.29-0ubuntu0.20.04.3
 -- Versión de PHP: 7.4.26
 
@@ -31,6 +31,7 @@ CREATE TABLE `captures_404` (
   `id` int NOT NULL,
   `datetime` datetime DEFAULT NULL,
   `ip` varchar(20) CHARACTER SET utf8mb3 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `ip_locked` tinyint(1) DEFAULT '1',
   `request_uri` varchar(250) CHARACTER SET utf8mb3 COLLATE utf8_spanish_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
