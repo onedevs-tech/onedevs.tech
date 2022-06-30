@@ -12,12 +12,12 @@
          die();
       }
 
-      // insertamos en la tabla "captures_404" la IP del usuario y la URI solicitada
+      // insertamos en la tabla "captures_404" la IP del usuario (como IP bloqueda) y la URI solicitada
       //
       $datetime = \date('Y-m-d H:i:s');
       $ip = $_SERVER['REMOTE_ADDR'];
       $request_uri = $_SERVER['REQUEST_URI'];
-      $sql = "INSERT INTO captures_404(datetime, ip, request_uri) VALUES('{$datetime}', '{$ip}', '{$request_uri}');";
+      $sql = "INSERT INTO captures_404(datetime, ip, ip_locked, request_uri) VALUES('{$datetime}', '{$ip}', 1, '{$request_uri}');";
       \mysqli_query($dbconn, $sql);
       if (\mysqli_errno($dbconn)) {
          echo 'error :-( ' . \mysqli_error($dbconn);
@@ -28,6 +28,7 @@
       // cerramos la conexión a la base de datos
       //
       \mysqli_close($dbconn);
+
    }
 
 

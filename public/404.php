@@ -6,9 +6,8 @@
    include_once $src_dir . 'init/exec_set_error_reporting.php';
    include_once $src_dir . 'init/exec_set_default_timezone.php';
 
-   include_once $src_dir . 'init/exec_surprise_ip.php';
-
-   include_once $src_dir . 'init/exec_register_curious_ip.php';
+   include_once $src_dir . 'init/security/exec_redirect_ip.php';
+   include_once $src_dir . 'init/security/exec_register_curious_ip.php';
 
    include_once $src_dir . 'functions/get_motto.php';
    include_once $src_dir . 'functions/get_random_number.php';
@@ -23,7 +22,7 @@
 
    <head>
 
-      <title>__ OneDevs __ 404 ☠️</title>
+      <title>__ OneDevs __ 404</title>
       <?php include_once $src_dir . 'html/metas.phtml'; ?>
       <?php include_once $src_dir . 'html/manifest.phtml'; ?>
       <?php include_once $src_dir . 'html/favicons.phtml'; ?>
