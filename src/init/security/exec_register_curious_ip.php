@@ -16,8 +16,11 @@
       //
       $datetime = \date('Y-m-d H:i:s');
       $ip = $_SERVER['REMOTE_ADDR'];
+      $user_agent = $_SERVER['HTTP_USER_AGENT'];
+      $user_agent = \str_replace("'", '\\\'', $user_agent);
       $request_uri = $_SERVER['REQUEST_URI'];
-      $sql = "INSERT INTO captures_404(datetime, ip, ip_locked, request_uri) VALUES('{$datetime}', '{$ip}', 1, '{$request_uri}');";
+      $request_uri = \str_replace("'", '\\\'', $request_uri);
+      $sql = "INSERT INTO captures_404(datetime, ip, user_agent, ip_locked, request_uri) VALUES('{$datetime}', '{$ip}', '{$user_agent}', 1, '{$request_uri}');";
       \mysqli_query($dbconn, $sql);
       if (\mysqli_errno($dbconn)) {
          echo 'error :-( ' . \mysqli_error($dbconn);

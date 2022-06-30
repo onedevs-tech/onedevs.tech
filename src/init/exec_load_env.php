@@ -11,6 +11,8 @@
             continue;
          }
          $var_exploded = \explode('=', $var, 2);
+         $var_exploded[0] = \trim($var_exploded[0]);
+         $var_exploded[1] = \trim($var_exploded[1]);
          $env[$var_exploded[0]] = $var_exploded[1];
       }
       $GLOBALS['env'] = $env;

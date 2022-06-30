@@ -1,0 +1,5 @@
+TRUNCATE TABLE `captures_404`;
+TRUNCATE TABLE `redirections`;
+
+ALTER TABLE `captures_404` AUTO_INCREMENT = 1;
+ALTER TABLE `redirections` AUTO_INCREMENT = 1;
