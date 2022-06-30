@@ -1,6 +1,7 @@
-0 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
-10 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
-20 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
-30 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
-40 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
-50 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
+Ejecutar:
+
+$ sudo crontab -e
+
+Insertar:
+
+*/5 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
