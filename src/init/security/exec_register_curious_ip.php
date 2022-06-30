@@ -1,6 +1,23 @@
 <?php
 
 
+   function get_request()
+   {
+      $request =
+         $_SERVER['SERVER_PROTOCOL'] . ' ' .
+         $_SERVER['REQUEST_METHOD'] . ' ' .
+         ( \array_key_exists('HTTPS', $_SERVER) ? 'https' : 'http' ) . '://' .
+         $_SERVER['HTTP_HOST'] . ':' .
+         $_SERVER['SERVER_PORT'] .
+         $_SERVER['REQUEST_URI'] . ' ' .
+         '(Accept-Language' . ' ' . $_SERVER['HTTP_ACCEPT_LANGUAGE'] . ')' .
+         ''
+      ;
+
+      return $request;
+   }
+
+
    function register_curious_ip()
    {
 
@@ -12,7 +29,8 @@
          die();
       }
 
-      // insertamos en la tabla "captures_404" la IP del usuario (como IP bloqueda) y otros datos útiles
+      // insertamos en la tabla "captures_404" la IP del usuario (como IP bloqueada)
+      // y más información sobre la petición
       //
       $datetime = \date('Y-m-d H:i:s');
       $ip = $_SERVER['REMOTE_ADDR'];
@@ -21,10 +39,10 @@
       $user_agent = $_SERVER['HTTP_USER_AGENT'];
       $user_agent = \str_replace("'", '\\\'', $user_agent);
       $ip_locked = 1;
-      $request_uri = $_SERVER['REQUEST_URI'];
-      $request_uri = \str_replace("'", '\\\'', $request_uri);
-      $sql = "INSERT INTO captures_404(datetime, ip, referer, user_agent, ip_locked, request_uri) " .
-             "VALUES('{$datetime}', '{$ip}', '{$referer}', '{$user_agent}', {$ip_locked}, '{$request_uri}');";
+      $request = \get_request();
+      $request = \str_replace("'", '\\\'', $request);
+      $sql = "INSERT INTO captures_404(datetime, ip, referer, user_agent, ip_locked, request) " .
+             "VALUES('{$datetime}', '{$ip}', '{$referer}', '{$user_agent}', {$ip_locked}, '{$request}');";
       \mysqli_query($dbconn, $sql);
       if (\mysqli_errno($dbconn)) {
          echo 'error :-( ' . \mysqli_error($dbconn);
