@@ -12,15 +12,19 @@
          die();
       }
 
-      // insertamos en la tabla "captures_404" la IP del usuario (como IP bloqueda) y la URI solicitada
+      // insertamos en la tabla "captures_404" la IP del usuario (como IP bloqueda) y otros datos útiles
       //
       $datetime = \date('Y-m-d H:i:s');
       $ip = $_SERVER['REMOTE_ADDR'];
+      $referer = $_SERVER['HTTP_REFERER'];
+      $referer = \str_replace("'", '\\\'', $referer);
       $user_agent = $_SERVER['HTTP_USER_AGENT'];
       $user_agent = \str_replace("'", '\\\'', $user_agent);
+      $ip_locked = 1;
       $request_uri = $_SERVER['REQUEST_URI'];
       $request_uri = \str_replace("'", '\\\'', $request_uri);
-      $sql = "INSERT INTO captures_404(datetime, ip, user_agent, ip_locked, request_uri) VALUES('{$datetime}', '{$ip}', '{$user_agent}', 1, '{$request_uri}');";
+      $sql = "INSERT INTO captures_404(datetime, ip, referer, user_agent, ip_locked, request_uri) " .
+             "VALUES('{$datetime}', '{$ip}', '{$referer}', '{$user_agent}', {$ip_locked}, '{$request_uri}');";
       \mysqli_query($dbconn, $sql);
       if (\mysqli_errno($dbconn)) {
          echo 'error :-( ' . \mysqli_error($dbconn);
