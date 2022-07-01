@@ -38,6 +38,10 @@ a:hover {
 
 @media screen and (min-width: 769px) {
 
+   .mobile {
+      display: none;
+   }
+
    .paragraphs {
       border-left: solid 10px var(--onedevs-background-color-lightblue);
       border-right: solid 10px var(--onedevs-background-color-lightblue);
@@ -70,6 +74,10 @@ a:hover {
  */
 
 @media screen and (max-width: 768px) {
+
+   .desktop {
+      display: none;
+   }
 
    .paragraphs {
       border-left: solid 4px var(--onedevs-background-color-lightblue);

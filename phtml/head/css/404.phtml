@@ -3,11 +3,13 @@
 <?php if ($GLOBALS['config']['environment'] === 'development') : ?>
       <link rel="stylesheet" href="/css/vars.css?v=<?= rnd_get_css_version() ?>" />
       <link rel="stylesheet" href="/css/fonts.css?v=<?= rnd_get_css_version() ?>" />
+      <link rel="stylesheet" href="/css/desktop-mobile.css?v=<?= rnd_get_css_version() ?>" />
       <link rel="stylesheet" href="/css/page/404.css?v=<?= rnd_get_css_version() ?>" />
       <link rel="stylesheet" href="/css/component/brand.css?v=<?= rnd_get_css_version() ?>" />
 <?php else : ?>
       <link rel="stylesheet" href="/css/vars.css" />
       <link rel="stylesheet" href="/css/fonts.css" />
+      <link rel="stylesheet" href="/css/desktop-mobile.css" />
       <link rel="stylesheet" href="/css/page/404.css" />
       <link rel="stylesheet" href="/css/component/brand.css" />
 <?php endif ?>
