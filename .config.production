@@ -1,4 +1,4 @@
-environment = development
-show_php_errors = true
+environment = production
+show_php_errors = false
 timezone = Europe/Madrid
 project_root_dir = /var/www/onedevs.tech
