@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "OneDevs"
-AuthUserFile /home/richi/projects/onedevs.tech/.htpasswd
-Require valid-user

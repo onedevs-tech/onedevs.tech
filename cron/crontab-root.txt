@@ -1,7 +1,0 @@
-Ejecutar:
-
-$ sudo crontab -e
-
-Insertar:
-
-*/5 * * * * /usr/bin/php /var/www/onedevs.tech/cron/unlock_curious_ips.php
