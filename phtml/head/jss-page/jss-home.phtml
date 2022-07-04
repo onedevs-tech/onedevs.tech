@@ -1,0 +1,10 @@
+
+      <!-- JS -->
+
+<?php if ($GLOBALS['config']['environment'] === 'development') : ?>
+      <script src="/js/lib/jquery/jquery-3.6.0.min.js?v=<?= rnd_get_digits_string() ?>"></script>
+      <script src="/js/component/cookies.js?v=<?= rnd_get_digits_string() ?>"></script>
+<?php else : ?>
+      <script src="/js/lib/jquery/jquery-3.6.0.min.js"></script>
+      <script src="/js/component/cookies.js"></script>
+<?php endif ?>

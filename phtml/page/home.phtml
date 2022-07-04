@@ -6,16 +6,16 @@
 
    <head>
 
-      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/title.phtml'; ?>
-      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/metas.phtml'; ?>
-      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/manifest.phtml'; ?>
-      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/favicons.phtml'; ?>
-      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/css/home.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/head-title.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/head-metas.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/head-manifest.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/head-favicons.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/csss-page/csss-home.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/head/jss-page/jss-home.phtml'; ?>
 
    </head>
 
    <body>
-
       <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/component/brand.phtml' ?>
 
       <?php echo_vertical_separator(50, 0); ?>
@@ -27,6 +27,7 @@
       <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/component/tech-stack.phtml'; ?>
       <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/component/contact.phtml'; ?>
       <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/component/address.phtml'; ?>
+      <?php include_once $GLOBALS['config']['project_root_dir'] . '/phtml/component/cookies.phtml'; ?>
 
    </body>
 

@@ -1,0 +1,21 @@
+.form input {
+   font-family: roboto-condensed;
+}
+
+.form input[type=button] {
+   background-color: var(--onedevs-background-color-blue);
+   border-radius: 5px;
+   border: solid 0;
+   color: var(--onedevs-color-white);
+   font-weight: bold;
+   padding: 10px 20px 10px 20px;
+}
+
+.form input[type=button]:hover {
+   background-color: var(--onedevs-background-color-black);
+   cursor: pointer;
+}
+
+.form.big-size input[type=button] {
+   font-size: 20pt;
+}

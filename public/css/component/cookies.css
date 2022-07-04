@@ -1,0 +1,30 @@
+.cookies {
+   background-color: var(--onedevs-background-color-lightblue);
+   border-radius: 10px;
+   bottom: 0;
+   bottom: 0px;
+   box-shadow: 0px 0px 10px var(--onedevs-color-gray);
+   font-family: roboto-condensed;
+   font-size: 20pt;
+   height: 550px;
+   left: 0;
+   margin: auto;
+   position: fixed;
+   right: 0;
+   text-align: center;
+   top: 0;
+   width: 800px;
+}
+
+.cookies .title {
+   background-color: var(--onedevs-background-color-blue);
+   border-radius: 10px 10px 0 0;
+   color: var(--onedevs-background-color-white);
+   font-weight: bold;
+   padding: 30px;
+}
+
+.cookies .content {
+   color: var(--onedevs-color-black);
+   margin: 50px;   
+}
