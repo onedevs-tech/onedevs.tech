@@ -4,25 +4,25 @@
  * width
  */
 
-.w5   { width: 5px; }
-.w10  { width: 10px; }
-.w15  { width: 15px; }
-.w20  { width: 20px; }
-.w25  { width: 25px; }
-.w30  { width: 30px; }
-.w35  { width: 35px; }
-.w40  { width: 40px; }
-.w45  { width: 45px; }
-.w50  { width: 50px; }
-.w55  { width: 55px; }
-.w60  { width: 60px; }
-.w65  { width: 65px; }
-.w70  { width: 70px; }
-.w75  { width: 75px; }
-.w80  { width: 80px; }
-.w85  { width: 85px; }
-.w90  { width: 90px; }
-.w95  { width: 95px; }
+.w5   { width:   5px; }
+.w10  { width:  10px; }
+.w15  { width:  15px; }
+.w20  { width:  20px; }
+.w25  { width:  25px; }
+.w30  { width:  30px; }
+.w35  { width:  35px; }
+.w40  { width:  40px; }
+.w45  { width:  45px; }
+.w50  { width:  50px; }
+.w55  { width:  55px; }
+.w60  { width:  60px; }
+.w65  { width:  65px; }
+.w70  { width:  70px; }
+.w75  { width:  75px; }
+.w80  { width:  80px; }
+.w85  { width:  85px; }
+.w90  { width:  90px; }
+.w95  { width:  95px; }
 .w100 { width: 100px; }
 .w125 { width: 125px; }
 .w150 { width: 150px; }
@@ -38,3 +38,31 @@
  * height
  */
 
+.h5   { height:   5px; }
+.h10  { height:  10px; }
+.h15  { height:  15px; }
+.h20  { height:  20px; }
+.h25  { height:  25px; }
+.h30  { height:  30px; }
+.h35  { height:  35px; }
+.h40  { height:  40px; }
+.h45  { height:  45px; }
+.h50  { height:  50px; }
+.h55  { height:  55px; }
+.h60  { height:  60px; }
+.h65  { height:  65px; }
+.h70  { height:  70px; }
+.h75  { height:  75px; }
+.h80  { height:  80px; }
+.h85  { height:  85px; }
+.h90  { height:  90px; }
+.h95  { height:  95px; }
+.h100 { height: 100px; }
+.h125 { height: 125px; }
+.h150 { height: 150px; }
+.h175 { height: 175px; }
+.h200 { height: 200px; }
+.h225 { height: 225px; }
+.h250 { height: 250px; }
+.h275 { height: 275px; }
+.h300 { height: 300px; }

@@ -1,51 +1,42 @@
+
+
 .brand {
-  background-color: var(--onedevs-background-color-darkblue);
-  color: var(--onedevs-color-white);
-  font-family: nasalization;
-  text-align: center;
-}
-
-
-/* desktop */
-
-@media screen and (min-width: 769px) {
-
-  .mobile {
-    display: none;
-  }
-
-  .brand {
-    background-color: var(--onedevs-background-color-darkblue);
-    color: var(--onedevs-color-white);
-    font-family: nasalization;
-    padding: 44px 0 44px 0;
-    text-align: center;
-  }
-
-}
-
-/* mobile */
-
-@media screen and (max-width: 768px) {
-
-  .desktop {
-    display: none;
-  }
-
-  .brand {
-    background-color: var(--onedevs-background-color-darkblue);
-    color: var(--onedevs-color-white);
-    font-family: nasalization;
-    padding: 10px 0 10px 0;
-    text-align: center;
-  }
-
+   background-color: var(--onedevs-background-color-darkblue);
+   color: var(--onedevs-color-white);
+   font-family: nasalization;
+   text-align: center;
 }
 
 .brand .company-name {
-  font-size: 33pt;
+   font-size: 33pt;
 }
 
 .brand .company-motto {
-  font-size: 12pt;
+   font-size: 12pt;
+}
+
+
+/*
+ * desktop
+ */
+
+@media screen and (min-width: 769px) {
+
+   .brand {
+      padding: 44px 0 44px 0;
+   }
+
+}
+
+
+/*
+ * mobile
+ */
+
+@media screen and (max-width: 768px) {
+
+   .brand {
+      padding: 20px 0 20px 0;
+   }
+
 }

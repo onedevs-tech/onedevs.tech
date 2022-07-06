@@ -1,11 +1,10 @@
 
-/* desktop */
+
+/*
+ * desktop
+ */
 
 @media screen and (min-width: 769px) {
-
-   .mobile {
-      display: none;
-   }
 
    .desktop .paragraphs-address p {
       font-size: 1.2em;
@@ -14,13 +13,12 @@
 
 }
 
-/* mobile */
+
+/*
+ * mobile
+ */
 
 @media screen and (max-width: 768px) {
-
-   .desktop {
-      display: none;
-   }
 
    .mobile .paragraphs-address p {
       text-align: center;

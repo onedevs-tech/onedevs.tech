@@ -1,3 +1,5 @@
+
+
 .collaborator .image img {
    border-radius: 200px;
    border: solid 10px var(--onedevs-color-lightblue);
@@ -8,13 +10,12 @@
    font-weight: bold;
 }
 
-/* desktop */
+
+/*
+ * desktop
+ */
 
 @media screen and (min-width: 769px) {
-
-   .mobile {
-      display: none;
-   }
 
    .desktop table.collaborator {
       margin: 0 auto 0 auto;
@@ -32,13 +33,12 @@
 
 }
 
-/* mobile */
+
+/*
+ * mobile
+ */
 
 @media screen and (max-width: 768px) {
-
-   .desktop {
-      display: none;
-   }
 
    .mobile .collaborator {
       max-width: 400px;

@@ -1,3 +1,5 @@
 <?php
 
-   include_once 'home.php';
+   include_once __DIR__ . '/../.init.php';
+
+   include_once $GLOBALS['project_dir'] . '/phtml/page/home.phtml';
