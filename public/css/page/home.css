@@ -34,7 +34,7 @@ a:hover {
 
 .paragraphs ul li.section {
    font-size: 0.7em;
-   margin-top: 30px;
+   margin: 30px 0 10px 0;
    text-decoration: underline;
 }
 
