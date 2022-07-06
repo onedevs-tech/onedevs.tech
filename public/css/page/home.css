@@ -32,6 +32,12 @@ a:hover {
    font-size: 0.7em;
 }
 
+.paragraphs ul li.section {
+   font-size: 0.7em;
+   margin-top: 30px;
+   text-decoration: underline;
+}
+
 /*
  * desktop
  */
@@ -74,7 +80,7 @@ a:hover {
    .paragraphs {
       border-left: solid 4px var(--onedevs-background-color-lightblue);
       border-right: solid 4px var(--onedevs-background-color-lightblue);
-      border-top: solid 1px var(--onedevs-background-color-lightblue);
+      border-top: solid 4px var(--onedevs-background-color-lightblue);
       margin: 0 10px 33px 10px;
       padding-top: 20px;
    }
