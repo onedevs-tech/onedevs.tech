@@ -90,10 +90,6 @@ a:hover {
       text-align: center;
    }
 
-   .paragraphs p {
-      padding: 10px;
-   }
-
    .paragraphs p, .paragraphs ul {
       margin: 0;
       padding: 0;
