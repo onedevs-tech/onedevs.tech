@@ -1,0 +1,35 @@
+.menu {
+   background-color: var(--onedevs-background-color-darkdarkblue);
+   padding: 20px;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+
+.menu td {
+   vertical-align: top;
+}
+
+.menu div.options {
+   padding: 0 20px 0 0;
+}
+
+.menu ul.options {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.menu ul.options li {
+   line-height: 20pt;
+   list-style-type: none;
+}
+
+.menu ul.options li a {
+   color: var(--onedevs-color-white);
+   list-style-type: none;
+}
+
+.menu .control {
+   cursor: pointer;
+}

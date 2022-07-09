@@ -17,14 +17,20 @@
 
    <body>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/brand.phtml' ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/component/menu.phtml' ?>
 
       <?php echo_vertical_separator(50, 0); ?>
 
+      <a name="introduction"></a>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/introduction.phtml'; ?>
+      <a name="people"></a>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/people.phtml'; ?>
+      <a name="what-do-we-do"></a>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/what-do-we-do.phtml'; ?>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/service-to.phtml'; ?>
+      <a name="tech-stack"></a>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/tech-stack.phtml'; ?>
+      <a name="contact"></a>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/contact.phtml'; ?>
       <?php include_once $GLOBALS['project_dir'] . '/phtml/component/address.phtml'; ?>
       <?php if (\cookie_not_exists('OneDevsTechCookieConsent')) : ?>

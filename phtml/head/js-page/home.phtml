@@ -3,8 +3,10 @@
 
 <?php if ($GLOBALS['config']['environment'] === 'development') : ?>
       <script src="/js/lib/jquery/jquery-3.6.0.min.js?v=<?= rnd_get_digits_string() ?>"></script>
+      <script src="/js/component/menu.js?v=<?= rnd_get_digits_string() ?>"></script>
       <?php if (\cookie_not_exists('OneDevsTechCookieConsent')) : ?><script src="/js/component/cookie-consent.js?v=<?= rnd_get_digits_string() ?>"></script><?php endif; ?>
 <?php else : ?>
       <script src="/js/lib/jquery/jquery-3.6.0.min.js"></script>
+      <script src="/js/component/menu.js"></script>
       <?php if (\cookie_not_exists('OneDevsTechCookieConsent')) : ?><script src="/js/component/cookie-consent.js"></script><?php endif; ?>
 <?php endif ?>
