@@ -4,6 +4,7 @@
    position: fixed;
    right: 0;
    top: 0;
+   border-bottom-left-radius: 10px;
 }
 
 .menu td {
