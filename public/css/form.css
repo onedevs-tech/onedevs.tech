@@ -1,19 +1,24 @@
-.form input {
+.form input, .form textarea  {
+   background-color: var(--onedevs-background-color-white);
+   border: solid 1px var(--onedevs-background-color-blue);
+   color: var(--onedevs-background-color-blue);
    font-family: roboto-condensed;
+   margin: 8px;
+   padding: 10px;
 }
 
-.form input[type=button] {
+.form input[type=button], .form input[type=submit], .form div.button {
    background-color: var(--onedevs-background-color-blue);
    border-radius: 5px;
    border: solid 0;
    color: var(--onedevs-color-white);
    font-weight: bold;
    padding: 10px 20px 10px 20px;
+   margin: 0 auto 0 auto;
 }
 
-.form input[type=button]:hover {
+.form input[type=button]:hover, .form input[type=submit]:hover, .form div.button:hover {
    background-color: var(--onedevs-background-color-black);
-   cursor: pointer;
 }
 
 .form.big-size input[type=button] {

@@ -1,0 +1,11 @@
+.bg-green {
+   background-color: var(--onedevs-background-color-green) !important;
+}
+
+.bg-red {
+   background-color: var(--onedevs-background-color-red) !important;
+}
+
+.bg-yellow {
+   background-color: var(--onedevs-background-color-yellow) !important;
+}

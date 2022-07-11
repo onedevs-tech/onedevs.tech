@@ -1,10 +1,10 @@
 .menu {
    background-color: var(--onedevs-background-color-darkdarkblue);
+   border-bottom-left-radius: 10px;
    padding: 20px;
    position: fixed;
    right: 0;
    top: 0;
-   border-bottom-left-radius: 10px;
 }
 
 .menu td {
