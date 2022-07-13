@@ -1,0 +1,83 @@
+<!-- PRIVACY POLICY PAGE -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+   <head>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/title.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/metas.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/manifest.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/favicons.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/css-page/privacy-policy.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/js-page/privacy-policy.phtml'; ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/head/gtag.phtml'; ?>
+
+   </head>
+
+   <body>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/component/brand.phtml' ?>
+
+      <?php echo_vertical_separator(50, 0); ?>
+
+
+      <div class="text title">
+         POLÍTICA DE PRIVACIDAD
+      </div>
+
+      <div class="text">
+         <p>El presente documento sobre Política de Privacidad establece los términos en los que OneDevs Digital Services (en adelante OneDevs) usa y protege la información que es proporcionada por sus usuarios en el momento de utilizar su sitio web. En OneDevs estamos comprometidos con la seguridad de los datos de nuestros usuarios. Cuando le pedimos a usted rellenar los campos de información personal con la cual pueda ser identificado, lo hacemos asegurándole que sólo se emplearán de acuerdo con los términos de este documento. Sin embargo, esta Política de Privacidad puede cambiar con el tiempo, o ser actualizada, por lo que le recomendamos revisar esta página periódicamente para asegurarse de que está de acuerdo con dichos cambios.</p>
+      </div>
+
+      <div class="text subtitle">
+         Información que es recogida
+      </div>
+
+      <div class="text">
+         <p>Nuestro sitio web podrá recoger información personal, como por ejemplo el nombre, información de contacto como su dirección de correo electrónico o información demográfica.</p>
+      </div>
+
+      <div class="text subtitle">
+         Uso de la información recogida
+      </div>
+
+      <div class="text">
+         <p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio, particularmente para mantener un registro de usuarios y mejorar nuestros productos y servicios. Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio. Estos correos electrónicos serán enviados a la dirección que usted proporcione y su envío podrá ser cancelado en cualquier momento.</p>
+         <p>OneDevs está altamente comprometida con mantener segura su información.</p>
+      </div>
+
+      <div class="text subtitle">
+         Cookies
+      </div>
+
+      <div class="text">
+         <p>Nuestro sitio web empleas cookies para identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Usted puede también aceptar o rechazar el uso de cookies, aunque la mayoría de navegadores aceptan las cookies automáticamente, pues sirven para proporcionar un mejor servicio web. Usted puede también cambiar la configuración de su ordenador para rechazar las cookies. Si se rechazan es posible que no pueda utilizar algunos de nuestros servicios.</p>
+      </div>
+
+      <div class="text subtitle">
+         Enlaces a Terceros
+      </div>
+
+      <div class="text">
+         <p>Este sitio web puede contener enlaces a otros sitios web que pueden ser de su interés. Una vez que usted haga clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre el sitio al que es redirigido y por tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios de terceros. Dichos sitios están sujetos a sus propias políticas de privacidad, por lo que es recomendable que los lea para ver si está usted de acuerdo o no con éstas.</p>
+      </div>
+
+      <div class="text subtitle">
+         Control de su información personal
+      </div>
+
+      <div class="text">
+         <p>En cualquier momento puede usted restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web. Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico. En caso de que haya marcado la opción de recibir nuestro boletín o publicidad, usted puede cancelar esta opción en cualquier momento.</p>
+         <p>OneDevs no venderá, cederá ni distribuirá información personal que es recopilada sin su consentimiento, salvo si es requerida por un juez mediante orden judicial.</p>
+         <p>OneDevs se reserva el derecho a cambiar los términos de la presente Política de Privacidad en cualquier momento.</p>
+      </div>
+
+      <?php echo_vertical_separator(100, 0); ?>
+
+      <?php if (\cookie_not_exists('OneDevsTechCookieConsent')) : ?>
+      <?php include_once $GLOBALS['project_dir'] . '/phtml/component/cookie-consent.phtml'; ?>
+      <?php endif; ?>
+
+   </body>
+
+</html>

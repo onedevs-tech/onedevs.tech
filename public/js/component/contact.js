@@ -4,6 +4,21 @@ $(document).ready(function(){
 
    $('.js-contact-send').click(function(){
 
+      // aviso política de privacidad
+      //
+
+      var politica_privacidad_checked = $('input[name="politica-privacidad"]').first().prop('checked');
+
+      if (!politica_privacidad_checked) {
+         $(this).addClass('bg-red');
+         $(this).html('Acepta la Política de Privacidad');
+         setTimeout(function (){
+            $('.js-contact-send').removeClass('bg-red');
+            $('.js-contact-send').html('Enviar');
+         }, 4500);
+         return;
+      }
+
       // aviso campos no rellenos
       //
 
@@ -47,9 +62,10 @@ $(document).ready(function(){
             $('input[name="telefono"]').first().val('');
             $('input[name="email"]').first().val('');
             $('textarea[name="mensaje"]').first().val('');
+            $('input[name="politica-privacidad"]').first().prop('checked', false);
             $('.js-contact-send').removeClass('bg-yellow');
             $('.js-contact-send').addClass('bg-green');
-            $('.js-contact-send').html('¡ Enviado !');
+            $('.js-contact-send').html('¡ Enviado ! 😀');
          },
          error: function error(jqXHR, textStatus, errorThrown) {
             console.log('error @ ajax @ contact.js');

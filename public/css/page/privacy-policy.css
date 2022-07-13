@@ -1,0 +1,56 @@
+
+
+body {
+   font-family: roboto-condensed;
+}
+
+
+/*
+ * desktop
+ */
+
+@media screen and (min-width: 769px) {
+
+   .text {
+      margin: 0 200px 0px 200px;
+      font-size: 15pt;
+   }
+
+   .text.title {
+      font-size: 20pt;
+      font-weight: bold;
+      margin: 50px 200px 0 200px;
+   }
+
+   .text.subtitle {
+      font-size: 17pt;
+      font-weight: bold;
+      margin: 30px 200px 0 200px;
+   }
+
+}
+
+/*
+ * mobile
+ */
+
+@media screen and (max-width: 768px) {
+
+   .text {
+      margin: 0 50px 0 50px;
+      font-size: 15pt;
+   }
+
+   .text.title {
+      font-size: 20pt;
+      font-weight: bold;
+      margin: 50px 50px 0 50px;
+   }
+
+   .text.subtitle {
+      font-size: 17pt;
+      font-weight: bold;
+      margin: 30px 50px 0 50px;
+   }
+
+}
