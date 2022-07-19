@@ -3,12 +3,15 @@ body {
    color: yellow;
    margin: 0;
    padding: 0;
+   font-family: sans-serif;
 }
 
 main {
    background-color: black;
-   width: 300px;
+   width: 345px;
    margin: 0 auto;
+   border-right: dashed 5px white;
+   border-left: dashed 5px white;
 }
 
 div {
@@ -20,11 +23,16 @@ span.talleres {
    font-family: sans-serif;
    font-weight: bold;
    font-style: italic;
-   font-size: 80px;
+   font-size: 40px;
 }
 
 span.cebrero {
    font-family: sans-serif;
    font-weight: bold;
-   font-size: 100px;
+   font-size: 50px;
+}
+
+div.cita {
+   color: white;
+   font-weight: bold;
 }
