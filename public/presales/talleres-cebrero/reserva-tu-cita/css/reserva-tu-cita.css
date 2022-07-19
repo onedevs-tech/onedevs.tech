@@ -58,7 +58,7 @@ span.cebrero {
    border-radius: 30px;
    font-weight: bold;
    width: 150px;
-   transition: 0.4s;
+   transition: 0.7s;
    cursor: pointer;
 }
 
@@ -73,7 +73,7 @@ span.cebrero {
    border-radius: 30px;
    font-weight: bold;
    width: 150px;
-   transition: 0.4s;
+   transition: 0.7s;
    cursor: pointer;
 
    background-position: right center;
@@ -137,4 +137,9 @@ table.calendar {
    padding: 5px;
    color: black;
    font-size: 14px;
+}
+
+.instructions {
+   color: white;
+   margin: 20px;
 }

@@ -99,7 +99,7 @@
             var button = $('.btn-grad').first();
             $(button).removeClass('btn-grad');
             $(button).addClass('btn-grad-hover');
-            setTimeout(button_gradient_left, 150);
+            setTimeout(button_gradient_left, 700);
          }
          function button_gradient_left() {
             var button = $('.btn-grad-hover').first();

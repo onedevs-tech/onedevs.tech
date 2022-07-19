@@ -70,6 +70,12 @@
 
                   <div style="height: 25px;"></div>
 
+                  <div class="instructions">
+                     Pulsa en el calendario el día en que quieres llevar el vehículo al taller
+                  </div>
+
+                  <div style="height: 25px;"></div>
+
                   <div>
                      <table class="calendar" cellpadding="0" cellspacing="0">
                         <thead>
