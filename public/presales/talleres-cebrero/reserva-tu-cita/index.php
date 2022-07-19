@@ -1,3 +1,9 @@
+<?php
+
+   $css_version = rand(0, 9) . rand(0, 9) . rand(0, 9) . rand(0, 9) . rand(0, 9);
+
+?>
+
 
 <!-- RESERVA TU CITA -->
 
@@ -43,7 +49,7 @@
       
       <!-- CSS -->
 
-      <link rel="stylesheet" href="css/reserva-tu-cita.css" />
+      <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
 
       <!-- JS -->
 
