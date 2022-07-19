@@ -1,5 +1,5 @@
 body {
-   background-color: gray;
+   background-color: #202020;
    color: yellow;
    margin: 0;
    padding: 0;
@@ -25,7 +25,7 @@ div {
    display: block;
 }
 
-unselectable {
+.unselectable {
    -webkit-touch-callout: none;
    -webkit-user-select: none;
    -khtml-user-select: none;
@@ -58,7 +58,7 @@ span.cebrero {
    border-radius: 30px;
    font-weight: bold;
    width: 150px;
-   transition: 0.2s;
+   transition: 0.4s;
    cursor: pointer;
 }
 
@@ -73,7 +73,7 @@ span.cebrero {
    border-radius: 30px;
    font-weight: bold;
    width: 150px;
-   transition: 0.2s;
+   transition: 0.4s;
    cursor: pointer;
 
    background-position: right center;
@@ -124,6 +124,14 @@ table.calendar {
 }
 
 .calendar .vacations {
+   background-color: #068065;
+   font-weight: bold;
+   padding: 5px;
+   color: black;
+   font-size: 14px;
+}
+
+.calendar .pastday {
    background-color: #068065;
    font-weight: bold;
    padding: 5px;

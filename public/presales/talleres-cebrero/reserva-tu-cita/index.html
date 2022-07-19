@@ -6,7 +6,7 @@
 <html lang="es">
 
    <head>
-      
+
       <!-- TITLE -->
 
       <title>Talleres Cebrero - Cita</title>
@@ -88,18 +88,12 @@
 
       <script>
 
-         window.addEventListener('DOMContentLoaded', (event) => {
-            document.body.addEventListener('click', () => {
-               document.body.requestFullscreen();
-            });
-         });
-
          setTimeout(button_gradient_right, 4000);
          function button_gradient_right() {
             var button = $('.btn-grad').first();
             $(button).removeClass('btn-grad');
             $(button).addClass('btn-grad-hover');
-            setTimeout(button_gradient_left, 200);
+            setTimeout(button_gradient_left, 150);
          }
          function button_gradient_left() {
             var button = $('.btn-grad-hover').first();
