@@ -1,0 +1,96 @@
+body {
+   background-color: gray;
+   color: yellow;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+main {
+   background-color: black;
+   width: 315px;
+   height: 100vh;
+   margin: 0 auto;
+   border-right: dashed 5px white;
+   border-left: dashed 5px white;
+}
+
+div {
+   text-align: center;
+   color: yellow;
+}
+
+span.talleres {
+   font-family: sans-serif;
+   font-weight: bold;
+   font-style: italic;
+   font-size: 40px;
+}
+
+span.cebrero {
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 50px;
+}
+
+.btn-grad {
+   background-image: linear-gradient(to right, #16a085 0%, #f4d03f 51%, #16a085 100%);
+   margin: 0 auto;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: #006000;
+   border-radius: 30px;
+   font-weight: bold;
+   width: 150px;
+}
+
+.btn-grad:hover {
+   background-position: right center;
+   cursor: pointer;
+   color: yellow;
+}
+
+table.calendar {
+   width: 280px;
+   margin: 0 auto;
+}
+
+.calendar .month {
+   background-color: #16a085;
+   font-weight: bold;
+   padding: 5px;
+}
+
+.calendar .weekday {
+   background-color: #16a085;
+   font-weight: bold;
+   padding: 5px;
+   border-bottom: solid 1px #16a085;
+}
+
+.calendar .weekenddayname {
+   background-color: #068065;
+   font-weight: bold;
+   padding: 5px;
+   color: black;
+   border-bottom: solid 1px black;
+}
+
+.calendar .weekendday {
+   background-color: #068065;
+   font-weight: bold;
+   padding: 5px;
+   color: black;
+   font-size: 10px;
+}
+
+.calendar .activeday {
+   background-color: #36c0b5;
+   font-weight: bold;
+   padding: 5px;
+   font-size: 10px;
+   color: white;
+}
