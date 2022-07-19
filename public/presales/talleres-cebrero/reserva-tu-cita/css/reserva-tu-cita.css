@@ -6,7 +6,7 @@ body {
    font-family: sans-serif;
 }
 
-main {
+table.layout {
    background-color: black;
    width: 315px;
    height: 100vh;
@@ -15,9 +15,23 @@ main {
    border-left: dashed 5px white;
 }
 
+.layout .margin {
+   height: 33%;
+}
+
 div {
    text-align: center;
    color: yellow;
+   display: block;
+}
+
+unselectable {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 span.talleres {
@@ -39,15 +53,29 @@ span.cebrero {
    padding: 15px 45px;
    text-align: center;
    text-transform: uppercase;
-   transition: 0.5s;
    background-size: 200% auto;
    color: #006000;
    border-radius: 30px;
    font-weight: bold;
    width: 150px;
+   transition: 0.2s;
+   cursor: pointer;
 }
 
-.btn-grad:hover {
+.btn-grad-hover {
+   background-image: linear-gradient(to right, #16a085 0%, #f4d03f 51%, #16a085 100%);
+   margin: 0 auto;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   background-size: 200% auto;
+   color: #006000;
+   border-radius: 30px;
+   font-weight: bold;
+   width: 150px;
+   transition: 0.2s;
+   cursor: pointer;
+
    background-position: right center;
    cursor: pointer;
    color: yellow;
@@ -84,13 +112,21 @@ table.calendar {
    font-weight: bold;
    padding: 5px;
    color: black;
-   font-size: 10px;
+   font-size: 14px;
 }
 
 .calendar .activeday {
    background-color: #36c0b5;
    font-weight: bold;
    padding: 5px;
-   font-size: 10px;
+   font-size: 14px;
    color: white;
+}
+
+.calendar .vacations {
+   background-color: #068065;
+   font-weight: bold;
+   padding: 5px;
+   color: black;
+   font-size: 14px;
 }

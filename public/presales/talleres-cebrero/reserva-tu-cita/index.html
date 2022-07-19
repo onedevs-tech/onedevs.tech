@@ -44,33 +44,61 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css" />
+
+      <!-- JS -->
+
+      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 
    <body>
 
-      <main>
+      <table class="layout">
+         <tbody>
+            <tr>
+               <td class="margin">
+               </td>
+            </tr>
+            <tr>
+               <td class="content">
+                  <div><img src="images/seat600.png" alt="Talleres Cebrero" width="300" /></div>
 
-         <div style="height: 50px;"></div>
+                  <div>
+                     <span class="talleres">TALLERES</span><br />
+                     <span class="cebrero">CEBRERO</span>
+                  </div>
 
-         <div><img src="images/seat600.png" alt="Talleres Cebrero" width="300" /></div>
+                  <div style="height: 50px;"></div>
 
-         <div>
-            <span class="talleres">TALLERES</span><br />
-            <span class="cebrero">CEBRERO</span>
-         </div>
+                  <div>
+                     <div class="btn-grad unselectable" onclick="window.location.assign('calendar.html')">
+                        Reserva tu cita
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td class="margin">
+               </td>
+            </tr>
+         </tbody>
+      </table>
 
-         <div style="height: 50px;"></div>
-
-         <div>
-            <div class="btn-grad">
-               <span onclick="window.location.assign('calendar.html')">Reserva tu cita</span>
-            </div>
-         </div>
-
-         <div style="height: 50px;"></div>
-
-      </main>
+      <script>
+         setTimeout(button_gradient_right, 4000);
+         function button_gradient_right() {
+            var button = $('.btn-grad').first();
+            $(button).removeClass('btn-grad');
+            $(button).addClass('btn-grad-hover');
+            setTimeout(button_gradient_left, 200);
+         }
+         function button_gradient_left() {
+            var button = $('.btn-grad-hover').first();
+            $(button).removeClass('btn-grad-hover');
+            $(button).addClass('btn-grad');
+            setTimeout(button_gradient_right, 4000);
+         }
+      </script>
 
    </body>
 
