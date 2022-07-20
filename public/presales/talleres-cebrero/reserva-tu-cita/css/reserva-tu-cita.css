@@ -47,6 +47,8 @@ table.calendar {
    background-color: #16a085;
    font-weight: bold;
    padding: 5px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
 }
 
 .calendar .weekday {
