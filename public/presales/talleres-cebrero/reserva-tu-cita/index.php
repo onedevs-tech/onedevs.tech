@@ -71,16 +71,16 @@
             <tr>
                <td class="content">
 
-                  <div><img src="images/seat600-w250.png" alt="Talleres Cebrero" width="250" /></div>
-
-                  <div style="height: 25px;"></div>
-
                   <div>
                      <span class="talleres">TALLERES</span><br />
                      <span class="cebrero">CEBRERO</span>
                   </div>
 
-                  <div style="height: 50px;"></div>
+                  <div style="height: 25px;"></div>
+
+                  <div><img src="images/seat600-w250.png" alt="Talleres Cebrero" width="250" /></div>
+
+                  <div style="height: 25px;"></div>
 
                   <div>
                      <div class="btn-grad" onclick="window.location.assign('calendar.php')">
@@ -88,6 +88,19 @@
                         aquí<br />
                         tu cita
                      </div>
+                  </div>
+
+                  <div style="height: 25px;"></div>
+
+                  <div class="contact-data">
+                     <a target="_blank" class="here" href="http://tallerescebrero.es">TALLERESCEBRERO.ES</a><br />
+                     <br />
+                     Cuesta de la Pólvora, 2-13<br />
+                     <a target="_blank" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU"><img align="absmiddle" src="images/icons/google-maps-w20.png" alt="Google Maps" width="20" /></a> 14010 - Córdoba, España<br />
+                     <br />
+                     <a class="here" target="_blank" href="https://wa.me/34689510841"><img align="absmiddle" src="images/icons/whatsapp-w20.png" alt="WhatsApp" width="20" /></a>
+                     &nbsp;
+                     <a class="here" target="_blank" href="https://wa.me/34689510841">689 51 08 41</a>
                   </div>
 
                </td>

@@ -141,7 +141,7 @@ table.calendar {
 
 .here {
    color: yellow;
-   text-decoration: none;
+   text-decoration: underline;
 }
 
 
@@ -392,4 +392,11 @@ table.calendar {
    97.22% {background: linear-gradient(440deg, #f4d03f 0%, #16a085 100%)}
    98.61% {background: linear-gradient(445deg, #f4d03f 0%, #16a085 100%)}
    100% {background: linear-gradient(450deg, #f4d03f 0%, #16a085 100%)}
+}
+
+.contact-data {
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 25px;
 }
