@@ -79,7 +79,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="instructions">
-                     Introduce tus datos y los del vehículo
+                     Introduce tus datos de contacto y los del vehículo
                   </div>
 
                   <div style="height: 25px;"></div>
@@ -111,7 +111,7 @@
                               <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('done.php')" value="Asignar cita" /></td>
+                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('done.php')" value="Reservar cita" /></td>
                            </tr>
                         </tbody>
                      </table>

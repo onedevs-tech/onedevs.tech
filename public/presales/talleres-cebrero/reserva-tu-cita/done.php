@@ -74,7 +74,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="done">
-                     ¡Cita asignada!<br />
+                     ¡Cita reservada!<br />
                      <br />
                      En breve nos pondremos en contacto contigo para confirmar la cita.<br />
                      <br />
