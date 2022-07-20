@@ -95,8 +95,8 @@
                   <div class="contact-data">
                      <a target="_blank" class="here" href="http://tallerescebrero.es">TALLERESCEBRERO.ES</a><br />
                      <br />
-                     Cuesta de la Pólvora, 2-13<br />
-                     <a target="_blank" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU"><img align="absmiddle" src="images/icons/google-maps-w20.png" alt="Google Maps" width="20" /></a> 14010 - Córdoba, España<br />
+                     <a target="_blank" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU"><img align="absmiddle" src="images/icons/google-maps-w20.png" alt="Google Maps" width="20" /></a> <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">Cuesta de la Pólvora, 2-13</a><br />
+                     14010 - Córdoba, España<br />
                      <br />
                      <a class="here" target="_blank" href="https://wa.me/34689510841"><img align="absmiddle" src="images/icons/whatsapp-w20.png" alt="WhatsApp" width="20" /></a>
                      &nbsp;

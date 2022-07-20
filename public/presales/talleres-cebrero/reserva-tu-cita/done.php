@@ -78,7 +78,7 @@
                      <br />
                      En breve nos pondremos en contacto contigo para confirmar la cita.<br />
                      <br />
-                     Lleva el vehículo el día y la hora asignada <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">aquí</a><br />
+                     Lleva el vehículo el día y la hora confirmada <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">aquí</a><br />
                      <br />Muchas gracias por confiar en<br />
                      <br />
                      <a target="_blank" class="here" href="http://tallerescebrero.es">TALLERES CEBRERO</a><br />

@@ -117,8 +117,13 @@
 
                   <div style="height: 25px;"></div>
 
+                  <div class="contact-data">
+                     Horario de taller:<br />
+                     de 8.00 a 15.30
+                  </div>
+
                   <div class="instructions">
-                     Selecciona la hora en la que estarás en el taller y dejarás el vehículo
+                     En el cuadro de abajo, selecciona la hora en la que estarás en el taller
                   </div>
 
                   <div style="height: 25px;"></div>

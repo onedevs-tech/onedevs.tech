@@ -3,7 +3,7 @@
    \session_name('TallererCebrero');
    \session_start();
 
-   $hour = \substr($_GET['hour'], 0, 2);
+   $hour = (int)\substr($_GET['hour'], 0, 2);
    $minute = \substr($_GET['hour'], 2, 2);
 
    $meeting = $_SESSION['date_fmt'] . ' ' . $hour . ':' . $minute;

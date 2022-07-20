@@ -74,7 +74,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="instructions">
-                     En el calendario, selecciona el día en que quieres llevar el vehículo al taller
+                     En el calendario de abajo, selecciona el día en que quieres traernos el vehículo
                   </div>
 
                   <div style="height: 25px;"></div>
@@ -83,7 +83,7 @@
                      <table class="calendar" cellpadding="0" cellspacing="0">
                         <thead>
                            <tr>
-                              <td colspan="7" class="month">Julio Agosto 2022</td>
+                              <td colspan="7" class="month">Julio - Agosto 2022</td>
                            </tr>
                            <tr>
                               <td class="weekday">L</td>
