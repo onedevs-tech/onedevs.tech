@@ -83,7 +83,7 @@
                   <div style="height: 25px;"></div>
 
                   <div>
-                     <div class="btn-grad" onclick="window.location.assign('calendar.php')">
+                     <div class="btn-grad unselectable" onclick="window.location.assign('calendar.php')">
                         Reserva<br />
                         aquí<br />
                         tu cita
