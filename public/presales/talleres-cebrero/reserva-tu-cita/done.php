@@ -3,11 +3,6 @@
    \session_name('TallererCebrero');
    \session_start();
 
-   $hour = \substr($_GET['hour'], 0, 2);
-   $minute = \substr($_GET['hour'], 2, 2);
-
-   $meeting = $_SESSION['date_fmt'] . ' ' . $hour . ':' . $minute;
-
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
@@ -78,43 +73,15 @@
 
                   <div style="height: 25px;"></div>
 
-                  <div class="instructions">
-                     Introduce tus datos y los del vehículo
-                  </div>
-
-                  <div style="height: 25px;"></div>
-
-                  <div>
-                     <table class="calendar" cellpadding="0" cellspacing="0">
-                        <thead>
-                           <tr>
-                              <td class="month meeting"><?= $meeting ?></td>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Matrícula del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Marca del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Modelo del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('done.php')" value="Asignar cita" /></td>
-                           </tr>
-                        </tbody>
-                     </table>
+                  <div class="done">
+                     ¡Cita asignada!<br />
+                     <br />
+                     En breve nos pondremos en contacto contigo por teléfono para confirmar la cita.<br />
+                     <br />
+                     Lleva el vehículo el día y la hora asignada <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">aquí</a><br />
+                     <br />Muchas gracias por confiar en<br />
+                     <br />
+                     <span class="here">TALLERES CEBRERO</span>
                   </div>
 
                </td>

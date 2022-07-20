@@ -168,3 +168,14 @@ table.calendar {
    width: 150px;
    cursor: pointer;
 }
+
+.done {
+   color: white;
+   font-weight: bold;
+   margin: 20px;
+}
+
+.here {
+   color: yellow;
+   text-decoration: none;
+}
