@@ -71,7 +71,9 @@
             <tr>
                <td class="content">
 
-                  <div><img src="images/seat600.png" alt="Talleres Cebrero" width="300" /></div>
+                  <div><img src="images/seat600-w250.png" alt="Talleres Cebrero" width="250" /></div>
+
+                  <div style="height: 25px;"></div>
 
                   <div>
                      <span class="talleres">TALLERES</span><br />
