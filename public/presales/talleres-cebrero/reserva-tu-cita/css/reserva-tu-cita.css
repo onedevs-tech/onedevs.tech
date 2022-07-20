@@ -9,7 +9,7 @@ body {
 table.layout {
    background-color: black;
    width: 315px;
-   height: 100vh;
+   height: 90vh;
    margin: 0 auto;
    border-right: dashed 5px white;
    border-left: dashed 5px white;
