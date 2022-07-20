@@ -126,7 +126,7 @@
                            <tr>
                               <td class="pastday">18</td>
                               <td class="pastday">19</td>
-                              <td class="activeday"><a href="hour.php?day=20220720">20</a></td>
+                              <td class="pastday">20</td>
                               <td class="activeday"><a href="hour.php?day=20220721">21</a></td>
                               <td class="activeday"><a href="hour.php?day=20220722">22</a></td>
                               <td class="weekendday">23</td>

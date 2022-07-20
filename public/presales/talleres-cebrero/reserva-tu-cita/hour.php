@@ -118,7 +118,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="instructions">
-                     Selecciona la hora en la que quieres llevar el vehículo al taller
+                     Selecciona la hora en la que estarás en el taller y dejarás tu vehículo
                   </div>
 
                   <div style="height: 25px;"></div>

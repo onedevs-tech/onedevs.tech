@@ -85,8 +85,8 @@
                   <div>
                      <div class="btn-grad" onclick="window.location.assign('calendar.php')">
                         Reserva<br />
-                        tu cita<br />
-                        aquí
+                        aquí<br />
+                        tu cita
                      </div>
                   </div>
 
