@@ -123,6 +123,11 @@ table.calendar {
    color: white;
 }
 
+.calendar .activeday a {
+   color: white;
+   text-decoration: none;
+}
+
 .calendar .vacations {
    background-color: #068065;
    font-weight: bold;

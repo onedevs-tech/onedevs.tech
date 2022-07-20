@@ -1,6 +1,6 @@
 <?php
 
-   $css_version = rand(0, 9) . rand(0, 9) . rand(0, 9) . rand(0, 9) . rand(0, 9);
+   $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
@@ -123,36 +123,36 @@
                            <tr>
                               <td class="pastday">18</td>
                               <td class="pastday">19</td>
-                              <td class="activeday">20</td>
-                              <td class="activeday">21</td>
-                              <td class="activeday">22</td>
+                              <td class="activeday"><a href="hour.php?day=20220720">20</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220721">21</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220722">22</a></td>
                               <td class="weekendday">23</td>
                               <td class="weekendday">24</td>
                            </tr>
                            <tr>
-                              <td class="activeday">25</td>
-                              <td class="activeday">26</td>
-                              <td class="activeday">27</td>
-                              <td class="activeday">28</td>
-                              <td class="activeday">29</td>
+                              <td class="activeday"><a href="hour.php?day=20220725">25</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220726">26</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220727">27</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220728">28</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220729">29</a></td>
                               <td class="weekendday">30</td>
                               <td class="weekendday">31</td>
                            </tr>
                            <tr>
-                              <td class="activeday">1</td>
-                              <td class="activeday">2</td>
-                              <td class="activeday">3</td>
-                              <td class="activeday">4</td>
-                              <td class="activeday">5</td>
+                              <td class="activeday"><a href="hour.php?day=20220801">1</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220802">2</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220803">3</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220804">4</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220805">5</a></td>
                               <td class="weekendday">6</td>
                               <td class="weekendday">7</td>
                            </tr>
                            <tr>
-                              <td class="activeday">8</td>
-                              <td class="activeday">9</td>
-                              <td class="activeday">10</td>
-                              <td class="activeday">11</td>
-                              <td class="activeday">12</td>
+                              <td class="activeday"><a href="hour.php?day=20220808">8</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220809">9</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220810">10</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220811">11</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220812">12</a></td>
                               <td class="weekendday">13</td>
                               <td class="weekendday">14</td>
                            </tr>
@@ -166,18 +166,18 @@
                               <td class="weekendday">21</td>
                            </tr>
                            <tr>
-                              <td class="activeday">22</td>
-                              <td class="activeday">23</td>
-                              <td class="activeday">24</td>
-                              <td class="activeday">25</td>
-                              <td class="activeday">26</td>
+                              <td class="activeday"><a href="hour.php?day=20220822">22</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220823">23</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220824">24</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220825">25</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220826">26</a></td>
                               <td class="weekendday">27</td>
                               <td class="weekendday">28</td>
                            </tr>
                            <tr>
-                              <td class="activeday">29</td>
-                              <td class="activeday">30</td>
-                              <td class="activeday">31</td>
+                              <td class="activeday"><a href="hour.php?day=20220829">29</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220830">30</a></td>
+                              <td class="activeday"><a href="hour.php?day=20220831">31</a></td>
                               <td class="activeday"></td>
                               <td class="activeday"></td>
                               <td class="weekendday"></td>

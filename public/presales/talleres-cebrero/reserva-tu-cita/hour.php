@@ -1,20 +1,59 @@
 <?php
 
-   \session_start();
+   \date_default_timezone_set('Europe/Madrid');
+
+   $day = $_GET['day'];
+
+   $year = \substr($day, 0, 4);
+   $month = \substr($day, 4, 2);
+   $day = \substr($day, 6, 2);
+
+   $time = \mktime(0, 0, 0, $month, $day, $year);
+
+   $weekdays = [
+      'Domingo',
+      'Lunes',
+      'Martes',
+      'Miércoles',
+      'Jueves',
+      'Viernes',
+      'Sábado'
+   ];
+
+   $months = [
+      'Enero',
+      'Febrero',
+      'Marzo',
+      'Abril',
+      'Mayo',
+      'Junio',
+      'Julio',
+      'Agosto',
+      'Septiembre',
+      'Octubre',
+      'Noviembre',
+      'Diciembre'
+   ];
+
+   $weekday_fmt = $weekdays[\date('w', $time)];
+   $day_fmt = \date('j', $time);
+   $month_fmt = $months[\date('n', $time)-1];
+   $year_fmt = \date('Y', $time);
+
+   $date_fmt = $weekday_fmt . ' ' . $day_fmt . ' ' . $month_fmt . ' ' . $year_fmt;
 
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
-
-<!-- RESERVA TU CITA -->
+<!-- HOUR -->
 
 <!DOCTYPE html>
 
 <html lang="es">
 
    <head>
-
+      
       <!-- TITLE -->
 
       <title>Talleres Cebrero - Cita</title>
@@ -52,10 +91,6 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
-
-      <!-- JS -->
-
-      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 
@@ -70,19 +105,57 @@
             <tr>
                <td class="content">
 
-                  <div><img src="images/seat600.png" alt="Talleres Cebrero" width="300" /></div>
-
                   <div>
                      <span class="talleres">TALLERES</span><br />
                      <span class="cebrero">CEBRERO</span>
                   </div>
 
-                  <div style="height: 50px;"></div>
+                  <div style="height: 25px;"></div>
+
+                  <div class="instructions">
+                     Selecciona la hora en la que quieres llevar el vehículo al taller
+                  </div>
+
+                  <div style="height: 25px;"></div>
 
                   <div>
-                     <div class="btn-grad unselectable" onclick="window.location.assign('calendar.php')">
-                        Reserva tu cita
-                     </div>
+                     <table class="calendar" cellpadding="0" cellspacing="0">
+                        <thead>
+                           <tr>
+                              <td colspan="2" class="month"><?= $date_fmt ?></td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td class="activeday">9:00</td>
+                              <td class="activeday">9:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">10:00</td>
+                              <td class="activeday">10:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">11:00</td>
+                              <td class="activeday">11:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">12:00</td>
+                              <td class="activeday">12:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">13:00</td>
+                              <td class="activeday">13:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">16:00</td>
+                              <td class="activeday">16:30</td>
+                           </tr>
+                           <tr>
+                              <td class="activeday">17:00</td>
+                              <td class="activeday">17:30</td>
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
 
                </td>
@@ -93,23 +166,6 @@
             </tr>
          </tbody>
       </table>
-
-      <script>
-
-         setTimeout(button_gradient_right, 4000);
-         function button_gradient_right() {
-            var button = $('.btn-grad').first();
-            $(button).removeClass('btn-grad');
-            $(button).addClass('btn-grad-hover');
-            setTimeout(button_gradient_left, 700);
-         }
-         function button_gradient_left() {
-            var button = $('.btn-grad-hover').first();
-            $(button).removeClass('btn-grad-hover');
-            $(button).addClass('btn-grad');
-            setTimeout(button_gradient_right, 4000);
-         }
-      </script>
 
    </body>
 
