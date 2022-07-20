@@ -74,7 +74,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="instructions">
-                     En el calendario, pulsa el día en que quieres llevar el vehículo al taller
+                     En el calendario, selecciona el día en que quieres llevar el vehículo al taller
                   </div>
 
                   <div style="height: 25px;"></div>
@@ -127,7 +127,7 @@
                               <td class="pastday">18</td>
                               <td class="pastday">19</td>
                               <td class="pastday">20</td>
-                              <td class="activeday"><a href="hour.php?day=20220721">21</a></td>
+                              <td class="pastday">21</td>
                               <td class="activeday"><a href="hour.php?day=20220722">22</a></td>
                               <td class="weekendday">23</td>
                               <td class="weekendday">24</td>
