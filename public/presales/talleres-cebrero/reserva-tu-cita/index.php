@@ -81,9 +81,7 @@
                   <div style="height: 50px;"></div>
 
                   <div>
-                     <div class="btn-grad unselectable" onclick="window.location.assign('calendar.php')">
-                        Reserva tu cita
-                     </div>
+                     <input type="submit" class="btn-grad" value="Reserva tu cita" onclick="window.location.assign('calendar.php')">
                   </div>
 
                </td>
