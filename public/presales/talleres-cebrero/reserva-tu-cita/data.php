@@ -93,22 +93,25 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre *" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Matrícula del vehículo" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos *" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="text" class="input" placeholder="Marca del vehículo" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Modelo del vehículo" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Modelo" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Año de fabricación" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Matrícula" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto *" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('done.php')" value="Reservar cita" /></td>
