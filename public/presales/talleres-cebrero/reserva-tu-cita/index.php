@@ -83,7 +83,11 @@
                   <div style="height: 50px;"></div>
 
                   <div>
-                     <input type="submit" class="btn-grad" value="Reserva tu cita" onclick="window.location.assign('calendar.php')">
+                     <div class="btn-grad" onclick="window.location.assign('calendar.php')">
+                        Reserva<br />
+                        tu cita<br />
+                        aquí
+                     </div>
                   </div>
 
                </td>
@@ -94,23 +98,6 @@
             </tr>
          </tbody>
       </table>
-
-      <script>
-
-         setTimeout(button_gradient_right, 4000);
-         function button_gradient_right() {
-            var button = $('.btn-grad').first();
-            $(button).removeClass('btn-grad');
-            $(button).addClass('btn-grad-hover');
-            setTimeout(button_gradient_left, 700);
-         }
-         function button_gradient_left() {
-            var button = $('.btn-grad-hover').first();
-            $(button).removeClass('btn-grad-hover');
-            $(button).addClass('btn-grad');
-            setTimeout(button_gradient_right, 4000);
-         }
-      </script>
 
    </body>
 
