@@ -79,7 +79,7 @@
                   <div style="height: 25px;"></div>
 
                   <div class="instructions">
-                     Introduce tus datos de contacto y los del vehículo
+                     Introduce tus datos de contacto y algunos datos del vehículo
                   </div>
 
                   <div style="height: 25px;"></div>
