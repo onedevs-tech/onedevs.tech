@@ -11,8 +11,8 @@ table.layout {
    width: 315px;
    height: 90vh;
    margin: 0 auto;
-   border-right: dashed 5px white;
-   border-left: dashed 5px white;
+   border-right: dashed 5px yellow;
+   border-left: dashed 5px yellow;
 }
 
 .layout .margin {
@@ -149,10 +149,11 @@ table.calendar {
    align-items: center;
    background: linear-gradient(90deg, #f4d03f 0%, #16a085 100%);
    border-radius: 50%;
-   color: #006000;
+   color: black;
    cursor: pointer;
    display: flex;
    font-weight: bold;
+   font-size: 16px;
    height: 120px;
    justify-content: center;
    margin: 0 auto;
