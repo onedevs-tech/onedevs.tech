@@ -3,19 +3,23 @@
    \session_name('TallererCebrero');
    \session_start();
 
+   $hour = \substr($_GET['hour'], 0, 2);
+   $minute = \substr($_GET['hour'], 2, 2);
+
+   $meeting = 'Cita ' . $_SESSION['date_fmt'] . ' ' . $hour . ':' . $minute;
+
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
-
-<!-- RESERVA TU CITA -->
+<!-- HOUR -->
 
 <!DOCTYPE html>
 
 <html lang="es">
 
    <head>
-
+      
       <!-- TITLE -->
 
       <title>Talleres Cebrero - Cita</title>
@@ -53,10 +57,6 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
-
-      <!-- JS -->
-
-      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 
@@ -71,19 +71,50 @@
             <tr>
                <td class="content">
 
-                  <div><img src="images/seat600.png" alt="Talleres Cebrero" width="300" /></div>
-
                   <div>
                      <span class="talleres">TALLERES</span><br />
                      <span class="cebrero">CEBRERO</span>
                   </div>
 
-                  <div style="height: 50px;"></div>
+                  <div style="height: 25px;"></div>
+
+                  <div class="instructions">
+                     Introduce tus datos y los del vehículo
+                  </div>
+
+                  <div style="height: 25px;"></div>
 
                   <div>
-                     <div class="btn-grad unselectable" onclick="window.location.assign('calendar.php')">
-                        Reserva tu cita
-                     </div>
+                     <table class="calendar" cellpadding="0" cellspacing="0">
+                        <thead>
+                           <tr>
+                              <td class="month meeting"><?= $meeting ?></td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Matrícula del vehículo" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Marca del vehículo" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Modelo del vehículo" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="submit" class="btn-assign" value="Asignar cita" /></td>
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
 
                </td>
@@ -94,23 +125,6 @@
             </tr>
          </tbody>
       </table>
-
-      <script>
-
-         setTimeout(button_gradient_right, 4000);
-         function button_gradient_right() {
-            var button = $('.btn-grad').first();
-            $(button).removeClass('btn-grad');
-            $(button).addClass('btn-grad-hover');
-            setTimeout(button_gradient_left, 700);
-         }
-         function button_gradient_left() {
-            var button = $('.btn-grad-hover').first();
-            $(button).removeClass('btn-grad-hover');
-            $(button).addClass('btn-grad');
-            setTimeout(button_gradient_right, 4000);
-         }
-      </script>
 
    </body>
 
