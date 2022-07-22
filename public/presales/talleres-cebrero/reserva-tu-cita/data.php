@@ -93,16 +93,10 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre *" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos *" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre y apellidos *" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="text" class="input" placeholder="Marca y modelo del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Año de fabricación" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><textarea rows="4" class="input" placeholder="Qué le ocurre al vehículo"></textarea></td>

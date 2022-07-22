@@ -66,6 +66,10 @@ table.calendar {
    border-bottom: solid 1px black;
 }
 
+.calendar .saturday {
+   border-left: solid 1px black;
+}
+
 .calendar .weekendday {
    background-color: #068065;
    font-weight: bold;
