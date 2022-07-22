@@ -1,6 +1,6 @@
 <?php
 
-   \session_name('TallererCebrero');
+   \session_name('TalleresCebrero');
    \session_start();
 
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);

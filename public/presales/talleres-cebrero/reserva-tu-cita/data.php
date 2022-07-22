@@ -1,6 +1,6 @@
 <?php
 
-   \session_name('TallererCebrero');
+   \session_name('TalleresCebrero');
    \session_start();
 
    $hour = (int)\substr($_GET['hour'], 0, 2);

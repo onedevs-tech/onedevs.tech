@@ -1,6 +1,6 @@
 <?php
 
-   \session_name('TallererCebrero');
+   \session_name('TalleresCebrero');
    \session_start();
 
    \date_default_timezone_set('Europe/Madrid');
@@ -137,50 +137,50 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=0800">8:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0815">8:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0830">8:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0845">8:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0800">8:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0815">8:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0830">8:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0845">8:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=0900">9:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0915">9:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0930">9:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=0945">9:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0900">9:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0915">9:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0930">9:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=0945">9:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1000">10:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1015">10:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1030">10:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1045">10:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1000">10:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1015">10:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1030">10:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1045">10:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1100">11:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1115">11:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1130">11:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1145">11:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1100">11:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1115">11:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1130">11:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1145">11:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1200">12:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1215">12:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1230">12:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1245">12:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1200">12:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1215">12:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1230">12:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1245">12:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1300">13:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1315">13:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1330">13:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1345">13:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1300">13:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1315">13:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1330">13:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1345">13:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1400">14:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1415">14:15<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1430">14:30<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1445">14:45<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1400">14:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1415">14:15<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1430">14:30<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1445">14:45<a/></div></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><a href="data.php?hour=1500">15:00<a/></td>
-                              <td class="activeday"><a href="data.php?hour=1515">15:15<a/></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1500">15:00<a/></div></td>
+                              <td class="activeday"><div class="activeday"><a href="data.php?hour=1515">15:15<a/></div></td>
                               <td class="activeday"></td>
                               <td class="activeday"></td>
                            </tr>

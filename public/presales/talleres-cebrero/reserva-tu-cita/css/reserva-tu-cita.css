@@ -74,16 +74,20 @@ table.calendar {
    font-size: 14px;
 }
 
-.calendar .activeday {
-   background-color: #36c0b5;
+.calendar td.activeday {
    font-weight: bold;
    padding: 5px;
-   font-size: 18px;
-   color: white;
+   font-size: 14px;
+   background-color: #068065;
 }
 
-.calendar .activeday a {
-   color: white;
+.calendar div.activeday {
+   background-color: white;
+   border-radius: 10px;
+}
+
+.calendar td.activeday a {
+   color: black;
    text-decoration: none;
 }
 
