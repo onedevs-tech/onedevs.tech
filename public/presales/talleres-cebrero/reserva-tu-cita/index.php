@@ -78,9 +78,13 @@
 
                   <div style="height: 25px;"></div>
 
+                  <!--
+
                   <div><img src="images/seat600-w250.png" alt="Talleres Cebrero" width="250" /></div>
 
                   <div style="height: 25px;"></div>
+
+                  -->
 
                   <div>
                      <div class="btn-grad unselectable" onclick="window.location.assign('calendar.php')">
