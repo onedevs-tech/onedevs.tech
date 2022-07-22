@@ -128,7 +128,7 @@
                               <td class="pastday">19</td>
                               <td class="pastday">20</td>
                               <td class="pastday">21</td>
-                              <td class="activeday"><a href="hour.php?day=20220722">22</a></td>
+                              <td class="pastday">22</td>
                               <td class="weekendday">23</td>
                               <td class="weekendday">24</td>
                            </tr>
