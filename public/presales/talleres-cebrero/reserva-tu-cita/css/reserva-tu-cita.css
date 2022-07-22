@@ -7,7 +7,7 @@ body {
 }
 
 table.layout {
-   background-color: black;
+   background-image: url("../images/fondo.png");
    width: 300px;
    height: 90vh;
    margin: 0 auto;
