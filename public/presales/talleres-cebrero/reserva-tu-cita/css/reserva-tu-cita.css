@@ -163,7 +163,7 @@ table.calendar {
    align-items: center;
    background: linear-gradient(90deg, #f4d03f 0%, #16a085 100%);
    border-radius: 50%;
-   color: black;
+   color: white;
    cursor: pointer;
    display: flex;
    font-weight: bold;
