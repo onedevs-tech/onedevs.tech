@@ -99,16 +99,13 @@
                               <td class="activeday"><input type="text" class="input" placeholder="Tus apellidos *" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Marca del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Modelo" /></td>
+                              <td class="activeday"><input type="text" class="input" placeholder="Marca y modelo del vehículo" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="text" class="input" placeholder="Año de fabricación" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Matrícula" /></td>
+                              <td class="activeday"><textarea rows="4" class="input" placeholder="Qué le ocurre al vehículo"></textarea></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto *" /></td>

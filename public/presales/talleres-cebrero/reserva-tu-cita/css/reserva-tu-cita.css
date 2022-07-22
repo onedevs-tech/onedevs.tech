@@ -78,7 +78,7 @@ table.calendar {
    background-color: #36c0b5;
    font-weight: bold;
    padding: 5px;
-   font-size: 14px;
+   font-size: 18px;
    color: white;
 }
 
@@ -115,6 +115,10 @@ table.calendar {
    border: none;
    border-radius: 5px;
    padding: 4px;
+}
+
+.calendar textarea.input {
+   height: auto;
 }
 
 .meeting {
