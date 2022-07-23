@@ -85,7 +85,7 @@
                               <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('7-done.php')" value="Continúa" /></td>
+                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('7-done.php')" value="Reservar Cita" /></td>
                            </tr>
                         </tbody>
                      </table>
