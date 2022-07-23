@@ -1,3 +1,3 @@
 <?php
 
-   header('Location: /presales/talleres-cebrero/reserva-tu-cita/public');
+   header('Location: http://lab.onedevs.tech/talleres-cebrero/reserva-tu-cita');

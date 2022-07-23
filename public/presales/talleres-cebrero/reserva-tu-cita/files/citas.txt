@@ -1,2 +1,0 @@
-Jueves 28 Julio 2022 10:15;nombre;marca;que;123
-Miércoles 27 Julio 2022 9:15;pepito;prueba;nada;111
