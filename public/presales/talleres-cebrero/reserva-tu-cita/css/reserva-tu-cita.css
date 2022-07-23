@@ -121,8 +121,9 @@ table.calendar {
    height: 20px;
    font-size: 14px;
    border: none;
-   border-bottom: solid 1px white;
+   border-bottom: dashed 1px white;
    padding: 4px;
+   margin: 10px auto;
    background-color: #068065;
    color: white;
    font-weight: bold;

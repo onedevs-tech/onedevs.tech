@@ -87,7 +87,7 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Tu nombre y apellidos" /></td>
+                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Escribe aquí tu nombre y apellidos" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('4-askbrand.php')" value="Continúa" /></td>
