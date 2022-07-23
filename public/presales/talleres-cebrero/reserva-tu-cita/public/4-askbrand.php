@@ -110,10 +110,18 @@
          $(document).ready(function(){
             $('#submit').click(function(e){
                if ($('input[name="vehicle"]').first().val().length == 0) {
-                  $('input[name="vehicle"]').first().addClass('input-cebrero');
+                  setTimeout(function(){
+                     $('input[name="vehicle"]').first().addClass('input-cebrero');
+                  }, 0);
                   setTimeout(function(){
                      $('input[name="vehicle"]').first().removeClass('input-cebrero');
-                  }, 1000);
+                  }, 150);
+                  setTimeout(function(){
+                     $('input[name="vehicle"]').first().addClass('input-cebrero');
+                  }, 300);
+                  setTimeout(function(){
+                     $('input[name="vehicle"]').first().removeClass('input-cebrero');
+                  }, 450);
                } else {
                   window.location.assign('5-askwhat.php?vehicle=' + $('input[name="vehicle"]').first().val());
                }

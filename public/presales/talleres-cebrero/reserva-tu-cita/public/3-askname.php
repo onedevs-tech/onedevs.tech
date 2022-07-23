@@ -113,10 +113,18 @@
          $(document).ready(function(){
             $('#submit').click(function(e){
                if ($('input[name="name"]').first().val().length == 0) {
-                  $('input[name="name"]').first().addClass('input-cebrero');
+                  setTimeout(function(){
+                     $('input[name="name"]').first().addClass('input-cebrero');
+                  }, 0);
                   setTimeout(function(){
                      $('input[name="name"]').first().removeClass('input-cebrero');
-                  }, 1000);
+                  }, 150);
+                  setTimeout(function(){
+                     $('input[name="name"]').first().addClass('input-cebrero');
+                  }, 300);
+                  setTimeout(function(){
+                     $('input[name="name"]').first().removeClass('input-cebrero');
+                  }, 450);
                } else {
                   window.location.assign('4-askbrand.php?name=' + $('input[name="name"]').first().val());
                }

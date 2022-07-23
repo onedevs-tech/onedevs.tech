@@ -110,10 +110,18 @@
          $(document).ready(function(){
             $('#submit').click(function(e){
                if ($('input[name="phone"]').first().val().length == 0) {
-                  $('input[name="phone"]').first().addClass('input-cebrero');
+                  setTimeout(function(){
+                     $('input[name="phone"]').first().addClass('input-cebrero');
+                  }, 0);
                   setTimeout(function(){
                      $('input[name="phone"]').first().removeClass('input-cebrero');
-                  }, 1000);
+                  }, 150);
+                  setTimeout(function(){
+                     $('input[name="phone"]').first().addClass('input-cebrero');
+                  }, 300);
+                  setTimeout(function(){
+                     $('input[name="phone"]').first().removeClass('input-cebrero');
+                  }, 450);
                } else {
                   window.location.assign('7-done.php?phone=' + $('input[name="phone"]').first().val());
                }

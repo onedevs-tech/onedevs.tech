@@ -110,10 +110,18 @@
          $(document).ready(function(){
             $('#submit').click(function(e){
                if ($('input[name="what"]').first().val().length == 0) {
-                  $('input[name="what"]').first().addClass('input-cebrero');
+                  setTimeout(function(){
+                     $('input[name="what"]').first().addClass('input-cebrero');
+                  }, 0);
                   setTimeout(function(){
                      $('input[name="what"]').first().removeClass('input-cebrero');
-                  }, 1000);
+                  }, 150);
+                  setTimeout(function(){
+                     $('input[name="what"]').first().addClass('input-cebrero');
+                  }, 300);
+                  setTimeout(function(){
+                     $('input[name="what"]').first().removeClass('input-cebrero');
+                  }, 450);
                } else {
                   window.location.assign('6-askphone.php?what=' + $('input[name="what"]').first().val());
                }
