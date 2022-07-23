@@ -52,6 +52,10 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
+
+      <!-- JS -->
+
+      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 

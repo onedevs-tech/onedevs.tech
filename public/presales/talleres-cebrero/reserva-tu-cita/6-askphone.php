@@ -52,6 +52,10 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
+
+      <!-- JS -->
+
+      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 
@@ -74,21 +78,23 @@
                   <div style="height: 25px;"></div>
 
                   <div>
-                     <table class="calendar" cellpadding="0" cellspacing="0">
-                        <thead>
-                           <tr>
-                              <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                              <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('7-done.php')" value="Reservar Cita" /></td>
-                           </tr>
-                        </tbody>
-                     </table>
+                     <form id="form" action="7-done.php" method="post">
+                        <table class="calendar" cellpadding="0" cellspacing="0">
+                           <thead>
+                              <tr>
+                                 <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
+                              </tr>
+                              <tr>
+                                 <td class="activeday"><input type="submit" class="btn-assign" value="Reservar Cita" /></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </form>
                   </div>
 
                </td>
@@ -99,6 +105,20 @@
             </tr>
          </tbody>
       </table>
+
+      <script>
+         $(document).ready(function(){
+            $('#form').submit(function(e){
+               if ($('input[name="phone"]').first().val().length == 0) {
+                  event.preventDefault();
+                  $('input[name="phone"]').first().addClass('input-cebrero');
+                  setTimeout(function(){
+                     $('input[name="phone"]').first().removeClass('input-cebrero');
+                  }, 1000);
+               }
+            });
+         });
+      </script>
 
    </body>
 

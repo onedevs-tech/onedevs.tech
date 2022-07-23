@@ -146,6 +146,23 @@ table.calendar {
    height: auto;
 }
 
+.calendar .input-cebrero {
+   background-color: yellow;
+   color: black;
+}
+
+.calendar .input-cebrero::placeholder {
+  color: black;
+}
+
+.calendar .input-cebrero:-ms-input-placeholder {
+  color: black;
+}
+
+.calendar .input-cebrero::-ms-input-placeholder {
+  color: black;
+}
+
 .meeting {
    font-size: 14px;
 }
