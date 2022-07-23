@@ -91,7 +91,7 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Escribe aquí tu nombre y apellidos" /></td>
+                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Introduce aquí tu nombre y apellidos" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input id="submit" type="button" class="btn-assign" value="Continúa" /></td>
