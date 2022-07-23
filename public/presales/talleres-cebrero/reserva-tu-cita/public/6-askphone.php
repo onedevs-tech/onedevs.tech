@@ -88,7 +88,7 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
+                              <td class="activeday"><input type="text" name="phone" class="input" placeholder="Introduce un teléfono de contacto" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input id="submit" type="button" class="btn-assign" value="Continúa" /></td>

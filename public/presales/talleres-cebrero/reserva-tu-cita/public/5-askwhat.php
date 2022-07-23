@@ -88,7 +88,7 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" name="what" class="input" placeholder="Qué le ocurre al vehiculo" /></td>
+                              <td class="activeday"><input type="text" name="what" class="input" placeholder="Qué le ocurre al vehículo" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input id="submit" type="button" class="btn-assign" value="Continúa" /></td>
