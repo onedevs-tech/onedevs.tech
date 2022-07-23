@@ -3,7 +3,7 @@
    \session_name('TalleresCebrero');
    \session_start();
 
-   $_SESSION['phone'] = \trim($_POST['phone']);
+   $_SESSION['phone'] = \trim($_GET['phone']);
 
    // escribimos en fichero temporal
 

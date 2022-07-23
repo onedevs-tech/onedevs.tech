@@ -83,23 +83,21 @@
                   <div style="height: 25px;"></div>
 
                   <div>
-                     <form id="form" action="4-askbrand.php" method="post">
-                        <table class="calendar" cellpadding="0" cellspacing="0">
-                           <thead>
-                              <tr>
-                                 <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
-                              </tr>
-                           </thead>
-                           <tbody>
-                              <tr>
-                                 <td class="activeday"><input type="text" name="name" class="input" placeholder="Escribe aquí tu nombre y apellidos" /></td>
-                              </tr>
-                              <tr>
-                                 <td class="activeday"><input type="submit" class="btn-assign" value="Continúa" /></td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </form>
+                     <table class="calendar" cellpadding="0" cellspacing="0">
+                        <thead>
+                           <tr>
+                              <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Escribe aquí tu nombre y apellidos" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input id="submit" type="button" class="btn-assign" value="Continúa" /></td>
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
 
                </td>
@@ -113,13 +111,14 @@
 
       <script>
          $(document).ready(function(){
-            $('#form').submit(function(e){
+            $('#submit').click(function(e){
                if ($('input[name="name"]').first().val().length == 0) {
-                  event.preventDefault();
                   $('input[name="name"]').first().addClass('input-cebrero');
                   setTimeout(function(){
                      $('input[name="name"]').first().removeClass('input-cebrero');
                   }, 1000);
+               } else {
+                  window.location.assign('4-askbrand.php?name=' + $('input[name="name"]').first().val());
                }
             });
          });

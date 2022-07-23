@@ -3,7 +3,7 @@
    \session_name('TalleresCebrero');
    \session_start();
 
-   $_SESSION['what'] = \trim($_POST['what']);
+   $_SESSION['what'] = \trim($_GET['what']);
 
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
@@ -80,23 +80,21 @@
                   <div style="height: 25px;"></div>
 
                   <div>
-                     <form id="form" action="7-done.php" method="post">
-                        <table class="calendar" cellpadding="0" cellspacing="0">
-                           <thead>
-                              <tr>
-                                 <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
-                              </tr>
-                           </thead>
-                           <tbody>
-                              <tr>
-                                 <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
-                              </tr>
-                              <tr>
-                                 <td class="activeday"><input type="submit" class="btn-assign" value="Reservar Cita" /></td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </form>
+                     <table class="calendar" cellpadding="0" cellspacing="0">
+                        <thead>
+                           <tr>
+                              <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input id="submit" type="button" class="btn-assign" value="Continúa" /></td>
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
 
                </td>
@@ -110,13 +108,14 @@
 
       <script>
          $(document).ready(function(){
-            $('#form').submit(function(e){
+            $('#submit').click(function(e){
                if ($('input[name="phone"]').first().val().length == 0) {
-                  event.preventDefault();
                   $('input[name="phone"]').first().addClass('input-cebrero');
                   setTimeout(function(){
                      $('input[name="phone"]').first().removeClass('input-cebrero');
                   }, 1000);
+               } else {
+                  window.location.assign('7-done.php?phone=' + $('input[name="phone"]').first().val());
                }
             });
          });
