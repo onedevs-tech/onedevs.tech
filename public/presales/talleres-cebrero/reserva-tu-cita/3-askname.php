@@ -3,12 +3,16 @@
    \session_name('TalleresCebrero');
    \session_start();
 
+   $hour = (int)\substr($_GET['hour'], 0, 2);
+   $minute = \substr($_GET['hour'], 2, 2);
+
+   $_SESSION['meeting'] = $_SESSION['date_fmt'] . ' ' . $hour . ':' . $minute;
+
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
-
-<!-- RESERVA TU CITA -->
+<!-- GET NAME -->
 
 <!DOCTYPE html>
 
@@ -53,10 +57,6 @@
       <!-- CSS -->
 
       <link rel="stylesheet" href="css/reserva-tu-cita.css?v=<?= $css_version ?>" />
-
-      <!-- JS -->
-
-      <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
             
    </head>
 
@@ -78,33 +78,22 @@
 
                   <div style="height: 25px;"></div>
 
-                  <!--
-
-                  <div><img src="images/seat600-w250.png" alt="Talleres Cebrero" width="250" /></div>
-
-                  <div style="height: 25px;"></div>
-
-                  -->
-
                   <div>
-                     <div class="btn-grad unselectable" onclick="window.location.assign('1-askday.php')">
-                        Reserva<br />
-                        aquí<br />
-                        tu cita
-                     </div>
-                  </div>
-
-                  <div style="height: 25px;"></div>
-
-                  <div class="contact-data">
-                     <a target="_blank" class="here" href="http://tallerescebrero.es">TALLERESCEBRERO.ES</a><br />
-                     <br />
-                     <a target="_blank" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU"><img align="absmiddle" src="images/icons/google-maps-w20.png" alt="Google Maps" width="20" /></a> <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">Cuesta de la Pólvora, 2-13</a><br />
-                     14010 - Córdoba, España<br />
-                     <br />
-                     <a class="here" target="_blank" href="https://wa.me/34689510841"><img align="absmiddle" src="images/icons/whatsapp-w20.png" alt="WhatsApp" width="20" /></a>
-                     &nbsp;
-                     <a class="here" target="_blank" href="https://wa.me/34689510841">689 51 08 41</a>
+                     <table class="calendar" cellpadding="0" cellspacing="0">
+                        <thead>
+                           <tr>
+                              <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td class="activeday"><input type="text" name="name" class="input" placeholder="Tu nombre y apellidos" /></td>
+                           </tr>
+                           <tr>
+                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('4-askbrand.php')" value="Continúa" /></td>
+                           </tr>
+                        </tbody>
+                     </table>
                   </div>
 
                </td>

@@ -3,16 +3,11 @@
    \session_name('TalleresCebrero');
    \session_start();
 
-   $hour = (int)\substr($_GET['hour'], 0, 2);
-   $minute = \substr($_GET['hour'], 2, 2);
-
-   $meeting = $_SESSION['date_fmt'] . ' ' . $hour . ':' . $minute;
-
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
-<!-- HOUR -->
+<!-- BRAND -->
 
 <!DOCTYPE html>
 
@@ -78,34 +73,19 @@
 
                   <div style="height: 25px;"></div>
 
-                  <div class="instructions">
-                     Introduce tus datos de contacto y algunos datos del vehículo
-                  </div>
-
-                  <div style="height: 25px;"></div>
-
                   <div>
                      <table class="calendar" cellpadding="0" cellspacing="0">
                         <thead>
                            <tr>
-                              <td class="month meeting"><?= $meeting ?></td>
+                              <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Tu nombre y apellidos *" /></td>
+                              <td class="activeday"><input type="text" name="phone" class="input" placeholder="Un teléfono de contacto" /></td>
                            </tr>
                            <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Marca y modelo del vehículo" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><textarea rows="4" class="input" placeholder="Qué le ocurre al vehículo"></textarea></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="text" class="input" placeholder="Un teléfono de contacto *" /></td>
-                           </tr>
-                           <tr>
-                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('done.php')" value="Reservar cita" /></td>
+                              <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('7-done.php')" value="Continúa" /></td>
                            </tr>
                         </tbody>
                      </table>

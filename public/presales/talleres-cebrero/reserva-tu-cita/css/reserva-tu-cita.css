@@ -121,8 +121,24 @@ table.calendar {
    height: 20px;
    font-size: 14px;
    border: none;
-   border-radius: 5px;
+   border-bottom: solid 1px white;
    padding: 4px;
+   background-color: #068065;
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+.calendar .input::placeholder {
+  color: white;
+}
+
+.calendar .input:-ms-input-placeholder {
+  color: white;
+}
+
+.calendar .input::-ms-input-placeholder {
+  color: white;
 }
 
 .calendar textarea.input {
