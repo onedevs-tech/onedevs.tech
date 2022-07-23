@@ -3,6 +3,8 @@
    \session_name('TalleresCebrero');
    \session_start();
 
+   $_SESSION['vehicle'] = \trim($_POST['vehicle']);
+
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>

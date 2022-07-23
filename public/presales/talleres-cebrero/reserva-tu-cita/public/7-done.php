@@ -3,11 +3,23 @@
    \session_name('TalleresCebrero');
    \session_start();
 
+   $_SESSION['phone'] = \trim($_POST['phone']);
+
+   // escribimos en fichero temporal
+
+   $line = $_SESSION['meeting'] . ';' .
+           $_SESSION['name'] . ';' .
+           $_SESSION['vehicle'] . ';' .
+           $_SESSION['what'] . ';' .
+           $_SESSION['phone'] . "\n";
+   $file = '/var/www/onedevs.tech/public/presales/talleres-cebrero/reserva-tu-cita/files/citas.txt';
+   \file_put_contents($file, $line, \FILE_APPEND | \LOCK_EX);
+
    $css_version = \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9) . \rand(0, 9);
 
 ?>
 
-<!-- BRAND -->
+<!-- HOUR -->
 
 <!DOCTYPE html>
 
@@ -56,7 +68,7 @@
       <!-- JS -->
 
       <script src="js/lib/jquery/jquery-3.6.0.min.js"></script>
-
+            
    </head>
 
    <body>
@@ -77,24 +89,15 @@
 
                   <div style="height: 25px;"></div>
 
-                  <div>
-                     <form id="form" action="5-askwhat.php" method="post">
-                        <table class="calendar" cellpadding="0" cellspacing="0">
-                           <thead>
-                              <tr>
-                                 <td class="month meeting"><?= $_SESSION['meeting'] ?></td>
-                              </tr>
-                           </thead>
-                           <tbody>
-                              <tr>
-                                 <td class="activeday"><input type="text" name="vehicle" class="input" placeholder="Marca y modelo del vehículo" /></td>
-                              </tr>
-                              <tr>
-                                 <td class="activeday"><input type="submit" class="btn-assign" value="Continúa" /></td>
-                              </tr>
-                           </tbody>
-                        </table>
-                     </form>
+                  <div class="done">
+                     ¡Cita reservada!<br />
+                     <br />
+                     En breve nos pondremos en contacto contigo para confirmar la cita.<br />
+                     <br />
+                     Lleva el vehículo el día y la hora confirmada <a target="_blank" class="here" href="https://www.google.com/maps/place/Talleres+Cebrero/@37.8803743,-4.7668536,15z/data=!4m2!3m1!1s0x0:0xde675393a4015395?sa=X&ved=2ahUKEwjr1uu_-ob5AhWLx4UKHTdVDcMQ_BJ6BAgzEAU">aquí</a><br />
+                     <br />Gracias por confiar en<br />
+                     <br />
+                     <a target="_blank" class="here" href="http://tallerescebrero.es">TALLERES CEBRERO</a><br />
                   </div>
 
                </td>
@@ -105,20 +108,6 @@
             </tr>
          </tbody>
       </table>
-
-      <script>
-         $(document).ready(function(){
-            $('#form').submit(function(e){
-               if ($('input[name="vehicle"]').first().val().length == 0) {
-                  event.preventDefault();
-                  $('input[name="vehicle"]').first().addClass('input-cebrero');
-                  setTimeout(function(){
-                     $('input[name="vehicle"]').first().removeClass('input-cebrero');
-                  }, 1000);
-               }
-            });
-         });
-      </script>
 
    </body>
 
