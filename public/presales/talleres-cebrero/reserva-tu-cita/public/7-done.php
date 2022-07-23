@@ -3,11 +3,14 @@
    \session_name('TalleresCebrero');
    \session_start();
 
+   \date_default_timezone_set('Europe/Madrid');
+
    $_SESSION['phone'] = \trim($_GET['phone']);
 
    // escribimos en fichero temporal
 
-   $line = $_SESSION['meeting'] . ';' .
+   $line = \date('Y-m-d H:i:s') . ';' .
+           $_SESSION['meeting'] . ';' .
            $_SESSION['name'] . ';' .
            $_SESSION['vehicle'] . ';' .
            $_SESSION['what'] . ';' .
