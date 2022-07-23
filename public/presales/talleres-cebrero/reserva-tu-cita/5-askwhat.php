@@ -82,7 +82,7 @@
                         </thead>
                         <tbody>
                            <tr>
-                              <td class="activeday"><textarea rows="3" class="input" placeholder="Qué le ocurre al vehículo"></textarea></td>
+                              <td class="activeday"><input type="text" name="what" class="input" placeholder="Qué le ocurre al vehiculo" /></td>
                            </tr>
                            <tr>
                               <td class="activeday"><input type="submit" class="btn-assign" onclick="window.location.assign('6-phone.php')" value="Continúa" /></td>
