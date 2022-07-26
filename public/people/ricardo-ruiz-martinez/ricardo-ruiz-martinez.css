@@ -40,7 +40,7 @@ img.photo {
    padding: 10px;
 }
 
-.current {
+.experience.current {
    background-color: #1d97d4;
    color: white;
 }
@@ -49,3 +49,15 @@ a {
    text-decoration: none;
    color: inherit;
 }
+
+.position {
+   margin: 0;
+   margin-bottom: 10px;
+   border-bottom: solid 1px black;
+   font-weight: bold;
+}
+
+.position.current {
+   border-bottom: solid 1px white;
+}
+
