@@ -1,0 +1,51 @@
+body {
+   margin: 20px;
+   font-family: sans-serif;
+}
+
+td {
+   vertical-align: top;
+}
+
+td.left {
+   width: 50%;
+   background-color: #1d97d4;
+}
+
+td.right {
+   width: 50%;
+}
+
+div {
+   margin: 20px;
+}
+
+.left .section {
+   color: white;
+}
+
+img.photo {
+   width: 200px;
+   border-radius: 200px;
+   border: solid 3px white;
+}
+
+.name {
+   color: gray;   
+}
+
+.experience {
+   margin: 10px;
+   background-color: #e4f8ff;
+   padding: 10px;
+}
+
+.current {
+   background-color: #1d97d4;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
