@@ -7,6 +7,12 @@ td {
    vertical-align: top;
 }
 
+a {
+   text-decoration: none;
+   color: inherit;
+   font-weight: bold;
+}
+
 .first {
    padding: 20px;
    border-radius: 5px;
@@ -72,16 +78,12 @@ img.photo {
    color: white;
 }
 
-a {
-   text-decoration: none;
-   color: inherit;
-}
-
 .position {
    margin: 0;
    margin-bottom: 10px;
    border-bottom: solid 1px black;
    font-weight: bold;
+   text-transform: uppercase;
 }
 
 .position.current {
