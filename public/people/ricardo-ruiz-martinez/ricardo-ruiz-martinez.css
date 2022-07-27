@@ -3,29 +3,21 @@ body {
    font-family: sans-serif;
 }
 
-td {
-   vertical-align: top;
-}
-
-td.left {
-   width: 50%;
-}
-
-div.left {
+.first {
+   width: 45%;
+   float: left;
    padding: 20px;
    border-radius: 5px;
    background-color: #1d97d4;
 }
 
-.left .section {
+.first .section {
    color: white;
 }
 
-td.right {
-   width: 50%;
-}
-
-div.right {
+.second {
+   width: 45%;
+   float: right;
    padding: 20px;
 }
 
