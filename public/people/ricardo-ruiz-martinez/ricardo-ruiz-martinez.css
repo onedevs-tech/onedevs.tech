@@ -15,12 +15,12 @@ a {
 
 .first {
    padding: 20px;
-   border-radius: 5px;
 }
 
 .second {
    padding: 20px;
    background-color: #1d97d4;
+   border-radius: 5px;
    color: white;
 }
 
