@@ -79,6 +79,7 @@ img.photo {
 }
 
 .position {
+   width: 50%;
    margin: 0;
    margin-bottom: 10px;
    border-bottom: solid 1px black;
