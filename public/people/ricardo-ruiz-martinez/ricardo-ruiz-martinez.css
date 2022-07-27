@@ -33,6 +33,23 @@ img.photo {
    border-radius: 200px;
    border: solid 3px white;
    float: right;
+   margin: 20px;
+}
+
+@media screen and (max-width: 999px) {
+
+   .section.photo {
+      text-align: center;
+   }
+
+   img.photo {
+      float: none;
+   }
+
+   .section.name {
+      text-align: center;
+   }
+
 }
 
 .name {
