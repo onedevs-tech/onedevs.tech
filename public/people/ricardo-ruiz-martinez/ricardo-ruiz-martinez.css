@@ -3,6 +3,10 @@ body {
    font-family: sans-serif;
 }
 
+td {
+   vertical-align: top;
+}
+
 .first {
    padding: 20px;
    border-radius: 5px;
