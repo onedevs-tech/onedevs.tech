@@ -1,5 +1,5 @@
 body {
-   color: var(--onedevs-color-blue);
+   color: var(--onedevs-color-gray);
    font-family: roboto-condensed;
    margin: 0;
 }
@@ -36,6 +36,7 @@ a:hover {
    font-size: 0.7em;
    margin: 30px 0 10px 0;
    text-decoration: underline;
+   color: var(--onedevs-color-blue);
 }
 
 /*
@@ -54,7 +55,7 @@ a:hover {
 
    .paragraphs .title {
       background-color: var(--onedevs-background-color-lightlightblue);
-      color: var(--onedevs-color-darkblue);
+      color: var(--onedevs-color-blue);
       font-family: raleway;
       font-size: 50pt;
       font-weight: bold;
