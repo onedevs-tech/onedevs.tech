@@ -1,6 +1,11 @@
+@font-face {
+   font-family: montserrat;
+   src: url("Montserrat-Regular.ttf");
+}
+
 body {
    margin: 20px;
-   font-family: Roboto;
+   font-family: montserrat;
 }
 
 td {
