@@ -4,27 +4,35 @@ body {
 }
 
 .first {
-   width: 45%;
-   float: left;
    padding: 20px;
    border-radius: 5px;
-   background-color: #1d97d4;
-}
-
-.first .section {
-   color: white;
 }
 
 .second {
-   width: 45%;
-   float: right;
    padding: 20px;
+   background-color: #1d97d4;
+   color: white;
+}
+
+@media screen and (min-width: 1000px) {
+
+   .first {
+      float: left;
+      width: 45%;
+   }
+
+   .second {
+      float: right;
+      width: 45%;
+   }
+
 }
 
 img.photo {
    width: 200px;
    border-radius: 200px;
    border: solid 3px white;
+   float: right;
 }
 
 .name {
